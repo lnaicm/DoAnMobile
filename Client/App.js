@@ -1,12 +1,64 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import * as React from 'react';
+import {
+  StyleSheet,
+  Text,
+  View
+} from 'react-native';
 
-export default function App() {
+import { NavigationContainer } from '@react-navigation/native';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+
+import SplashScreen from './components/SplashScreen';
+import HomeScreen from './components/HomeScreen';
+import CartScreen from './components/CartScreen';
+import NotificationScreen from './components/NotifycationScreen';
+import UserScreen from './components/UserScreen';
+
+const Tab = createBottomTabNavigator();
+
+function App() {
+  const [isInitialized, setInitialized] = React.useState(false);
+
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <NavigationContainer>
+      <Tab.Navigator>
+        { isInitialized ? (
+          <>
+          <Tab.Screen
+            name={'Tab1'}
+            component={HomeScreen}
+          />
+          <Tab.Screen
+            name={'Tab2'}
+            component={CartScreen}
+          />
+          <Tab.Screen
+            name={'Tab3'}
+            component={UserScreen}
+          />
+          <Tab.Screen
+            name={'Tab4'}
+            component={NotificationScreen}
+          />
+          </>
+        ) : (
+          <Tab.Screen
+            name={"SplashScreen"}
+            component={SplashScreen}
+            options={
+              {
+                tabBarStyle: {
+                  display: "none", 
+                },
+                headerShown: false,
+              }
+            }
+            initialParams={{"setInitialized": setInitialized}}
+          />
+        )}
+      </Tab.Navigator>
+    </NavigationContainer>
   );
 }
 
@@ -18,3 +70,5 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+
+export default App;
