@@ -1,0 +1,15 @@
+Init:
+    npm init
+
+Modify package.json:
+change "script" to
+    "script": {
+        "start": "node index.js"
+    },
+
+Create index.js
+    New -> File -> index.js
+
+Install component:
+    npm install express mongoose body-parser cors dotenv
+

@@ -1,0 +1,42 @@
+App structure:
+    Splash screen
+    Bottom Tabs Navigator
+        Home screen
+            Drawer Navigator
+                Stack Navigator 1   //Category 1
+                    List items
+                    Item detail
+                Stack Navigator 2   //Category 2
+                    List items
+                    Item detail
+                Stack Navigator 3   //Category 3
+                    List items
+                    Item detail
+                ...
+        Cart
+        Notification
+        User
+            Stack Navigtor
+                Login/Logout
+                Info
+                Change password
+                ...
+
+
+Init:
+    npx create-expo-app Client
+    cd Client
+    npx expo start
+
+Install Components:
+    npm install @react-navigation/native
+    npx expo install react-native-screens react-native-safe-area-context
+    
+    npm install @react-navigation/stack
+    npx expo install react-native-gesture-handler
+    npm install @react-navigation/native-stack
+    
+    npm install @react-navigation/drawer
+    npx expo install react-native-gesture-handler react-native-reanimated
+
+    npm install @react-navigation/bottom-tabs

@@ -34,10 +34,6 @@ yarn-error.*
 # typescript
 *.tsbuildinfo
 
-#BaoCao
-BaoCaoClient.txt
-BaoCaoServer.txt
-
 # vs, vscode
 .vs/
 .vscode/
