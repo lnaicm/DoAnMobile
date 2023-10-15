@@ -1,4 +1,4 @@
-const BOOKS = [
+export const BOOKS = [
     {
         "id": 1,
         "name": "Cây Cam Ngọt Của Tôi",
@@ -446,7 +446,7 @@ const BOOKS = [
         "numPages": 358,
         "shortDescription": "Tài kể chuyện hơn người đã giúp Keigo khéo léo thay đổi các mốc dấu thời gian và không gian, chắp nối những câu chuyện tưởng chừng hoàn toàn riêng rẽ thành một kết cấu chặt chẽ, gây bất ngờ từ đầu tới cuối.",
         "longDescription": "Một đêm vội vã lẩn trốn sau phi vụ khoắng đồ nhà người, Atsuya, Shota và Kouhei đã rẽ vào lánh tạm trong một căn nhà hoang bên con dốc vắng người qua lại. Căn nhà có vẻ khi xưa là một tiệm tạp hóa với biển hiệu cũ kỹ bám đầy bồ hóng, khiến người ta khó lòng đọc được trên đó viết gì. Định bụng nghỉ tạm một đêm rồi sáng hôm sau chuồn sớm, cả ba không ngờ chờ đợi cả bọn sẽ là một đêm không ngủ, với bao điều kỳ bí bắt đầu từ một phong thư bất ngờ gửi đến...",
-        "image": require("./images/DieuKyDieuCuaTiemTapHoaNamiya")
+        "image": require("./images/DieuKyDieuCuaTiemTapHoaNamiya.jpg")
     },
     {
         "id": 33,
@@ -572,7 +572,7 @@ const BOOKS = [
         "numPages": 124,
         "shortDescription": "Là một tiểu thuyết ngắn được Ernest Hemingway viết ở Cuba năm 1951 và xuất bản năm 1952.",
         "longDescription": "Trong tác phẩm này, ông đã triệt để dùng nguyên lý mà ông gọi là “tảng băng trôi”, chỉ mô tả một phần nổi còn lại bảy phần chìm, khi mô tả sức mạnh của con cá, sự chênh lệch về lực lượng, về cuộc chiến đấu không cân sức giữa con cá hung dữ với ông già. Tác phẩm ca ngợi niềm tin, sức lao động và khát vọng của con người.",
-        "image": require("./images/OngGiaVaBienCa")
+        "image": require("./images/OngGiaVaBienCa.jpg")
     },
     {
         "id": 42,
@@ -1272,7 +1272,7 @@ const BOOKS = [
         "numPages": 224,
         "shortDescription": "Sức mạnh của sự độc lập của tác giả tập trung vào các vấn đề nóng hiện nay như quyền và bình đẳng giới.",
         "longDescription": "Thông qua ba chủ đề chính về nguồn gốc gia đình, sự phát triển bản thân và quan hệ tình dục, tác giả thảo luận và đưa ra những lời khuyên về việc làm thế nào để phụ nữ có thể thoát khỏi những ràng buộc của môi trường và quan niệm truyền thống cố hữu, đồng thời có thái độ đúng đắn với tình yêu và hôn nhân, trở thành một người phụ nữ độc lập về cả tinh thần lẫn vật chất.",
-        "image": require("./SucManhCuaSuDocLap.jpg")
+        "image": require("./images/SucManhCuaSuDocLap.jpg")
     },
     {
         "id": 92,

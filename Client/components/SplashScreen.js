@@ -6,7 +6,13 @@ import {
 
 } from 'react-native';
 
+import { UseBooksContext } from './BooksProvider';
+import { BOOKS } from '../assets/BOOKS';
+
 function SplashScreen({route}) {
+    const {books, setBooks} = UseBooksContext();
+    setBooks(BOOKS);
+
     const {setInitialized} = route.params;
 
     React.useEffect(() => {

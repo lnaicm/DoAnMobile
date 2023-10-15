@@ -7,7 +7,11 @@ import {
 
 } from 'react-native';
 
-const HomeScreen = () => {
+import { UseBooksContext } from './BooksProvider';
+
+function HomeScreen() {
+    const {books} = UseBooksContext();
+
     return (
         <SafeAreaView style={{flex: 1, justifyContent:"center", alignItems:"center",}}>
             <Text style={{fontSize: 36,}}>

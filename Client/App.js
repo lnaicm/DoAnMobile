@@ -14,6 +14,7 @@ import HomeScreen from './components/HomeScreen';
 import CartScreen from './components/CartScreen';
 import NotificationScreen from './components/NotifycationScreen';
 import UserScreen from './components/UserScreen';
+import BooksProvider from './components/BooksProvider';
 
 const Tab = createBottomTabNavigator();
 
@@ -21,44 +22,46 @@ function App() {
   const [isInitialized, setInitialized] = React.useState(false);
 
   return (
-    <NavigationContainer>
-      <Tab.Navigator>
-        { isInitialized ? (
-          <>
-          <Tab.Screen
-            name={'Tab1'}
-            component={HomeScreen}
-          />
-          <Tab.Screen
-            name={'Tab2'}
-            component={CartScreen}
-          />
-          <Tab.Screen
-            name={'Tab3'}
-            component={UserScreen}
-          />
-          <Tab.Screen
-            name={'Tab4'}
-            component={NotificationScreen}
-          />
-          </>
-        ) : (
-          <Tab.Screen
-            name={"SplashScreen"}
-            component={SplashScreen}
-            options={
-              {
-                tabBarStyle: {
-                  display: "none", 
-                },
-                headerShown: false,
+    <BooksProvider>
+      <NavigationContainer>
+        <Tab.Navigator>
+          { isInitialized ? (
+            <>
+            <Tab.Screen
+              name={'Home'}
+              component={HomeScreen}
+            />
+            <Tab.Screen
+              name={'Cart'}
+              component={CartScreen}
+            />
+            <Tab.Screen
+              name={'User'}
+              component={UserScreen}
+            />
+            <Tab.Screen
+              name={'Notification'}
+              component={NotificationScreen}
+            />
+            </>
+          ) : (
+            <Tab.Screen
+              name={"SplashScreen"}
+              component={SplashScreen}
+              options={
+                {
+                  tabBarStyle: {
+                    display: "none", 
+                  },
+                  headerShown: false,
+                }
               }
-            }
-            initialParams={{"setInitialized": setInitialized}}
-          />
-        )}
-      </Tab.Navigator>
-    </NavigationContainer>
+              initialParams={{"setInitialized": setInitialized}}
+            />
+          )}
+        </Tab.Navigator>
+      </NavigationContainer>
+    </BooksProvider>
   );
 }
 
