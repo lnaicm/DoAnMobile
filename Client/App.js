@@ -30,6 +30,11 @@ function App() {
             <Tab.Screen
               name={'Home'}
               component={HomeScreen}
+              options={
+                {
+                  headerShown: false,
+                }
+              }
             />
             <Tab.Screen
               name={'Cart'}

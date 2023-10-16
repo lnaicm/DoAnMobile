@@ -1,6 +1,6 @@
 ﻿Văn học
     Tiểu Thuyết
-    	1. Cây Cam Ngọt Của Tôi
+    1. Cây Cam Ngọt Của Tôi
 	2. Toto-Chan Bên Cửa Sổ
 	3. Nhà Giả Kim
 	4. Quân Vương
@@ -161,3 +161,23 @@ Tôn Giáo
 	121. Lịch Sử Thượng Đế
 
 
+
+Tiểu thuyểt
+Truyện Ngắn
+Light Novel
+Truyện trinh Thám
+Huyền Bí - Giả Tưởng - Kinh Dị
+Kinh Điển
+Ngôn Tình
+Quản Trị - Lãnh Đạo
+Nhân Vật - Bài Học Kinh Doanh
+Marketing - Bán Hàng
+Khởi Ngiệp - Làm Giàu
+Phân Tích Kinh Tế
+Tài Chính Ngân Hàng
+Kỹ Năng Sống
+Tâm Lý 
+Rèn Luyện Nhân Cách
+Tiểu Sử - Hồi Ký
+Lịch Sử - Địa Lý
+Tôn Giáo

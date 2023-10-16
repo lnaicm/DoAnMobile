@@ -8,7 +8,6 @@ import {
 } from 'react-native';
 
 function SpecificGenre({route}) {
-    console.log(route);
     const genre = route.params.content;
     return (
         <SafeAreaView style={{flex: 1, justifyContent: "center", alignItems:"center",}}>
