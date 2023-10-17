@@ -12,6 +12,7 @@ import {
 
 } from 'react-native';
 
+import BookRenderItem from './BookRenderItem';
 import { UseBooksContext } from '../BooksProvider';
 
 function AllBooks() {
@@ -57,41 +58,28 @@ function AllBooks() {
     const {width: screenWidth, height: sreenHeight} = Dimensions.get("window");
     const itemWidth = screenWidth * 0.5;
 
-    const renderItem = ({item}) => {
-        return (
-            <View style={{marginVertical: 10,}}>
-                <TouchableOpacity
-                onPress={() => {}}
-                >
-                    <Image source={item.image} style={{width:itemWidth, height: itemWidth*1.5}}/>
-                </TouchableOpacity>
-                <Text> {item.name} </Text>
-            </View>
-        )
-    }
-
     return (
         <SafeAreaView style={{flex: 1, justifyContent: "center", alignItems:"center",}}>
             <ScrollView>
-                <Text style={{fontSize: 36,}}> Tiểu Thuyết </Text>
+                <Text style={{fontSize: 24, marginTop: itemWidth*0.125}}> Tiểu Thuyết </Text>
                 <FlatList
                     data={tieuThuyet}
                     keyExtractor={(item) => item.id}
-                    renderItem={renderItem}
+                    renderItem={({item}) => <BookRenderItem item={item} itemWidth={itemWidth} />}
                     horizontal={true}
                 />
-                <Text style={{fontSize: 36,}}> Truyện Ngắn </Text>
+                <Text style={{fontSize: 24, marginTop: itemWidth*0.125}}> Truyện Ngắn </Text>
                 <FlatList
                     data={truyenNgan}
                     keyExtractor={(item) => item.id}
-                    renderItem={renderItem}
+                    renderItem={({item}) => <BookRenderItem item={item} itemWidth={itemWidth} />}
                     horizontal={true}
                 />
-                <Text style={{fontSize: 36,}}> Light Novel </Text>
+                <Text style={{fontSize: 24, marginTop: itemWidth*0.125}}> Light Novel </Text>
                 <FlatList
                     data={lightNovel}
                     keyExtractor={(item) => item.id}
-                    renderItem={renderItem}
+                    renderItem={({item}) => <BookRenderItem item={item} itemWidth={itemWidth} />}
                     horizontal={true}
                 />
             </ScrollView>

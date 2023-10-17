@@ -14,6 +14,7 @@ import AllBooks from './HomeScreenComponents/AllBooks';
 import SpecificGenre from './HomeScreenComponents/SpecificGenre';
 
 import { UseBooksContext } from './BooksProvider';
+import AllBooksStack from './HomeScreenComponents/AllBooksStack';
 
 const Drawer = createDrawerNavigator();
 
@@ -32,7 +33,7 @@ function HomeScreen() {
 
     return (
         <Drawer.Navigator>
-            <Drawer.Screen name="All Books" component={AllBooks} />
+            <Drawer.Screen name="All Books" component={AllBooksStack} />
             <Drawer.Screen name="Van Hoc" component={SpecificGenre} initialParams={{content: "Van Hoc"}} />
             <Drawer.Screen name="Kinh Te" component={SpecificGenre} initialParams={{content: "Kinh Te"}} />
             <Drawer.Screen name="Tam Ly - Ky Nang Song" component={SpecificGenre} initialParams={{content: "Tam Ly - Ky Nang Song"}} />
