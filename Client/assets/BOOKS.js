@@ -240,7 +240,7 @@ export const BOOKS = [
     },
     {
         "id": 18,
-        "name": "5 Centimet Trên GiâyChỉ Cần Ta Còn Sống",
+        "name": "Chỉ Cần Ta Còn Sống",
         "cost": 122000,
         "author": "Shinkai MakotoKosaka Ruka",
         "genres": ["Văn học", "Light Novel"],
