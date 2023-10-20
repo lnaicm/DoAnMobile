@@ -22,6 +22,9 @@ function AllBooksStack() {
             <Stack.Screen
                 name="Chi Tiet"
                 component={BookDetail}
+                options={{
+                    headerShown: false,
+                }}
             />
         </Stack.Navigator>
     )

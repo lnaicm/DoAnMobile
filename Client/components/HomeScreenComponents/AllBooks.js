@@ -11,11 +11,20 @@ import {
     Dimensions,
 
 } from 'react-native';
+import { useIsFocused } from '@react-navigation/native';
 
 import BookRenderItem from './BookRenderItem';
 import { UseBooksContext } from '../BooksProvider';
+import { UseHomeScreenContext } from '../HomeScreen';
 
 function AllBooks() {
+    const { setHeaderShown } = UseHomeScreenContext();
+    const isFocus = useIsFocused();
+    React.useEffect(() => {
+        if (isFocus) {
+            setHeaderShown(true);
+        };
+    }, [isFocus]);
     const { books } = UseBooksContext();
     const booksArray = Array.from(books);
 
@@ -78,6 +87,118 @@ function AllBooks() {
                 <Text style={{fontSize: 24, marginTop: itemWidth*0.125}}> Light Novel </Text>
                 <FlatList
                     data={lightNovel}
+                    keyExtractor={(item) => item.id}
+                    renderItem={({item}) => <BookRenderItem item={item} itemWidth={itemWidth} />}
+                    horizontal={true}
+                />
+                <Text style={{fontSize: 24, marginTop: itemWidth*0.125}}> Truyện trinh Thám </Text>
+                <FlatList
+                    data={truyenTrinhTham}
+                    keyExtractor={(item) => item.id}
+                    renderItem={({item}) => <BookRenderItem item={item} itemWidth={itemWidth} />}
+                    horizontal={true}
+                />
+                <Text style={{fontSize: 24, marginTop: itemWidth*0.125}}> Huyền Bí - Giả Tưởng - Kinh Dị </Text>
+                <FlatList
+                    data={huyenBiGiaTuongKinhDi}
+                    keyExtractor={(item) => item.id}
+                    renderItem={({item}) => <BookRenderItem item={item} itemWidth={itemWidth} />}
+                    horizontal={true}
+                />
+                <Text style={{fontSize: 24, marginTop: itemWidth*0.125}}> Kinh Điển </Text>
+                <FlatList
+                    data={kinhDien}
+                    keyExtractor={(item) => item.id}
+                    renderItem={({item}) => <BookRenderItem item={item} itemWidth={itemWidth} />}
+                    horizontal={true}
+                />
+                <Text style={{fontSize: 24, marginTop: itemWidth*0.125}}> Ngôn Tình </Text>
+                <FlatList
+                    data={ngonTinh}
+                    keyExtractor={(item) => item.id}
+                    renderItem={({item}) => <BookRenderItem item={item} itemWidth={itemWidth} />}
+                    horizontal={true}
+                />
+                <Text style={{fontSize: 24, marginTop: itemWidth*0.125}}> Quản Trị - Lãnh Đạo </Text>
+                <FlatList
+                    data={quanTriLanhDao}
+                    keyExtractor={(item) => item.id}
+                    renderItem={({item}) => <BookRenderItem item={item} itemWidth={itemWidth} />}
+                    horizontal={true}
+                />
+                <Text style={{fontSize: 24, marginTop: itemWidth*0.125}}> Nhân Vật - Bài Học Kinh Doanh </Text>
+                <FlatList
+                    data={nhanVatBaiHocKinhDoan}
+                    keyExtractor={(item) => item.id}
+                    renderItem={({item}) => <BookRenderItem item={item} itemWidth={itemWidth} />}
+                    horizontal={true}
+                />
+                <Text style={{fontSize: 24, marginTop: itemWidth*0.125}}> Marketing - Bán Hàng </Text>
+                <FlatList
+                    data={marketingBanHang}
+                    keyExtractor={(item) => item.id}
+                    renderItem={({item}) => <BookRenderItem item={item} itemWidth={itemWidth} />}
+                    horizontal={true}
+                />
+                <Text style={{fontSize: 24, marginTop: itemWidth*0.125}}> Khởi Ngiệp - Làm Giàu </Text>
+                <FlatList
+                    data={khoiNghiepLamGiau}
+                    keyExtractor={(item) => item.id}
+                    renderItem={({item}) => <BookRenderItem item={item} itemWidth={itemWidth} />}
+                    horizontal={true}
+                />
+                <Text style={{fontSize: 24, marginTop: itemWidth*0.125}}> Phân Tích Kinh Tế </Text>
+                <FlatList
+                    data={phanTichKinhTe}
+                    keyExtractor={(item) => item.id}
+                    renderItem={({item}) => <BookRenderItem item={item} itemWidth={itemWidth} />}
+                    horizontal={true}
+                />
+                <Text style={{fontSize: 24, marginTop: itemWidth*0.125}}> Tài Chính Ngân Hàng </Text>
+                <FlatList
+                    data={taiChinhNganHang}
+                    keyExtractor={(item) => item.id}
+                    renderItem={({item}) => <BookRenderItem item={item} itemWidth={itemWidth} />}
+                    horizontal={true}
+                />
+                <Text style={{fontSize: 24, marginTop: itemWidth*0.125}}> Kỹ Năng Sống </Text>
+                <FlatList
+                    data={kyNangSong}
+                    keyExtractor={(item) => item.id}
+                    renderItem={({item}) => <BookRenderItem item={item} itemWidth={itemWidth} />}
+                    horizontal={true}
+                />
+                <Text style={{fontSize: 24, marginTop: itemWidth*0.125}}> Tâm Lý </Text>
+                <FlatList
+                    data={tamLy}
+                    keyExtractor={(item) => item.id}
+                    renderItem={({item}) => <BookRenderItem item={item} itemWidth={itemWidth} />}
+                    horizontal={true}
+                />
+                <Text style={{fontSize: 24, marginTop: itemWidth*0.125}}> Rèn Luyện Nhân Cách </Text>
+                <FlatList
+                    data={nhanCach}
+                    keyExtractor={(item) => item.id}
+                    renderItem={({item}) => <BookRenderItem item={item} itemWidth={itemWidth} />}
+                    horizontal={true}
+                />
+                <Text style={{fontSize: 24, marginTop: itemWidth*0.125}}> Tiểu Sử - Hồi Ký </Text>
+                <FlatList
+                    data={tieuSuHoiKy}
+                    keyExtractor={(item) => item.id}
+                    renderItem={({item}) => <BookRenderItem item={item} itemWidth={itemWidth} />}
+                    horizontal={true}
+                />
+                <Text style={{fontSize: 24, marginTop: itemWidth*0.125}}> Lịch Sử - Địa Lý </Text>
+                <FlatList
+                    data={lichSuDiaLy}
+                    keyExtractor={(item) => item.id}
+                    renderItem={({item}) => <BookRenderItem item={item} itemWidth={itemWidth} />}
+                    horizontal={true}
+                />
+                <Text style={{fontSize: 24, marginTop: itemWidth*0.125}}> Tôn Giáo </Text>
+                <FlatList
+                    data={tonGiao}
                     keyExtractor={(item) => item.id}
                     renderItem={({item}) => <BookRenderItem item={item} itemWidth={itemWidth} />}
                     horizontal={true}

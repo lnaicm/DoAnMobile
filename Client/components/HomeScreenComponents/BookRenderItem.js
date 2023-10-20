@@ -1,3 +1,4 @@
+import { useNavigation } from '@react-navigation/native';
 import * as React from 'react';
 import {
     ScrollView,
@@ -10,9 +11,13 @@ import {
 
 } from 'react-native';
 
+import { UseHomeScreenContext } from '../HomeScreen';
+
 const BookRenderItem = ({item, itemWidth}) => {
+    const navigation = useNavigation();
     const [modalVisible, setModalVisible] = React.useState(false);
-    
+    const { setHeaderShown } = UseHomeScreenContext();
+
     return (
         <View style={{marginHorizontal: 10, alignItems:"center"}}>
             <Modal
@@ -43,15 +48,17 @@ const BookRenderItem = ({item, itemWidth}) => {
                                 style={{...styles.Button, backgroundColor: "red",}}
                                 onPress={() => setModalVisible(!modalVisible)}
                             >
-                                <Text style={{fontSize: 16, color: "white",}}> Đóng </Text>
+                                <Text style={{fontSize: 18, color: "white",}}> Đóng </Text>
                             </TouchableOpacity>
                             <TouchableOpacity
                                 style={{...styles.Button, backgroundColor: "green",}}
                                 onPress={() => {
                                     setModalVisible(!modalVisible)
+                                    setHeaderShown(false);
+                                    navigation.navigate("Chi Tiet", {book: item});
                                 }}
                             >
-                                <Text style={{fontSize: 16, color: "white",}}> Chi Tiết </Text>
+                                <Text style={{fontSize: 18, color: "white",}}> Chi Tiết </Text>
                             </TouchableOpacity>
                         </View>
                     </View>
@@ -63,7 +70,7 @@ const BookRenderItem = ({item, itemWidth}) => {
             >
                 <Image source={item.image} style={{width:itemWidth, height: itemWidth*1.5}}/>
             </TouchableOpacity>
-            <Text style={{width: "80%", textAlign: "center", fontWeight:"bold", }}> {item.name} </Text>
+            <Text style={{fontSize: 16, width: "80%", textAlign: "center", fontWeight:"bold", }}> {item.name} </Text>
         </View>
     )
 }
