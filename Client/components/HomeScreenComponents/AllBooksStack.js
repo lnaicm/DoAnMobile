@@ -13,7 +13,7 @@ function AllBooksStack() {
     return (
         <Stack.Navigator>
             <Stack.Screen
-                name="All Book"
+                name="All Book Component"
                 component={AllBooks}
                 options={{
                     headerShown: false,

@@ -23,7 +23,7 @@ function BookDetail({route}) {
                 contentContainerStyle={{justifyContent: "flex-start", alignItems: "center"}}
             >
                 <Text style={{fontSize: 30, textAlign: "center", marginVertical: 15, width: "80%"}}> {book.name.toUpperCase()} </Text>
-                <Image source={book.image} style={{width: screenWidth*0.75, height: screenWidth*1.25}}/>
+                <Image source={book.image} style={{width: screenWidth*0.75, height: screenWidth*1.125}}/>
                 <View
                     style={{flex: 1, flexDirection: "row", width: "80%", justifyContent: "space-between", marginVertical: 15,}}
                 >

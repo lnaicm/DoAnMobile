@@ -15,16 +15,16 @@ import { useIsFocused } from '@react-navigation/native';
 
 import BookRenderItem from './BookRenderItem';
 import { UseBooksContext } from '../BooksProvider';
-import { UseHomeScreenContext } from '../HomeScreen';
+//import { UseHomeScreenContext } from '../HomeScreen';
 
 function AllBooks() {
-    const { setHeaderShown } = UseHomeScreenContext();
-    const isFocus = useIsFocused();
-    React.useEffect(() => {
-        if (isFocus) {
-            setHeaderShown(true);
-        };
-    }, [isFocus]);
+    // const { setHeaderShown } = UseHomeScreenContext();
+    // const isFocus = useIsFocused();
+    // React.useEffect(() => {
+    //     if (isFocus) {
+    //         setHeaderShown(true);
+    //     };
+    // }, [isFocus]);
     const { books } = UseBooksContext();
     const booksArray = Array.from(books);
 

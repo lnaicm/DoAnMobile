@@ -5,6 +5,7 @@ import {
   Text,
   View
 } from 'react-native';
+import { AntDesign, Ionicons } from '@expo/vector-icons';
 
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
@@ -33,20 +34,44 @@ function App() {
               options={
                 {
                   headerShown: false,
+                  tabBarIcon: ({focused}) => <Ionicons name="home-outline" size={24} color={focused ? "blue" : "gray"}/>,
+                  tabBarActiveTintColor: "blue",
+                  tabBarInactiveTintColor: "gray",
                 }
               }
             />
             <Tab.Screen
               name={'Cart'}
               component={CartScreen}
+              options={
+                {
+                  tabBarIcon: ({focused}) => <Ionicons name="cart-outline" size={24} color={focused ? "blue" : "gray"}/>,
+                  tabBarActiveTintColor: "blue",
+                  tabBarInactiveTintColor: "gray",
+                }
+              }
             />
             <Tab.Screen
               name={'User'}
               component={UserScreen}
+              options={
+                {
+                  tabBarIcon: ({focused}) => <AntDesign name="user" size={24} color={focused ? "blue" : "gray"}/>,
+                  tabBarActiveTintColor: "blue",
+                  tabBarInactiveTintColor: "gray",
+                }
+              }
             />
             <Tab.Screen
               name={'Notification'}
               component={NotificationScreen}
+              options={
+                {
+                  tabBarIcon: ({focused}) => <Ionicons name="notifications-outline" size={24} color={focused ? "blue" : "gray"}/>,
+                  tabBarActiveTintColor: "blue",
+                  tabBarInactiveTintColor: "gray",
+                }
+              }
             />
             </>
           ) : (

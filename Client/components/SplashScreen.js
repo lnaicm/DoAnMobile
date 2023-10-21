@@ -18,7 +18,7 @@ function SplashScreen({route}) {
     React.useEffect(() => {
         const timeout = setTimeout(() => {
             setInitialized(true);
-        }, 5000);
+        }, 3000);
         return () => clearTimeout(timeout);
     }, [setInitialized]);
 

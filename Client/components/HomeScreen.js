@@ -14,6 +14,7 @@ import SpecificGenre from './HomeScreenComponents/SpecificGenre';
 
 import { UseBooksContext } from './BooksProvider';
 import AllBooksStack from './HomeScreenComponents/AllBooksStack';
+import SpecificGenreStack from './HomeScreenComponents/SpecificGenreStack';
 
 const Drawer = createDrawerNavigator();
 const HomeScreenContext = React.createContext();
@@ -44,11 +45,11 @@ function HomeScreen() {
             }}
         >
             <Drawer.Screen name="All Books" component={AllBooksStack} options={{headerShown: headerShown}}/>
-            <Drawer.Screen name="Van Hoc" component={SpecificGenre} initialParams={{content: "Van Hoc"}} />
-            <Drawer.Screen name="Kinh Te" component={SpecificGenre} initialParams={{content: "Kinh Te"}} />
-            <Drawer.Screen name="Tam Ly - Ky Nang Song" component={SpecificGenre} initialParams={{content: "Tam Ly - Ky Nang Song"}} />
-            <Drawer.Screen name="Tieu Su - Hoi Ky" component={SpecificGenre} initialParams={{content: "Tieu Su - Hoi Ky"}} />
-            <Drawer.Screen name="Lich Su - Dia Ly - Ton Giao" component={SpecificGenre} initialParams={{content: "Lich Su - Dia Ly - Ton Giao"}} />
+            <Drawer.Screen name="Van Hoc" component={SpecificGenreStack} initialParams={{data: vanHoc}} options={{title: "Văn Học"}}/>
+            <Drawer.Screen name="Kinh Te" component={SpecificGenreStack} initialParams={{data: kinhTe}} options={{title: "Kinh Tế"}}/>
+            <Drawer.Screen name="Tam Ly Ky Nang Song" component={SpecificGenreStack} initialParams={{data: tamLyKyNangSong}} options={{title: "Tâm Lý - Kỹ Năng Sống"}}/>
+            <Drawer.Screen name="Tieu Su Hoi Ky" component={SpecificGenreStack} initialParams={{data: tieuSuHoiKy}} options={{title: "Tiểu Sử - Hồi Ký"}}/>
+            <Drawer.Screen name="Lich Su Dia Ly Ton Giao" component={SpecificGenreStack} initialParams={{data: lichSuDiaLyTonGiao}} options={{title: "Lịch Sử - Địa Lý - Tôn Giáo"}}/>
         </Drawer.Navigator>
         </HomeScreenContext.Provider>
     )

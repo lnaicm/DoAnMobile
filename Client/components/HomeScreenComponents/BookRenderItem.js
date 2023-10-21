@@ -11,15 +11,15 @@ import {
 
 } from 'react-native';
 
-import { UseHomeScreenContext } from '../HomeScreen';
+//import { UseHomeScreenContext } from '../HomeScreen';
 
 const BookRenderItem = ({item, itemWidth}) => {
     const navigation = useNavigation();
     const [modalVisible, setModalVisible] = React.useState(false);
-    const { setHeaderShown } = UseHomeScreenContext();
+    //const { setHeaderShown } = UseHomeScreenContext();
 
     return (
-        <View style={{marginHorizontal: 10, alignItems:"center"}}>
+        <View style={{width: itemWidth, margin: 10, alignItems:"center", }}>
             <Modal
                 style={styles.modal}
                 animationType='fade'
@@ -34,7 +34,7 @@ const BookRenderItem = ({item, itemWidth}) => {
                     //contentContainerStyle={{justifyContent: "center", alignItems: "center"}}
                 >
                     <View style = {styles.modalItem}>
-                        <Image source={item.image} style={{width: itemWidth, height: itemWidth*1.5,}} />
+                        <Image source={item.image} style={{width: itemWidth*1.5, height: itemWidth*2.25,}} />
                         <Text style={{fontSize: 20, textAlign: "center",}}> {item.name} </Text>
                         {/* <View
                             style={{marginVertical: "5%", display: "flex", flexDirection:"row", justifyContent: "flex-end", width:"80%",}}
@@ -54,7 +54,7 @@ const BookRenderItem = ({item, itemWidth}) => {
                                 style={{...styles.Button, backgroundColor: "green",}}
                                 onPress={() => {
                                     setModalVisible(!modalVisible)
-                                    setHeaderShown(false);
+                                    //setHeaderShown(false);
                                     navigation.navigate("Chi Tiet", {book: item});
                                 }}
                             >

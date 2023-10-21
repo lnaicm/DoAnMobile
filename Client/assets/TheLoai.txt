@@ -162,22 +162,22 @@ Tôn Giáo
 
 
 
-Tiểu thuyểt
-Truyện Ngắn
-Light Novel
-Truyện trinh Thám
-Huyền Bí - Giả Tưởng - Kinh Dị
-Kinh Điển
-Ngôn Tình
-Quản Trị - Lãnh Đạo
-Nhân Vật - Bài Học Kinh Doanh
-Marketing - Bán Hàng
-Khởi Ngiệp - Làm Giàu
-Phân Tích Kinh Tế
-Tài Chính Ngân Hàng
-Kỹ Năng Sống
-Tâm Lý 
-Rèn Luyện Nhân Cách
-Tiểu Sử - Hồi Ký
-Lịch Sử - Địa Lý
-Tôn Giáo
+1. Tiểu thuyểt
+2. Truyện Ngắn
+3. Light Novel
+4. Truyện trinh Thám
+5. Huyền Bí - Giả Tưởng - Kinh Dị
+6. Kinh Điển
+7. Ngôn Tình
+8. Quản Trị - Lãnh Đạo
+9. Nhân Vật - Bài Học Kinh Doanh
+10. Marketing - Bán Hàng
+11. Khởi Ngiệp - Làm Giàu
+12. Phân Tích Kinh Tế
+13. Tài Chính Ngân Hàng
+14. Kỹ Năng Sống
+15. Tâm Lý 
+16. Rèn Luyện Nhân Cách
+17. Tiểu Sử - Hồi Ký
+18. Lịch Sử - Địa Lý
+19. Tôn Giáo
