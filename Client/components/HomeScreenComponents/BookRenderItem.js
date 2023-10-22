@@ -70,7 +70,7 @@ const BookRenderItem = ({item, itemWidth}) => {
             >
                 <Image source={item.image} style={{width:itemWidth, height: itemWidth*1.5}}/>
             </TouchableOpacity>
-            <Text style={{fontSize: 16, width: "80%", textAlign: "center", fontWeight:"bold", }}> {item.name} </Text>
+            <Text style={{fontSize: 16, width: "80%", textAlign: "center", }}> {item.name} </Text>
         </View>
     )
 }

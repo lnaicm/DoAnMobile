@@ -8,9 +8,11 @@ import {
     Dimensions,
     StyleSheet,
     TouchableOpacity,
+    Alert,
 
 } from 'react-native';
 
+import Cart from '../CartScreenComponents/Cart';
 
 function BookDetail({route}) {
     const {width: screenWidth, height: sreenHeight} = Dimensions.get("window");
@@ -28,7 +30,16 @@ function BookDetail({route}) {
                     style={{flex: 1, flexDirection: "row", width: "80%", justifyContent: "space-between", marginVertical: 15,}}
                 >
                     <Text style={{color: "red", fontSize: 20, fontWeight: "bold"}}> {book.cost} đ </Text>
-                    <TouchableOpacity>
+                    <TouchableOpacity
+                        onPress={ async () => {
+                            if (await Cart.addToCart(book)) {
+                                Alert.alert("Da them vao gio!");
+                            }
+                            else {
+                                Alert.alert("Them vao gio that bai!");
+                            }
+                        }}
+                    >
                         <Text style={{fontSize: 20, color: "blue", textDecorationLine: "underline"}}> Thêm Vào Giỏ </Text>
                     </TouchableOpacity>
                 </View>
