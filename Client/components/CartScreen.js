@@ -17,22 +17,37 @@ function CartScreen() {
     const [cartData, setCartData] = useState({ items: [] });
     const isFocused = useIsFocused();
 
+    const fetchData = async () => {
+        const data = await Cart.getCart();
+        setCartData(data);
+    }
     useEffect(() => {
         if (isFocused) {
-            const fetchData = async () => {
-                const data = await Cart.getCart();
-                setCartData(data);
-            }
             fetchData();
         }
     }, [isFocused]);
+
+    const handlers = {
+        onDecreaseQuantity: async (bookId) => {
+            await Cart.decreaseQuantity(bookId);
+            fetchData();
+        },
+        onIncreaseQuantity: async (bookId) => {
+            await Cart.increaseQuantity(bookId);
+            fetchData();
+        },
+        onRemoveFromCart: async (bookId) => {
+            await Cart.removeFromCart(bookId);
+            fetchData();
+        }
+    }
     
     return (
         <SafeAreaView style={{flex: 1, justifyContent: "flex-start", alignItems: "center" }}>
             <FlatList
                 data={cartData.items}
                 keyExtractor={(item) => item.book.id}
-                renderItem={({item}) => <CartRenderItem item={item} screenWidth={screenWidth} />}
+                renderItem={({item}) => <CartRenderItem item={item} screenWidth={screenWidth} handlers={handlers}/>}
             />
         </SafeAreaView>
     );

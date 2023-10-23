@@ -9,7 +9,7 @@ import {
 } from 'react-native';
 import { AntDesign } from '@expo/vector-icons';
 
-function CartRenderItem({item, screenWidth}) {
+function CartRenderItem({item, screenWidth, handlers}) {
     const { book } = item;
     return (
         <View style={{ flex:1, flexDirection: "row", marginVertical: 10, width: screenWidth*0.935, backgroundColor: "white"}}>
@@ -19,17 +19,23 @@ function CartRenderItem({item, screenWidth}) {
                 <Text style={{fontSize: 18, color: "red"}}> {book.cost} x {item.quantity} </Text>
                 <View style={{flex: 0, flexDirection: "row"}}>
                     <View style={{flex: 3, flexDirection: "row", justifyContent: "flex-start"}}>
-                        <TouchableOpacity>
+                        <TouchableOpacity
+                            onPress={() => handlers.onDecreaseQuantity(book.id)}
+                        >
                             <Text style={styles.quantityButton}> - </Text>
                         </TouchableOpacity>
                         <Text style={{fontSize: 18, padding: 10}}> {item.quantity} </Text>
-                        <TouchableOpacity>
+                        <TouchableOpacity
+                            onPress={() => handlers.onIncreaseQuantity(book.id)}
+                        >
                             <Text style={styles.quantityButton}> + </Text>
                         </TouchableOpacity>
                     </View>
                     <View style={{flex: 1, flexDirection: "row", }}>
-                        <TouchableOpacity>
-                            <AntDesign name="delete" size={24} color="red" style={{padding: 10,}}/>
+                        <TouchableOpacity
+                            onPress={() => handlers.onRemoveFromCart(book.id)}
+                        >
+                            <AntDesign name="delete" size={24} color="red" style={{padding: 10, borderWidth: 1}}/>
                         </TouchableOpacity>
                     </View>
                 </View>
