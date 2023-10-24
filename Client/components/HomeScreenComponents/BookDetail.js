@@ -33,10 +33,10 @@ function BookDetail({route}) {
                     <TouchableOpacity
                         onPress={ async () => {
                             if (await Cart.addToCart(book)) {
-                                Alert.alert("Da them vao gio!");
+                                Alert.alert("Đã thêm vào giỏ");
                             }
                             else {
-                                Alert.alert("Them vao gio that bai!");
+                                Alert.alert("Thêm vào giỏ thất bại !!!");
                             }
                         }}
                     >

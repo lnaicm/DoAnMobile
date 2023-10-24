@@ -35,7 +35,7 @@ function CartRenderItem({item, screenWidth, handlers}) {
                         <TouchableOpacity
                             onPress={() => handlers.onRemoveFromCart(book.id)}
                         >
-                            <AntDesign name="delete" size={24} color="red" style={{padding: 10, borderWidth: 1}}/>
+                            <AntDesign name="delete" size={24} color="red" style={{padding: 10, }}/>
                         </TouchableOpacity>
                     </View>
                 </View>

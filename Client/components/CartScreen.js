@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import {
     SafeAreaView,
+    View,
     Text,
     StyleSheet,
     Dimensions,
@@ -15,10 +16,16 @@ import Cart from './CartScreenComponents/Cart';
 function CartScreen() {
     const {width: screenWidth, height: screenHeight} = Dimensions.get("window");
     const [cartData, setCartData] = useState({ items: [] });
+    const [totalCost, setTotalCost] = useState(0);
     const isFocused = useIsFocused();
 
     const fetchData = async () => {
         const data = await Cart.getCart();
+        let newTotalCost = 0;
+        data.items.forEach((item) => {
+            newTotalCost += item.book.cost * item.quantity;
+        });
+        setTotalCost(newTotalCost);
         setCartData(data);
     }
     useEffect(() => {
@@ -41,7 +48,7 @@ function CartScreen() {
             fetchData();
         }
     }
-    
+
     return (
         <SafeAreaView style={{flex: 1, justifyContent: "flex-start", alignItems: "center" }}>
             <FlatList
@@ -49,6 +56,17 @@ function CartScreen() {
                 keyExtractor={(item) => item.book.id}
                 renderItem={({item}) => <CartRenderItem item={item} screenWidth={screenWidth} handlers={handlers}/>}
             />
+            <View style={{borderWidth: 1, flex: 0, width: screenWidth, height: screenWidth*0.15}}>
+                <View style={{flex: 1,}}>
+                    <Text>
+                        Thành Tiền:
+                    </Text>
+                    <Text>
+                        {totalCost}
+                    </Text>
+                </View>
+
+            </View>
         </SafeAreaView>
     );
 }
