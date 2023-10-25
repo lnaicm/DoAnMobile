@@ -34,6 +34,7 @@ function App() {
               options={
                 {
                   headerShown: false,
+                  title: "Trang chủ",
                   tabBarIcon: ({focused}) => <Ionicons name="home-outline" size={24} color={focused ? "blue" : "gray"}/>,
                   tabBarActiveTintColor: "blue",
                   tabBarInactiveTintColor: "gray",
@@ -45,6 +46,7 @@ function App() {
               component={CartScreen}
               options={
                 {
+                  title: "Giỏ Hàng",
                   tabBarIcon: ({focused}) => <Ionicons name="cart-outline" size={24} color={focused ? "blue" : "gray"}/>,
                   tabBarActiveTintColor: "blue",
                   tabBarInactiveTintColor: "gray",
@@ -56,6 +58,7 @@ function App() {
               component={UserScreen}
               options={
                 {
+                  title: "Tài Khoản",
                   tabBarIcon: ({focused}) => <AntDesign name="user" size={24} color={focused ? "blue" : "gray"}/>,
                   tabBarActiveTintColor: "blue",
                   tabBarInactiveTintColor: "gray",
@@ -67,6 +70,7 @@ function App() {
               component={NotificationScreen}
               options={
                 {
+                  title: "Thông Báo",
                   tabBarIcon: ({focused}) => <Ionicons name="notifications-outline" size={24} color={focused ? "blue" : "gray"}/>,
                   tabBarActiveTintColor: "blue",
                   tabBarInactiveTintColor: "gray",

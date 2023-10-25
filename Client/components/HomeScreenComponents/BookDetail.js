@@ -30,17 +30,21 @@ function BookDetail({route}) {
                     style={{flex: 1, flexDirection: "row", width: "80%", justifyContent: "space-between", marginVertical: 15,}}
                 >
                     <Text style={{color: "red", fontSize: 20, fontWeight: "bold"}}> {book.cost} đ </Text>
-                    <TouchableOpacity
+                    <TouchableOpacity style={{
+                        backgroundColor: "green",
+                        padding: 10,
+                        borderRadius: 5,
+                    }}
                         onPress={ async () => {
                             if (await Cart.addToCart(book)) {
-                                Alert.alert("Đã thêm vào giỏ");
+                                Alert.alert("Thêm vào giỏ thành công");
                             }
                             else {
                                 Alert.alert("Thêm vào giỏ thất bại !!!");
                             }
                         }}
                     >
-                        <Text style={{fontSize: 20, color: "blue", textDecorationLine: "underline"}}> Thêm Vào Giỏ </Text>
+                        <Text style={{fontSize: 20, color: "white", }}> Thêm Vào Giỏ </Text>
                     </TouchableOpacity>
                 </View>
                 <View style={{flex: 1, flexDirection: "row", alignSelf: "flex-start", marginLeft: itemWidth*0.125, marginVertical: 10}}>

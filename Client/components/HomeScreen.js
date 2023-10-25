@@ -44,7 +44,7 @@ function HomeScreen() {
                 swipeEnabled: 0,
             }}
         >
-            <Drawer.Screen name="All Books" component={AllBooksStack} options={{headerShown: headerShown}}/>
+            <Drawer.Screen name="All Books" component={AllBooksStack} options={{headerShown: headerShown, title: "Tất Cả"}}/>
             <Drawer.Screen name="Van Hoc" component={SpecificGenreStack} initialParams={{data: vanHoc}} options={{title: "Văn Học"}}/>
             <Drawer.Screen name="Kinh Te" component={SpecificGenreStack} initialParams={{data: kinhTe}} options={{title: "Kinh Tế"}}/>
             <Drawer.Screen name="Tam Ly Ky Nang Song" component={SpecificGenreStack} initialParams={{data: tamLyKyNangSong}} options={{title: "Tâm Lý - Kỹ Năng Sống"}}/>

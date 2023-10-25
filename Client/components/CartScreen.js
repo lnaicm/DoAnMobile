@@ -6,6 +6,7 @@ import {
     StyleSheet,
     Dimensions,
     FlatList,
+    TouchableOpacity,
 
 } from 'react-native';
 import { useIsFocused } from '@react-navigation/native';
@@ -56,14 +57,26 @@ function CartScreen() {
                 keyExtractor={(item) => item.book.id}
                 renderItem={({item}) => <CartRenderItem item={item} screenWidth={screenWidth} handlers={handlers}/>}
             />
-            <View style={{borderWidth: 1, flex: 0, width: screenWidth, height: screenWidth*0.15}}>
-                <View style={{flex: 1,}}>
-                    <Text>
+            <View style={{flex: 0, flexDirection: "row", width: screenWidth, height: screenWidth*0.15}}>
+                <View style={{flex: 1, }}>
+                    <Text style={{fontSize: 16, marginTop: 5, marginLeft: 5}}>
                         Thành Tiền:
                     </Text>
-                    <Text>
-                        {totalCost}
+                    <Text style={{fontSize: 24, color: "red", textAlign: "center"}}>
+                        {totalCost} đ
                     </Text>
+                </View>
+                <View style={{flex: 1, justifyContent: "center", }}>
+                    <TouchableOpacity style={{
+                        backgroundColor: "green",
+                        padding: 10,
+                        marginHorizontal: "10%",
+                        borderRadius: 5,
+                    }}>
+                        <Text style={{ fontSize: 20, textAlign: "center", color: "white", }} >
+                            Thanh Toán
+                        </Text>
+                    </TouchableOpacity>
                 </View>
 
             </View>
