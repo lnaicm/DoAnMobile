@@ -12,4 +12,5 @@ Create index.js
 
 Install component:
     npm install express mongoose body-parser cors dotenv
+    npm install bcrypt validator jsonwebtoken rand-token
 
