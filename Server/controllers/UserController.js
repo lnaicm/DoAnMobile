@@ -3,6 +3,7 @@ const bcrypt = require("bcrypt");
 
 const authMethods = require("../methods/AuthMethods");
 const userModelMethods = require("../methods/UserModelMethods");
+const UserModelMethods = require("../methods/UserModelMethods");
 
 const UserController = {
     register: async (req, res) => {
@@ -15,6 +16,7 @@ const UserController = {
                 name: req.body.name,
                 email: email,
                 password: hashedPassword,
+                moneySpent: 0
             };
             const createUser = await userModelMethods.createUser(newUser);
             if (!createUser) {
@@ -66,6 +68,21 @@ const UserController = {
         });
     },
 
+    logout: async(req, res) => {
+        try {
+            const userEmail = req.user.email;
+            const updateResult = await UserModelMethods.updateRefreshToken(userEmail, null);
+            if (updateResult) {
+                res.status(200).json({message: "Đã đăng xuất"})
+            }
+            else {
+                throw new Error("Không thể vô hiệu refresh token!");
+            }
+        } catch (error) {
+            res.status(500).json({message: "Lỗi đăng xuất!", error: error.toString() })
+        }
+    },
+
     refreshToken: async (req, res) => {
         const accessTokenFromHeader = req.header.x_authorization;
         if (!accessTokenFromHeader) {
@@ -114,6 +131,31 @@ const UserController = {
         return res.json({
             accessToken
         });
+    },
+
+    purchase: async (req, res) => {
+        try {
+            const userEmail = req.user.email;
+            const purchaseAmount = req.body.amount;
+
+            const user = await UserModelMethods.getUser(userEmail);
+            if (user) {
+                const newMoneySpent = user.moneySpent + purchaseAmount;
+                const updateResult = await UserModelMethods.updateUser(userEmail, {moneySpent: newMoneySpent});
+                
+                if (updateResult) {
+                    res.status(200).json({message: "Giao dịch thành công", newMoneySpent});
+                }
+                else {
+                    throw new Error("Lỗi cập nhật giá trị giao dịch!")
+                }
+            }
+            else {
+                res.status(404).json({message: "Không tìm thấy thông tin người dùng"});
+            }
+        } catch (error) {
+            res.status(500).json({message: "Giao dịch thất bại!"});
+        }
     }
 };
 

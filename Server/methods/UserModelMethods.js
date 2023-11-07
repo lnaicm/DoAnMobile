@@ -19,6 +19,17 @@ const UserModelMethods = {
             return user;
         } catch (error) {
             console.error("createUser Error: ", error);
+            return false;
+        }
+    },
+
+    updateUser: async (email, updateData) => {
+        try {
+            const user = await userModel.findOneAndUpdate({email: email}, updateData, {new: true});
+            return user;
+        } catch (error) {
+            console.error("updateUser Error: ", error);
+            return false;
         }
     },
 
