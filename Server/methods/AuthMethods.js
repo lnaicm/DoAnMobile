@@ -14,7 +14,7 @@ const Authmethods = {
                 secretSignature,
                 {
                     algorithm: 'HS256',
-                    expriresIn: tokenLife,
+                    expiresIn: tokenLife,
                 },
             );
         } catch (error) {

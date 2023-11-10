@@ -29,14 +29,14 @@ const UserController = {
     },
 
     login: async (req, res) => {
-        const email = req.body.email.tolowerCase() || 'test';
+        const email = req.body.email.toLowerCase() || 'test';
         const password = req.body.password || '12345';
 
         const user = await userModelMethods.getUser(email);
         if (!user) {
             return res.status(401).send("Email không chính xác!");
         }
-        const isPasswordValid = brypt.compareSync(password, user.password);
+        const isPasswordValid = bcrypt.compareSync(password, user.password);
         if (!isPasswordValid) {
             return res.status(401).send("Mật khẩu không chính xác!");
         }
@@ -58,6 +58,9 @@ const UserController = {
         let refreshToken = randToken.generate(process.env.REFRESH_TOKEN_SIZE);
         if (!user.refreshToken) {
             await userModelMethods.updateRefreshToken(user.email, refreshToken);
+        }
+        else {
+            refreshToken = user.refreshToken;
         }
 
         return res.json({
@@ -83,8 +86,8 @@ const UserController = {
         }
     },
 
-    refreshToken: async (req, res) => {
-        const accessTokenFromHeader = req.header.x_authorization;
+    refreshAccessToken: async (req, res) => {
+        const accessTokenFromHeader = req.headers.x_authorization;
         if (!accessTokenFromHeader) {
             return res.status(400).send("Không tìm thấy access token!");
         }
@@ -101,7 +104,7 @@ const UserController = {
             accessTokenFromHeader,
             accessTokenSecret
         );
-        if (!decode) {
+        if (!decoded) {
             return res.status(400).send("Access token không hợp lệ!");
         }
 
@@ -133,9 +136,9 @@ const UserController = {
         });
     },
 
-    purchase: async (req, res) => {
+    purChase: async (req, res) => {
         try {
-            const userEmail = req.user.email;
+            const userEmail = req.user.email; //usually is req.body.email. But after middleware process. req have a new property: user, which is user's infomation get from DB
             const purchaseAmount = req.body.amount;
 
             const user = await UserModelMethods.getUser(userEmail);

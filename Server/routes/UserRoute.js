@@ -10,7 +10,7 @@ const isAuth = userMiddlewares.isAuth;
 router.post("/register", userController.register);
 router.post("/login", userController.login);
 router.post("/logout", userController.logout);
-router.post("/refresh", userController.refreshToken);
+router.post("/refreshAccessToken", isAuth, userController.refreshAccessToken);
 router.post("/purchase", isAuth, UserController.purChase);
 
 router.get("/profile", isAuth, async (req, res) => {
