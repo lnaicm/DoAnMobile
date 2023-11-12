@@ -1,6 +1,5 @@
 [
     {
-        "id": 1,
         "name": "Cây Cam Ngọt Của Tôi",
         "cost": 108000,
         "author": "Jose Mauro de Vasconcelos",
@@ -14,7 +13,6 @@
         "image": "CayCamNgotCuaToi.jpg"
     },
     {
-        "id": 2,
         "name": "Totto-Chan Bên Cửa Sổ",
         "cost": 98000,
         "author": "Kuroyanagi Tetsuko",
@@ -29,7 +27,6 @@
     }
     ,
     {
-        "id": 3,
         "name": "Nhà Giả Kim",
         "cost": 79000,
         "author": "Paulo Coelho",
@@ -43,7 +40,6 @@
         "image": "NhaGiaKim.jpg"
     },
     {
-        "id": 4,
         "name": "Quân Vương",
         "cost": 68000,
         "author": "Niccolo Machiavelli",
@@ -57,7 +53,6 @@
         "image": "QuanVuong.jpg"
     },
     {
-        "id": 5,
         "name": "Bước Chậm Lại Giữa Thế Gian Vội Vã",
         "cost": 85000,
         "author": "Hae Min",
@@ -71,7 +66,6 @@
         "image": "BuocChamLaiGiuaTheGianVoiVa.jpg"
     },
     {
-        "id": 6,
         "name": "Ông Trăm Tuổi Trèo Qua Cửa Số Và Biến Mất",
         "cost": 170000,
         "author": "Jonas Jonasson",
@@ -85,7 +79,6 @@
         "image": "OngTramTuoiTreoQuaCuaSoVaBienMat.jpg"
     },
     {
-        "id": 7,
         "name": "Con Chim Xanh Biếc Bay Về",
         "cost": 150000,
         "author": "Nguyễn Nhật Ánh",
@@ -99,7 +92,6 @@
         "image": "ConChimXanhBiecBayVe.jpg"
     },
     {
-        "id": 8,
         "name": "Cô Gái Mù Chữ Phá Bom Nguyên Tử",
         "cost": 172000,
         "author":  "Jonas Jonasson",
@@ -113,7 +105,6 @@
         "image": "CoGaiMuChuPhaBomNguyenTu.jpg"
     },
     {
-        "id": 9,
         "name": "Điệu Buồn Phương Nam",
         "cost": 95000,
         "author": "Kim Chi",
@@ -127,7 +118,6 @@
         "image": "DieuBuonPhuongNam.jpg"
     },
     {
-        "id": 10,
         "name": "Hành Lý Hư Vô",
         "cost": 95000,
         "author": "Nguyễn Ngọc Tư",
@@ -141,7 +131,6 @@
         "image": "HanhLyHuVo.jpg"
     },
     {
-        "id": 11,
         "name": "Chí Phèo",
         "cost": 48000,
         "author": "Nam Cao",
@@ -155,7 +144,6 @@
         "image": "ChiPheo.jpg"
     },
     {
-        "id": 12,
         "name": "Giao Thừa",
         "cost": 95000,
         "author": "Nguyễn Ngọc Tư",
@@ -169,7 +157,6 @@
         "image": "GiaoThua.jpg"
     },
     {
-        "id": 13,
         "name": "Phải Lòng Với Cô Đơn",
         "cost": 86000,
         "author": "Kulzsc",
@@ -183,7 +170,6 @@
         "image": "PhaiLongVoiCoDon.jpg"
     },
     {
-        "id": 14,
         "name": "Yêu Đi Rồi Khóc",
         "cost": 108000,
         "author": "Hamlet Trương",
@@ -197,7 +183,6 @@
         "image": "YeuDiRoiKhoc.jpg"
     },
     {
-        "id": 15,
         "name": "Ngồi Khóc Một Mình",
         "cost": 77000,
         "author": "Nguyên Bảo",
@@ -211,7 +196,6 @@
         "image": "NgoiKhocMotMinh.jpg"
     },
     {
-        "id": 16,
         "name": "Đứa Con Của Thời Tiết",
         "cost": 85000,
         "author": "Shinkai Makoto",
@@ -225,7 +209,6 @@
         "image": "DuaConCuaThoiTiet.jpg"
     },
     {
-        "id": 17,
         "name": "Tạm Biệt Trời Xanh",
         "cost": 116000,
         "author": "Misaki",
@@ -239,7 +222,6 @@
         "image": "TamBietTroiXanh.jpg"
     },
     {
-        "id": 18,
         "name": "Chỉ Cần Ta Còn Sống",
         "cost": 122000,
         "author": "Shinkai MakotoKosaka Ruka",
@@ -253,7 +235,6 @@
         "image": "ChiCanTaConSong.jpg"
     },
     {
-        "id": 19,
         "name": "Đau Ơi Bay Đi!",
         "cost": 120000,
         "author": "Miaki Sugaru",
@@ -267,7 +248,6 @@
         "image": "DauOiBayDi.jpg"
     },
     {
-        "id": 20,
         "name": "Chờ Ngày Tuyết Tan",
         "cost": 96000,
         "author": "Shiro Kuro",
@@ -281,7 +261,6 @@
         "image": "ChoNgayTuyetTan.jpg"
     },
     {
-        "id": 21,
         "name": "Tình Đầu Của Cô Gái Văn Chương Tập Sự",
         "cost": 79000,
         "author": "Nomura Mizuki",
@@ -295,7 +274,6 @@
         "image": "TinhDauCuaCoGaiVanChuongTapSu.jpg"
     },
     {
-        "id": 22,
         "name": "Đừng Hẹn Ngày Mai",
         "cost": 110000,
         "author": "Shimamoto Rio",
@@ -309,7 +287,6 @@
         "image": "DungHenNgayMai.jpg"
     },
     {
-        "id": 23,
         "name": "Sự Im Lặng Của Bầy Cừu",
         "cost": 115000,
         "author": "Thomas Harris",
@@ -323,7 +300,6 @@
         "image": "SuImLangCuaBayCuu.jpg"
     },
     {
-        "id": 24,
         "name": "Sherlock Holmes Toàn Tập",
         "cost": 495000,
         "author": "Arthur Conan Doyle",
@@ -337,7 +313,6 @@
         "image": "SherlockHolmesToanTap.jpg"
     },
     {
-        "id": 25,
         "name": "Bạch Dạ Hành",
         "cost": 209000,
         "author": "Higashino Keigo",
@@ -351,7 +326,6 @@
         "image": "BachDaHanh.jpg"
     },
     {
-        "id": 26,
         "name": "Hội Chứng E",
         "cost": 179000,
         "author": "Franck Thilliez",
@@ -365,7 +339,6 @@
         "image": "HoiChungE.jpg"
     },
     {
-        "id": 27,
         "name": "Phía Sau Nghi Can X",
         "cost": 109000,
         "author": "Higashino Keigo",
@@ -379,7 +352,6 @@
         "image": "PhiaSauNghiCanX.jpg"
     },
     {
-        "id": 28,
         "name": "Trong Chúng Tôi Có Kẻ Nói Dối",
         "cost": 139000,
         "author": "Karen M Mcmanus",
@@ -393,7 +365,6 @@
         "image": "TrongChungToiCoKeNoiDoi.jpg"
     },
     {
-        "id": 29,
         "name": "Kẻ Lừa Đảo Chân Thật",
         "cost": 118000,
         "author": "E Lockhart",
@@ -407,7 +378,6 @@
         "image": "KeLuaDaoChanThat.jpg"
     },
     {
-        "id": 30,
         "name": "Lâu Đài Bay Của Pháp Sư Howl",
         "cost": 106000,
         "author": "Diana Wynne Jones",
@@ -421,7 +391,6 @@
         "image": "LauDaiBayCuaPhapSuHowl.jpg"
     },
     {
-        "id": 31,
         "name": "Liêu Trai Chí Dị",
         "cost": 350000,
         "author": "Bồ Tùng Linh",
@@ -435,7 +404,6 @@
         "image": "LieuTraiChiDi.jpg"
     },
     {
-        "id": 32,
         "name": "Điều Kỳ Diệu Của Tiệm Tạp Hóa Namiya",
         "cost": 105000,
         "author": "Higashino Keigo",
@@ -449,7 +417,6 @@
         "image": "DieuKyDieuCuaTiemTapHoaNamiya.jpg"
     },
     {
-        "id": 33,
         "name": "Kẻ Trộm Mộ",
         "cost": 120000,
         "author": "Phù Sinh",
@@ -463,7 +430,6 @@
         "image": "KeTromMo.jpg"
     },
     {
-        "id": 34,
         "name": "Lò Sát Sinh Số 5",
         "cost": 116000,
         "author": "Kurt Vonnegut",
@@ -477,7 +443,6 @@
         "image": "LoSatSinhSo5.jpg"
     },
     {
-        "id": 35,
         "name": "Kẻ Vô Danh - Mê Cung Bảy Lối",
         "cost": 129000,
         "author": "Foxfoxbee",
@@ -491,7 +456,6 @@
         "image": "KeVoDanhMeCungBayLoi.jpg"
     },
     {
-        "id": 36,
         "name": "Thiên Thần Và Ác Quỷ",
         "cost": 239000,
         "author": "Dan Brown",
@@ -505,7 +469,6 @@
         "image": "ThienThanVaAcQuy.jpg"
     },
     {
-        "id": 37,
         "name": "Suối Nguồn",
         "cost": 355000,
         "author": "Ayn Rand",
@@ -519,7 +482,6 @@
         "image": "SuoiNguon.jpg"
     },
     {
-        "id": 38,
         "name": "Giết Con Chim Nhại",
         "cost": 120000,
         "author": "Harper Lee",
@@ -533,7 +495,6 @@
         "image": "GietConChimNhai.jpg"
     },
     {
-        "id": 39,
         "name": "Đồi Gió Hú",
         "cost": 108000,
         "author": "Emily Bronte",
@@ -547,7 +508,6 @@
         "image": "DoiGioHu.jpg"
     },
     {
-        "id": 40,
         "name": "Bố Già",
         "cost": 150000,
         "author": "Mario Puzo",
@@ -561,7 +521,6 @@
         "image": "BoGia.jpg"
     },
     {
-        "id": 41,
         "name": "Ông Già Và Biển Cả",
         "cost": 45000,
         "author": "Ernest Hemingway",
@@ -575,7 +534,6 @@
         "image": "OngGiaVaBienCa.jpg"
     },
     {
-        "id": 42,
         "name": "Không Gia Đình",
         "cost": 168000,
         "author": "Hector Malot",
@@ -589,7 +547,6 @@
         "image": "KhongGiaDinh.jpg"
     },
     {
-        "id": 43,
         "name": "Hai Số Phận",
         "cost": 235000,
         "author": "Jeffrey Archer",
@@ -603,7 +560,6 @@
         "image": "HaiSoPhan.jpg"
     },
     {
-        "id": 44,
         "name": "Hai Vạn Dặm Dưới Biển",
         "cost": 99000,
         "author": "Jules Verne",
@@ -617,7 +573,6 @@
         "image": "HaiVanDamDuoiDayBien.jpg"
     },
     {
-        "id": 45,
         "name": "Tam Quốc Diễn Nghĩa",
         "cost": 540000,
         "author": "La Quán Trung",
@@ -631,7 +586,6 @@
         "image": "TamQuocDienNghia.jpg"
     },
     {
-        "id": 46,
         "name": "Thép Đã Tôi Thế Đấy",
         "cost": 139000,
         "author": "Nikolai AOstrovsky",
@@ -645,7 +599,6 @@
         "image": "ThepDaToiTheDay.jpg"
     },
     {
-        "id": 47,
         "name": "Cuốn Theo Chiều Gió",
         "cost": 285000,
         "author": "Margaret Mitchell",
@@ -659,7 +612,6 @@
         "image": "CuonTheoChieuGio.jpg"
     },
     {
-        "id": 48,
         "name": "Tây Du Ký",
         "cost": 420000,
         "author": "Ngô Thừa Ân",
@@ -673,7 +625,6 @@
         "image": "TayDuKy.jpg"
     },
     {
-        "id": 49,
         "name": "Chuông Nguyện Hồn Ai",
         "cost": 125000,
         "author": "Ernest Hemingway",
@@ -687,7 +638,6 @@
         "image": "ChuongNguyenHonAi.jpg"
     },
     {
-        "id": 50,
         "name": "Túp Lều Bác Tom",
         "cost": 110000,
         "author": "Harriet Beecher Stowe",
@@ -701,7 +651,6 @@
         "image": "TupLeuBacTom.jpg"
     },
     {
-        "id": 51,
         "name": "Nanh Trắng",
         "cost": 75000,
         "author": "Jack London",
@@ -715,7 +664,6 @@
         "image": "NanhTrang.jpg"
     },
     {
-        "id": 52,
         "name": "Gatsby Vĩ Đại",
         "cost": 169000,
         "author": "FScott Fitzgerald",
@@ -729,7 +677,6 @@
         "image": "GastbyViDai.jpg"
     },
     {
-        "id": 53,
         "name": "Bến Xe",
         "cost": 76000,
         "author": "Thương Thái Vi",
@@ -743,7 +690,6 @@
         "image": "BenXe.jpg"
     },
     {
-        "id": 54,
         "name": "Thất Tịch Không Mưa",
         "cost": 86000,
         "author": "Lâu Vũ Tình",
@@ -757,7 +703,6 @@
         "image": "ThatTichKhongMua.jpg"
     },
     {
-        "id": 55,
         "name": "Xin Lỗi Em Chỉ Là Con Đĩ",
         "cost": 75000,
         "author": "Tào Đình",
@@ -771,7 +716,6 @@
         "image": "XinLoiEmChiLaConDi.jpg"
     },
     {
-        "id": 56,
         "name": "Ngoảnh Lại Đã Một Đời",
         "cost": 118000,
         "author": "Bạch Lạc Mai",
@@ -785,7 +729,6 @@
         "image": "NgoanhLaiDaMotDoi.jpg"
     },
     {
-        "id": 57,
         "name": "Em Là Vì Sao Trong Mắt Anh",
         "cost": 128000,
         "author": "Lã Diệc Hàm",
@@ -799,7 +742,6 @@
         "image": "EmLaViSaoTrongMatAnh.jpg"
     },
     {
-        "id": 58,
         "name": "Nơi Nào Đông Ấm, Nơi Nào Hạ Mát",
         "cost": 128000,
         "author": "Cố Tây Tước",
@@ -813,7 +755,6 @@
         "image": "NoiNaoDongAmNoiNaoHaMat.jpg"
     },
     {
-        "id": 59,
         "name": "Ngày Nào Đi Học Cũng Bị Cà Khịa",
         "cost": 139000,
         "author": "Chước Dạ",
@@ -827,7 +768,6 @@
         "image": "NgayNaoDiHocCungBiCaKhia.jpg"
     },
     {
-        "id": 60,
         "name": "Cà Phê Đợi Một Người",
         "cost": 108000,
         "author": "Cửu Bả Đao",
@@ -841,7 +781,6 @@
         "image": "CaPheDoiMotNguoi.jpg"
     },
     {
-        "id": 61,
         "name": "Bí Mật Tư Duy Triệu Phú",
         "cost": 108000,
         "author": "T Harv Eker",
@@ -855,7 +794,6 @@
         "image": "BiMatTuDuyTrieuPhu.jpg"
     },
     {
-        "id": 62,
         "name": "Nhà Lãnh Đạo Tương Lai",
         "cost": 162000,
         "author": "Frances Hesselbein",
@@ -869,7 +807,6 @@
         "image": "NhaLanhDaoTuongLai.jpg"
     },
     {
-        "id": 63,
         "name": "Nhà Lãnh Đạo Không Chức Danh",
         "cost": 105000,
         "author": "Robin Sharma",
@@ -883,7 +820,6 @@
         "image": "NhaLanhDaoKhongChucDanh.jpg"
     },
     {
-        "id": 64,
         "name": "Một Đời Quản Trị",
         "cost": 200000,
         "author": "Phan Văn Trường",
@@ -897,7 +833,6 @@
         "image": "MotDoiQuanTri.jpg"
     },
     {
-        "id": 65, 
         "name": "Nghệ Thuật Đàm Phán",
         "cost": 109000,
         "author": "Donald J Trump",
@@ -911,7 +846,6 @@
         "image": "NgheThuatDamPhan.jpg"
     },
     {
-        "id": 66,
         "name": "Nghệ Thuật Tư Duy Chiến Lược",
         "cost": 230000,
         "author": "Avinash K Dixit",
@@ -925,7 +859,6 @@
         "image": "NgheThuatTuDuyChienLuoc.jpg"
     },
     {
-        "id": 67,
         "name": "Những Người Khổng Lồ Trong Giới Kinh Doanh",
         "cost": 125000,
         "author": "Richard S. Tedlow",
@@ -939,7 +872,6 @@
         "image": "NhungNguoiKhongLoTrongGioiKinhDoanh.jpg"
     },
     {
-        "id": 68,
         "name": "Lời Thú Tội Của Một Sát Thủ Kinh Tế",
         "cost": 245000,
         "author": "John Perkins",
@@ -953,7 +885,6 @@
         "image": "LoiThuToiCuaMotSatThuKinhTe.jpg"
     },
     {
-        "id": 69,
         "name": "Dốc Hết Trái Tim",
         "cost": 150000,
         "author": "Howard Schultz",
@@ -967,7 +898,6 @@
         "image": "DocHetTraiTim.jpg"
     },
     {
-        "id": 70,
         "name": "Người Giàu Có Nhất Thành Babylon",
         "cost": 98000,
         "author": "George Samuel Clason",
@@ -981,7 +911,6 @@
         "image": "NguoiGiauCoNhatThanhBabylon.jpg"
     },
     {
-        "id": 71, 
         "name": "Người Bán Hàng Vĩ Đại Nhất Thế Giới",
         "cost": 148000,
         "author": "Og Mandino",
@@ -995,7 +924,6 @@
         "image": "NguoiBanHangViDaiNhatTheGioi.jpg"
     },
     {
-        "id": 72,
         "name": "Người Dám Cho Đi Bán Được Nhiều Hơn",
         "cost": 125000,
         "author": "Bob Burg",
@@ -1009,7 +937,6 @@
         "image": "NguoiDamChoDiBanDuocNhieuHon.jpg"
     },
     {
-        "id": 73,
         "name": "Thấu Hiểu Khách Hàng",
         "cost": 269000,
         "author": "Đặng Thúy Hà",
@@ -1023,7 +950,6 @@
         "image": "ThauHieuKhachHang.jpg"
     },
     {
-        "id": 74,
         "name": "Trải Nghiệm Khách Hàng Xuất Sắc",
         "cost": 250000,
         "author": "Nguyễn Dương",
@@ -1037,7 +963,6 @@
         "image": "TraiNghiemKhachHangXuatSac.jpg"
     },
     {
-        "id": 75,
         "name": "Bí Quyết Trở Thành Siêu Sao Bán Hàng Qua Điện Thoại",
         "cost": 98000,
         "author": "Bùi Xuân Phong",
@@ -1051,7 +976,6 @@
         "image": "BiQuyetTroThanhSieuSaoBanHangQuaDienThoai.jpg"
     },
     {
-        "id": 76,
         "name": "Thanh Niên Khởi Nghiệp",
         "cost": 79000,
         "author": "David S. Kidder",
@@ -1065,7 +989,6 @@
         "image": "ThanhNienKhoiNghiep.jpg"
     },
     {
-        "id": 77,
         "name": "Giàu Có Đâu Có Khó",
         "cost": 90000,
         "author": "Napoleon Hill",
@@ -1079,7 +1002,6 @@
         "image": "GiauDauCoKho.jpg"
     },
     {
-        "id": 78,
         "name": "Tiền Tệ Và Chuyện Làm Giàu An Toàn",
         "cost": 150000,
         "author": "Huỳnh Ngọc Phiên",
@@ -1093,7 +1015,6 @@
         "image": "TienTeVaChuyenLamGiauAnToan.jpg"
     },
     {
-        "id": 79,
         "name": "Về Quê Lập Nghiệp",
         "cost": 168000,
         "author": "Tuấn Trần",
@@ -1107,7 +1028,6 @@
         "image": "VeQueLapNghiep.jpg"
     },
     {
-        "id": 80,
         "name": "Những Cách Làm Giàu Không Ai Chỉ Bạn",
         "cost": 148000,
         "author": "Elisabeth Dellinger",
@@ -1121,7 +1041,6 @@
         "image": "NhungCachLamGiauKhongAiChiBan.jpg"
     },
     {
-        "id": 81,
         "name": "Thiên Nga Đen",
         "cost": 299000,
         "author": "Nassim Nicholas Taleb",
@@ -1135,7 +1054,6 @@
         "image": "ThienNgaDen.jpg"
     },
     {
-        "id": 82,
         "name": "Economix - Các Nền Kinh Tế Vận Hành (Và Không Vận Hành Thế Nào Và Tại Sao?",
         "cost": 152000,
         "author": "Michael Goodwin",
@@ -1149,7 +1067,6 @@
         "image": "Economix.jpg"
     },
     {
-        "id": 83,
         "name": "Cuộc Chiến Phố Wall",
         "cost": 189000,
         "author": "Kathleen Day",
@@ -1163,7 +1080,6 @@
         "image": "CuocChienPhoWall.jpg"
     },
     {
-        "id": 84,
         "name": "Nền Kinh Tế Tăng Trưởng Và Sụp Đổ Như Thế Nào?",
         "cost": 179000,
         "author": "Peter D Schiff",
@@ -1177,7 +1093,6 @@
         "image": "NenKinhTeTangTruongVaSupDoNhuTheNao.jpg"
     },
     {
-        "id": 85,
         "name": "Các Cuộc Chiến Tranh Tiền Tệ",
         "cost": 160000,
         "author": "James Rickards",
@@ -1191,7 +1106,6 @@
         "image": "CacCuocChienTranhTienTe.jpg"
     },
     {
-        "id": 86,
         "name": "Sự Kết Thúc Của Thời Đại Giả Kim",
         "cost": 180000,
         "author": "Mervyn King",
@@ -1205,7 +1119,6 @@
         "image": "SuKetThucCuaThoiDaiGiaKim.jpg"
     },
     {
-        "id": 87,
         "name": "Tiền Chùa",
         "cost": 90000,
         "author": "Louis Brandeis",
@@ -1219,7 +1132,6 @@
         "image": "TienChua.jpg"
     },
     {
-        "id": 88,
         "name": "Điều Quan Trọng Nhất",
         "cost": 299000,
         "author": "Howard Marks",
@@ -1233,7 +1145,6 @@
         "image": "DieuQuanTrongNhat.jpg"
     },
     {
-        "id": 89,
         "name": "Ma Thuật Của Tiền",
         "cost": 179000,
         "author": "Laurence J. Kotlikoff",
@@ -1247,7 +1158,6 @@
         "image": "MaThuatCuaTien.jpg"
     },
     {
-        "id": 90,
         "name": "Đồng Tiền Lên Ngôi",
         "cost": 259000,
         "author": "Niall Ferguson",
@@ -1261,7 +1171,6 @@
         "image": "DongTienLenNgoi.jpg"
     },
     {
-        "id": 91, 
         "name": "Sức Mạnh Của Sự Độc Lập",
         "cost": 109000,
         "author": "Vương Huệ Linh",
@@ -1275,7 +1184,6 @@
         "image": "SucManhCuaSuDocLap.jpg"
     },
     {
-        "id": 92,
         "name": "Cẩm Nang Tư Duy Ngụy Biện",
         "cost": 50000,
         "author": "Richard Paul",
@@ -1289,7 +1197,6 @@
         "image": "CamNangTuDuyNguyBien.jpg"
     },
     {
-        "id": 93,
         "name": "Từ Đơn Giản Đến Trường Tồn",
         "cost": 188000,
         "author": "Jin Kang Moller",
@@ -1303,7 +1210,6 @@
         "image": "TuDonGianDenTruongTon.jpg"
     },
     {
-        "id": 94,
         "name": "Sống Đời Tự Do",
         "cost": 148000,
         "author": "Michael A. Singer",
@@ -1317,7 +1223,6 @@
         "image": "SongDoiTuDo.jpg"
     },
     {
-        "id": 95,
         "name": "Quẳng Gánh Lo Đi Và Vui Sống",
         "cost": 138000,
         "author": "Dale Carnegie",
@@ -1331,7 +1236,6 @@
         "image": "QuangGanhLoDiVaVuiSong.jpg"
     },
     {
-        "id": 96,
         "name": "Câu Chuyện Đằng Sau Một Bác Sĩ Tâm Thần",
         "cost": 96000,
         "author": "Nguyễn Trung Nghĩa",
@@ -1345,7 +1249,6 @@
         "image": "CauChuyenDangSauMotBacSiTamThan.jpg"
     },
     {
-        "id": 97,
         "name": "Trò Chơi Tâm Lý",
         "cost": 209000,
         "author": "Eric Berne",
@@ -1359,7 +1262,6 @@
         "image": "TroChoiTamLy.jpg"
     },
     {
-        "id": 98,
         "name": "Ám Thị Tâm Lý",
         "cost": 149000,
         "author": "Patrick King",
@@ -1373,7 +1275,6 @@
         "image": "AmThiTamLy.jpg"
     },
     {
-        "id": 99,
         "name": "Thao Túng Cảm Xúc",
         "cost": 180000,
         "author": "Susan Forward",
@@ -1387,7 +1288,6 @@
         "image": "ThaoTungCamXuc.jpg"
     },
     {
-        "id": 100,
         "name": "Tâm Lý Học Đám Đông",
         "cost": 149000,
         "author": "Gustave Le Bon",
@@ -1401,7 +1301,6 @@
         "image": "TamLyHocDamDong.jpg"
     },
     {
-        "id": 101,
         "name": "Đắc Nhân Tâm",
         "cost": 86000,
         "author": "Dale Carnegie", 
@@ -1415,7 +1314,6 @@
         "image": "DacNhanTam.jpg"
     },
     {
-        "id": 102,
         "name": "Nhân - Nghệ Thuật Đối Đãi Vị Nhân Sinh",
         "cost": 139000,
         "author": "Yen Ooi",
@@ -1429,7 +1327,6 @@
         "image": "Nhan.jpg"
     },
     {
-        "id": 103,
         "name": "Thư Ngỏ Gửi Tuổi Đôi Mươi",
         "cost": 80000,
         "author": "Andre Maurois",
@@ -1443,7 +1340,6 @@
         "image": "ThuNgoGuiTuoiDoiMuoi.jpg"
     },
     {
-        "id": 104,
         "name": "Lẽ Được Mất",
         "cost": 68000,
         "author": "Lya Luft",
@@ -1457,7 +1353,6 @@
         "image": "LeDuocMat.jpg"
     },
     {
-        "id": 105,
         "name": "Đi Tìm Lẽ Sống",
         "cost": 88000,
         "author": "Viktor E Frankl",
@@ -1471,7 +1366,6 @@
         "image": "DiTimLeSong.jpg"
     },
     {
-        "id": 106,
         "name": "Khi Hơi Thở Hóa Thinh Không",
         "cost": 109000,
         "author": "Paul Kalanithi",
@@ -1485,7 +1379,6 @@
         "image": "KhiHoiThoHoaThinhKhong.jpg"
     },
     {
-        "id": 107,
         "name": "Tôi Đi Học",
         "cost": 76000,
         "author": "Nguyễn Ngọc Ký",
@@ -1499,7 +1392,6 @@
         "image": "ToiDiHoc.jpg"
     },
     {
-        "id": 108,
         "name": "Danh Tướng",
         "cost": 500000,
         "author": "R. G. Grant",
@@ -1513,7 +1405,6 @@
         "image": "DanhTuong.jpg"
     },
     {
-        "id": 109,
         "name": "Lời Nguyện Cầu Chernobyl",
         "cost": 170000,
         "author": "Svetlana Alexievich",
@@ -1527,7 +1418,6 @@
         "image": "LoiNguyenCauChernobyl.jpg"
     },
     {
-        "id": 110,
         "name": "Nhật Ký Vượt Cạn",
         "cost": 220000,
         "author": "Nguyễn Vũ Phước",
@@ -1541,7 +1431,6 @@
         "image": "NhatKyVuotCan.jpg"
     },
     {
-        "id": 111,
         "name": "Với Tôi Cha Chỉ Là Cha",
         "cost": 129000,
         "author": "Joshua David Stein",
@@ -1555,7 +1444,6 @@
         "image": "VoiToiChaChiLaCha.jpg"
     },
     {
-        "id": 112,
         "name": "Sapiens Lược Sử Loài Người",
         "cost": 299000,
         "author": "Yuval Noah Harari",
@@ -1569,7 +1457,6 @@
         "image": "SapiensLuocSuLoaiNguoi.jpg"
     },
     {
-        "id": 113,
         "name": "Đệ Nhị Thế Chiến",
         "cost": 240000,
         "author": "Abraham Rothberg",
@@ -1583,7 +1470,6 @@
         "image": "DeNhiTheChien.jpg"
     },
     {
-        "id": 114,
         "name": "Đại Việt Sử Ký Toàn Thư",
         "cost": 265000,
         "author": "Nhiều Tác Giả",
@@ -1597,7 +1483,6 @@
         "image": "DaiVietSuKyToanThu.jpg"
     },
     {
-        "id": 115,
         "name": "Các Đế Chế Ngôn Từ",
         "cost": 499000,
         "author": "Nicholas Ostler",
@@ -1611,7 +1496,6 @@
         "image": "CacDeCheNgonTu.jpg"
     },
     {
-        "id": 116,
         "name": "Lược Sử Thế Giới",
         "cost": 320000,
         "author": "E H Gombrich",
@@ -1625,7 +1509,6 @@
         "image": "LuocSuTheGioi.jpg"
     },
     {
-        "id": 117,
         "name": "Cuộc Thập Tự Chinh Thứ Nhất",
         "cost": 285000,
         "author": "Peter Frankopan",
@@ -1639,7 +1522,6 @@
         "image": "CuocThapTuChinhThuNhat.jpg"
     },
     {
-        "id": 118,
         "name": "Sự Trỗi Dậy Và Suy Tàn Của Đế Chế Thứ Ba",
         "cost": 345000,
         "author": "William L Shirer",
@@ -1653,7 +1535,6 @@
         "image": "SuTroiDayVaSuyTanCuaDeCheThuBa.jpg"
     },
     {
-        "id": 119,
         "name": "Hành Trình Về Phương Đông",
         "cost": 118000,
         "author": "Baird T Spalding",
@@ -1667,7 +1548,6 @@
         "image": "HanhTrinhVePhuongDong.jpg"
     },
     {
-        "id": 120,
         "name": "Đường Xưa Mây Trắng",
         "cost": 299000,
         "author": "Thích Nhất Hạnh",
@@ -1681,7 +1561,6 @@
         "image": "DuongXuaMayTrang.jpg"
     },
     {
-        "id": 121,
         "name": "Lịch Sử Thượng Đế",
         "cost": 319000,
         "author": "Karen Armstrong",

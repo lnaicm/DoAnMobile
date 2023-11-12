@@ -7,6 +7,7 @@ const dotenv = require("dotenv");
 const createError = require("http-errors");
 
 const userRouter = require("./routes/UserRoute");
+const bookRouter = require("./routes/BookRoute");
 
 const app = express();
 
@@ -25,6 +26,7 @@ app.use(cors());
 app.use(morgan("common"));
 
 app.use("/user", userRouter);
+app.use("/book", bookRouter);
 
 app.use((req, res, next) => {
     next.createError(404);
