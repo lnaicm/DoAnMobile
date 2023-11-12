@@ -1,4 +1,4 @@
-export const BOOKS = [
+[
     {
         "id": 1,
         "name": "Cây Cam Ngọt Của Tôi",
@@ -11,7 +11,7 @@ export const BOOKS = [
         "numPages": 244,
         "shortDescription": "Vị chua chát của cái nghèo hòa trộn với vị ngọt ngào khi khám phá ra những điều khiến cuộc đời này đáng sống... một tác phẩm kinh điển của Brazil.",
         "longDescription": "Mở đầu bằng những thanh âm trong sáng và kết thúc lắng lại trong những nốt trầm hoài niệm, Cây cam ngọt của tôi khiến ta nhận ra vẻ đẹp thực sự của cuộc sống đến từ những điều giản dị như bông hoa trắng của cái cây sau nhà, và rằng cuộc đời thật khốn khổ nếu thiếu đi lòng yêu thương và niềm trắc ẩn. Cuốn sách kinh điển này bởi thế không ngừng khiến trái tim người đọc khắp thế giới thổn thức, kể từ khi ra mắt lần đầu năm 1968 tại Brazil.",
-        "image": require("./images/CayCamNgotCuaToi.jpg")
+        "image": "CayCamNgotCuaToi.jpg"
     },
     {
         "id": 2,
@@ -25,7 +25,7 @@ export const BOOKS = [
         "numPages": 359,
         "shortDescription": "Vừa vào lớp một được vài ngày, Totto-chan đã bị đuổi học!!!",
         "longDescription": "Không còn cách nào khác, mẹ đành đưa Totto-chan đến một ngôi trường mới, trường Tomoe. Đấy là một ngôi trường kỳ lạ, lớp học thì ở trong toa xe điện cũ, học sinh thì được thoả thích thay đổi chỗ ngồi mỗi ngày, muốn học môn nào trước cũng được, chẳng những thế, khi đã học hết bài, các bạn còn được cô giáo cho đi dạo. Đặc biệt hơn ở đó còn có một thầy hiệu trưởng có thể chăm chú lắng nghe Totto-chan kể chuyện suốt bốn tiếng đồng hồ! Chính nhờ ngôi trường đó, một Totto-chan hiếu động, cá biệt đã thu nhận được những điều vô cùng quý giá để lớn lên thành một con người hoàn thiện, mạnh mẽ",
-        "image": require("./images/TottoChanBenCuaSo.jpg")
+        "image": "TottoChanBenCuaSo.jpg"
     }
     ,
     {
@@ -40,7 +40,7 @@ export const BOOKS = [
         "numPages": 227,
         "shortDescription": "Tất cả những trải nghiệm trong chuyến phiêu du theo đuổi vận mệnh của mình đã giúp Santiago thấu hiểu được ý nghĩa sâu xa nhất của hạnh phúc, hòa hợp với vũ trụ và con người.",
         "longDescription": "Tiểu thuyết Nhà giả kim của Paulo Coelho như một câu chuyện cổ tích giản dị, nhân ái, giàu chất thơ, thấm đẫm những minh triết huyền bí của phương Đông. Trong lần xuất bản đầu tiên tại Brazil vào năm 1988, sách chỉ bán được 900 bản. Nhưng, với số phận đặc biệt của cuốn sách dành cho toàn nhân loại, vượt ra ngoài biên giới quốc gia, Nhà giả kim đã làm rung động hàng triệu tâm hồn, trở thành một trong những cuốn sách bán chạy nhất mọi thời đại, và có thể làm thay đổi cuộc đời người đọc.",
-        "image": require("./images/NhaGiaKim.jpg")
+        "image": "NhaGiaKim.jpg"
     },
     {
         "id": 4,
@@ -54,7 +54,7 @@ export const BOOKS = [
         "numPages": 215,
         "shortDescription": "điều làm cho Quân vương không chỉ có giá trị nghệ thuật và lịch sử là cái sự thật không thể đảo ngược rằng nó bàn về các nguyên tắclớn mà ngày nay vẫn đang hướng dẫn các quốc gia và nhà cai trị trong quan hệ giữa họ với nhau và với các láng giềng.",
         "longDescription": "Quả thật, hiếm có cuốn sách nào thực sự “vượt thời gian” như Quân vương, cuốn sách nhỏ khiêm nhường song vô giá của Niccolò Machiavelli. Kể cả ngày nay, và kể cả dù bản thân ta không phải một quân vương hay nhà cai trị, ta vẫn có thể rút ra từ cuốn sách này những lời khuyên đầy minh triết về thuật đối nhân xử thế, có thể dựa vào cuốn sách này để hiểu hơn về động cơ ẩn sau những động thái của các chính trị gia hiện đại - tức là, dẫu ta chỉ là một thường dân “hèn mọn”, ta vẫn có tầm nhìn thấu suốt của một đấng quân vương.",
-        "image": require("./images/QuanVuong.jpg")
+        "image": "QuanVuong.jpg"
     },
     {
         "id": 5,
@@ -68,7 +68,7 @@ export const BOOKS = [
         "numPages": 254,
         "shortDescription": "Ra mắt lần đầu năm 2012, Bước chậm lại giữa thế gian vội vã của Đại đức Hae Min đã liên tục đứng đầu danh sách best-seller của nhiều trang sách trực tuyến uy tín của Hàn Quốc, trở thành cuốn sách chữa lành cho hàng triệu người trẻ luôn tất bật với nhịp sống hiện đại hối hả.",
         "longDescription": "Nếu có thể, hãy tạm dừng một bước.\nĐể tự hỏi, là do thế gian này vội vàng hay do chính tâm trí bạn đang quá bận rộn? Để cầm cuốn sách nhỏ dung dị mà lắng đọng này lên, chậm rãi lật giở từng trang, thong thả khám phá những điều mà chỉ khi bước chậm lại mới có thể thấu rõ: về các mối quan hệ, về chính bản thân mình, về những trăn trở trước cuộc đời và nhân thế, về bao điều lý trí rất hiểu nhưng trái tim chưa cách nào nghe theo…",
-        "image": require("./images/BuocChamLaiGiuaTheGianVoiVa.jpg")
+        "image": "BuocChamLaiGiuaTheGianVoiVa.jpg"
     },
     {
         "id": 6,
@@ -82,7 +82,7 @@ export const BOOKS = [
         "numPages": 516,
         "shortDescription": "Cuốn tiểu thuyết đã trở thành hiện tượng quốc gia ở Thụy Điển, đem lại cho người đọc một cái nhìn hài hước kín đáo của văn hóa Bắc Âu, nơi có truyền thống tôn quý văn học lâu đời.",
         "longDescription": "Nhưng một người đã sống qua một thế kỷ thì không dễ gì tóm cụ ta được. Cuốn tiểu thuyết hồi tưởng lại cuộc đời phiêu lưu của Allan Karlsson, người đã đi khắp thế giới từ những năm trước Đại chiến thế giới thứ nhất đến cuộc Thế chiến thứ hai, từ nước Nga Xô Viết tới nước Mỹ siêu cường và nước Trung Quốc con rồng đang lên ở Viễn Đông. Cuốn tiểu thuyết với giọng điệu hóm hỉnh trào lộng, dẫn dắt người đọc chu du cùng Allan qua những tình huống giả tưởng làm bật lên cái nhìn tưng tửng về thế giới này. Những xung đột văn hóa, ý thức hệ và những nét khác thường của các vùng đất xa xôi, càng chứng tỏ sự đa dạng của nhân loại trong thế giới có vẻ phẳng này.",
-        "image": require("./images/OngTramTuoiTreoQuaCuaSoVaBienMat.jpg")
+        "image": "OngTramTuoiTreoQuaCuaSoVaBienMat.jpg"
     },
     {
         "id": 7,
@@ -96,7 +96,7 @@ export const BOOKS = [
         "numPages": 396,
         "shortDescription": "Như một cuốn phim “trinh thám tình yêu”, Con chim xanh biếc bay về dẫn bạn đi hết từ bất ngờ này đến tò mò suy đoán khác, để kết thúc bằng một nỗi hân hoan vô bờ sau bao phen hồi hộp nghi kỵ đến khó thở.",
         "longDescription": "Lấy bối cảnh chính là Sài Gòn - Thành phố Hồ Chí Minh nơi tác giả sinh sống. Các nhân vật chính trong truyện cũng “lớn” hơn, với những câu chuyện mưu sinh lập nghiệp lắm gian nan thử thách của các sinh viên trẻ đầy hoài bão. Tất nhiên không thể thiếu những câu chuyện tình cảm động, kịch tính và bất ngờ khiến bạn đọc ngẩn ngơ, cười ra nước mắt. Và như trong mọi tác phẩm Nguyễn Nhật Ánh, sự tử tế và tinh thần hướng thượng vẫn là điểm nhấn quan trọng trong quyển sách này.",
-        "image": require("./images/ConChimXanhBiecBayVe.jpg")
+        "image": "ConChimXanhBiecBayVe.jpg"
     },
     {
         "id": 8,
@@ -110,7 +110,7 @@ export const BOOKS = [
         "numPages": 524,
         "shortDescription": "Cuốn sách ăn khách toàn cầu của Jonas Jonasson - Cô gái mù chữ phá bom nguyên tử - khiến người đọc phấn khích về cách đùa với các nhân vật lịch sử có thực và các câu chuyện chính trị sặc mùi thuyết âm mưu ở thế giới này.",
         "longDescription": "Nombeko được sinh ra trong một căn lều bé tí tẹo ở Johannesburg, thành phố lớn nhất Nam Phi. Ngay từ lúc nhỏ xíu, cô đã mau chóng hiểu rằng thế gian này chẳng hứa hẹn gì với cô ngoài việc cô hoặc chết sớm, vì ma túy, vì rượu hay chỉ vì đơn giản là tuyệt vọng vì màu da châu Phi. Thay vì thế, Nombeko có những kế hoạch vĩ đại hơn nhiều. Cô tự học đọc học viết, bằng mưu mẹo và sự liều lĩnh đáng kinh ngạc, cô thoát khỏi khu ổ chuột với những viên kim cương lậu bạc triệu.",
-        "image": require("./images/CoGaiMuChuPhaBomNguyenTu.jpg")
+        "image": "CoGaiMuChuPhaBomNguyenTu.jpg"
     },
     {
         "id": 9,
@@ -123,8 +123,8 @@ export const BOOKS = [
         "size": "14 x 21",
         "numPages": 256,
         "shortDescription": "Nội dung chủ yếu kể lại những câu chuyện đời thường thuộc nhiều loại hình sinh hoạt khác nhau của người dân tỉnh lẻ trong bối cảnh lịch sử chuyển đổi sau 30 tháng 4 năm 1975",
-        "longDescription": "Có những bài rất gần với chuyện tiếu lâm nông thôn, đọc lên không thể không tức cười (như “Tưởng bở”…), nhưng cũng có vài câu chuyện phản ảnh hiện thực xã hội gây cho người đọc thật nhiều suy nghĩ bức xúc về hoàn cảnh sống khó khăn nghiệt ngã của một số người dân trong giai đoạn chuyển hình kỳ lịch sử (như “Bông sứ cùi”…). Điều này cho thấy tác giả có phần thiết tha tâm huyết trước thực tế cuộc đời, mà nhịp đập trái tim luôn hướng về những người cùng khổ, chứ không phải chỉ là một kẻ đứng ngoài nhận xét với thái độ hồn nhiên hoàn toàn.",
-        "image": require("./images/DieuBuonPhuongNam.jpg")
+        "longDescription": "Có những bài rất gần với chuyện tiếu lâm nông thôn, đọc lên không thể không tức cười (như “Tưởng bở”…, nhưng cũng có vài câu chuyện phản ảnh hiện thực xã hội gây cho người đọc thật nhiều suy nghĩ bức xúc về hoàn cảnh sống khó khăn nghiệt ngã của một số người dân trong giai đoạn chuyển hình kỳ lịch sử (như “Bông sứ cùi”…). Điều này cho thấy tác giả có phần thiết tha tâm huyết trước thực tế cuộc đời, mà nhịp đập trái tim luôn hướng về những người cùng khổ, chứ không phải chỉ là một kẻ đứng ngoài nhận xét với thái độ hồn nhiên hoàn toàn.",
+        "image": "DieuBuonPhuongNam.jpg"
     },
     {
         "id": 10,
@@ -138,7 +138,7 @@ export const BOOKS = [
         "numPages": 164,
         "shortDescription": "Một tập tản văn đẹp, hiền, mộc mạc và sâu lắng chứa đựng tấm lòng của người viết.",
         "longDescription": "Hành lý hư vô.\nĐó là thứ duy nhất có thể mang theo.\nVào đúng khi bạn nhận ra có bao nhiêu đồ đạc cũng chẳng lấp nổi biển trong lòng.\nVào đúng khi bạn có quá nhiều thứ để nhìn nhận lại trước và trong những cuộc chia tay.\nVào đúng khi bạn hiểu cách những mối quan hệ biến dạng sau mỗi cuộc chuyển dời, nhất là giữa người với người.\nVào đúng khi bạn biết là mình có thể buông, nhẹ không.",
-        "image": require("./images/HanhLyHuVo.jpg")
+        "image": "HanhLyHuVo.jpg"
     },
     {
         "id": 11,
@@ -152,7 +152,7 @@ export const BOOKS = [
         "numPages": 206,
         "shortDescription": "Truyện ngắn Chí Phèo, nguyên có tên là Cái lò gạch cũ; khi in thành sách lần đầu năm 1941",
         "longDescription": "Chí Phèo là một truyện ngắn nổi tiếng của nhà văn Nam Cao viết vào tháng 2 năm 1941. Chí Phèo là một tác phẩm xuất sắc, thể hiện nghệ thuật viết truyện độc đáo của Nam Cao, đồng thời là một tấn bi kịch của một người nông dân nghèo bị tha hóa trong xã hội. Hiện nay, truyện đã được đưa vào sách giáo khoa Ngữ Văn 11, tập 1. Chí Phèo cũng là tên nhân vật chính của truyện.",
-        "image": require("./images/ChiPheo.jpg")
+        "image": "ChiPheo.jpg"
     },
     {
         "id": 12,
@@ -166,7 +166,7 @@ export const BOOKS = [
         "numPages": 220,
         "shortDescription": "Cuốn sách này sẽ giới thiệu đến bạn đọc 17 câu truyện ngắn như: Bởi yêu thương, Cái nhìn khắc khoải, Chuyện vui điện ảnh, Cuối mùa nhan sắc, Dòng nhớ, Đời như ý, Giao thừa, Hiu hiu gió bấc...",
         "longDescription": "Cảm tưởng như cô đã đi dọc hết miền sông ấy mà gom góp những vất vả những tình thương của con người nơi đây. Sông là nhà là tình thương, sống ở sông coi khổ vầy chớ lên bờ cái là thấy nhớ sông nhớ ghe xuồng ngay. Dòng sông ôm hết cả thương nhớ đời người vào lòng, vì sông mà chia cắt hay vì sông mà nên duyên.",
-        "image": require("./images/GiaoThua.jpg")
+        "image": "GiaoThua.jpg"
     },
     {
         "id": 13,
@@ -180,7 +180,7 @@ export const BOOKS = [
         "numPages": 256,
         "shortDescription": "Cô đơn ơi, lại đây chơi !",
         "longDescription": "Phải lòng với cô đơn mất rồi, nên cô đơn à, lại đây chơi! Chỉ là cô đơn thôi có gì đâu mà phải buồn, nhỉ. Vui lên nào vì bên cạnh chúng ta còn có sự cô đơn !",
-        "image": require("./images/PhaiLongVoiCoDon.jpg")
+        "image": "PhaiLongVoiCoDon.jpg"
     },
     {
         "id": 14,
@@ -194,7 +194,7 @@ export const BOOKS = [
         "numPages": 416,
         "shortDescription": "Cuốn sách này là một bữa tiệc thực sự, bạn sẽ có rất nhiều món ngon để lựa chọn.",
         "longDescription": "Yêu đi rồi khóc cũng là lần đầu chúng tôi cùng nhau kết hợp, dùng truyện ngắn để mang đến cho các bạn xúc cảm dạt dào của thứ quà tặng lung linh kỳ ảo nhất cuộc đời: Tình yêu. Khóc trong Yêu đi rồi khóc rất đa nghĩa nhé! Có thể ta khóc vì buồn, vì y lừa dối, nhưng cũng có khi ta khóc vì ta quá hạnh phúc, hay một phút giây nào đó nhận ra mình đã yêu thương một người hơn chính bản thân mình!",
-        "image": require("./images/YeuDiRoiKhoc.jpg")
+        "image": "YeuDiRoiKhoc.jpg"
     },
     {
         "id": 15,
@@ -208,7 +208,7 @@ export const BOOKS = [
         "numPages": 216,
         "shortDescription": "Ngồi khóc một mình, 17 truyện ngắn với 17 cung bậc cảm xúc",
         "longDescription": "Tuổi đôi mươi, người ta còn muốn bay, người ta còn sức để học và sống, hơn hết, người có quyền hi vọng vào những nỗ lực của mình. Và cứ thế, người ta mang trong mình một nỗi cô đơn lạ lắm",
-        "image": require("./images/NgoiKhocMotMinh.jpg")
+        "image": "NgoiKhocMotMinh.jpg"
     },
     {
         "id": 16,
@@ -222,7 +222,7 @@ export const BOOKS = [
         "numPages": 284,
         "shortDescription": "Đứa con của thời tiết phác ra thương yêu cô đọng giữa hoang mang của đô thị lớn và ngặt nghèo hơn, là giữa hoang mang của một thời đại biến đổi khí hậu bấp bênh",
         "longDescription": "Vì một sự cố tình cờ, Hina được tạo hóa ban cho năng lực đặc biệt: làm nắng. Năng lực ấy càng thêm nhiệm màu khi đặt vào bối cảnh Nhật Bản hứng mưa triền miên, mưa đến mức vòm trời âm u trở thành cơm bữa, nước dâng gặm dần các đảo, và Tokyo có nguy cơ biến thành đô thị kênh đào.",
-        "image": require("./images/DuaConCuaThoiTiet.jpg")
+        "image": "DuaConCuaThoiTiet.jpg"
     },
     {
         "id": 17,
@@ -236,7 +236,7 @@ export const BOOKS = [
         "numPages": 260,
         "shortDescription": "Đối với tớ, sự tồn tại của Aoi tựa như một khoảng trời xanh mà cuộc đời tớ thiếu vắng bấy lâu vậy",
         "longDescription": "Sau khi lên cấp ba, bằng tinh thần chính nghĩa vốn có của mình, Kawahara Aoi đã ra mặt giúp đỡ một người bạn cùng lớp bị bắt nạt, kết cục cô lại trở thành nạn nhân tiếp theo thay thế cho người bạn đó. Quá tuyệt vọng khi phải trải qua những ngày bị giày vò cả về thể xác lẫn tinh thần ở trường, Aoi đi tới bờ sông, nơi có cây cầu bắc qua hai khu phố và chuẩn bị kết thúc cuộc đời mình ở đó...",
-        "image": require("./images/TamBietTroiXanh.jpg")
+        "image": "TamBietTroiXanh.jpg"
     },
     {
         "id": 18,
@@ -250,7 +250,7 @@ export const BOOKS = [
         "numPages": 360,
         "shortDescription": "Chỉ cần ta còn sống, mọi đau buồn và tuyệt vọng đều có thể vượt qua. Chỉ cần ta còn sống, tình yêu sẽ nảy mầm. Chỉ cần ta còn sống...",
         "longDescription": "Một ngày nọ, Chikage phát hiện ra một lá thư không đề địa chỉ mà người dì yêu quý của cậu bé - Haruka luôn cẩn thận giữ gìn. Vì dì Haruka không thể rời khỏi giường bệnh nên Chikage quyết định sẽ tự mình trao lá thư tới tận tay người nhận. Qua chuyến hành trình này, Chikage khám phá ra câu chuyện thời thanh xuân giữa dì Haruka, cô sinh viên nổi tiếng nhất trường và Akiha, chàng trai luôn sống với cảm giác tội lỗi sau những chuyện xảy ra trong quá khứ. Hồi ức tình yêu nhẹ nhàng nhưng cũng đầy trắc trở của họ đã giúp Chikage, vốn đang có ý định tự sát vì bị bạn học bắt nạt phải nghiêm túc suy nghĩ lại về ý nghĩa của sinh mệnh, cũng như thế nào là niềm hạnh phúc đích thực.",
-        "image": require("./images/ChiCanTaConSong.jpg")
+        "image": "ChiCanTaConSong.jpg"
     },
     {
         "id": 19,
@@ -264,7 +264,7 @@ export const BOOKS = [
         "numPages": 350,
         "shortDescription": "Tôi chết rồi. Anh tính sao đây?",
         "longDescription": "Mùa thu năm 22 tuổi, tôi, một thanh niên đơn độc bị tất cả ruồng bỏ, đáng lẽ đã thành kẻ sát nhân… Nhưng cô gái thiệt mạng dưới tay tôi lại có thể “trì hoãn” cái chết trong mười ngày. Cô quyết định dành mười ngày quý giá đó để trả thù những kẻ đã hủy hoại đời cô.",
-        "image": require("./images/DauOiBayDi.jpg")
+        "image": "DauOiBayDi.jpg"
     },
     {
         "id": 20,
@@ -278,7 +278,7 @@ export const BOOKS = [
         "numPages": 240,
         "shortDescription": "Hoa lá gan, loài hoa nhỏ bé cố phá vỡ băng tuyết để nở hoa, chịu đựng đến giây phút cuối cùng của mùa đông khắc nghiệt. Loài hoa đó chính là cậu.",
         "longDescription": "Rời khỏi Tokyo, Nozaki theo gia đình chuyển đến một vùng quê ngột ngạt và lạnh lẽo. Trường học nơi đây đón chào Nozaki bằng cái nhìn đầy hằn học và đủ trò thù địch của lũ bạn cùng lớp, cùng sự thờ ơ của cô giáo chủ nhiệm khi chứng kiến học sinh bị bắt nạt ngay trước mắt. Mặc kệ những điều đó, Nozaki chấp nhận nhẫn nhịn và cam chịu. Khi tuyết ngừng rơi cũng là lúc Nozaki tốt nghiệp cấp hai, cô sẽ cùng gia đình rời khỏi nơi đây để tránh xa những hiểm nguy đang rình rập. Nhưng một cơn bão tuyết đã quét ngang qua gia đình Nozaki, tàn phá mọi thứ và kéo theo đó là những sự kiện khủng khiếp xảy đến với thị trấn bé nhỏ này.",
-        "image": require("./images/ChoNgayTuyetTan.jpg")
+        "image": "ChoNgayTuyetTan.jpg"
     },
     {
         "id": 21,
@@ -292,7 +292,7 @@ export const BOOKS = [
         "numPages": 404,
         "shortDescription": "Cô gái văn chương là một series light novel nổi tiếng của nữ tác giả Nomura Mizuki đã được chuyển thể thành cả truyện tranh và phim hoạt hình.",
         "longDescription": "Tình đầu của cô gái văn chương tập sự là ngoại truyện kể về một nhân vật hoàn toàn mới, Hinosaka Nano. Một năm sau khi Tooko tốt nghiệp, Konoha đã lên lớp 12 và trở thành chủ nhiệm câu lạc bộ Văn học. Hinosaka Nano nhập học vào trường cấp ba Seijou và gặp gỡ Konoha. Bị Konoha thu hút, Nano hăm hở gia nhập câu lạc bộ Văn học, chỉ để biết rằng đã có một “cô gái văn chương” hiện diện trong trái tim người ấy.",
-        "image": require("./images/TinhDauCuaCoGaiVanChuongTapSu.jpg")
+        "image": "TinhDauCuaCoGaiVanChuongTapSu.jpg"
     },
     {
         "id": 22,
@@ -306,7 +306,7 @@ export const BOOKS = [
         "numPages": 392,
         "shortDescription": "Cuốn tiểu thuyết về mối tình thầy-trò này quay cuồng giữa ngăn cấm và khát khao, vượt rào và chuẩn mực. Nhiều khi chống đối, cũng lắm khi nuông chiều...",
         "longDescription": "Tôi dạy em cái chữ, em dạy tôi niềm yêu.\nVào một chiều mưa gió. Lướt qua nhau trên hành lang của trường, chỉ một cái liếc mắt đã sinh ra duyên nợ. Dù không thổ lộ, không kề cận, họ vẫn nắm tay nhau trong vô hình, đi cho hết những năm thiếu nữ của cô và thanh niên của anh.\nLọt thỏm giữa những mối tình rộn ràng tươi trẻ của vườn trường, cảm xúc bé bỏng thầm lặng ấy cứ bền bỉ tỏa rộng, bướng bỉnh hấp hút lấy chút dinh dưỡng hiếm hoi để tự nuôi mình.",
-        "image": require("./images/DungHenNgayMai.jpg")
+        "image": "DungHenNgayMai.jpg"
     },
     {
         "id": 23,
@@ -320,7 +320,7 @@ export const BOOKS = [
         "numPages": 359,
         "shortDescription": "Một cuốn sách giáo khoa đúng nghĩa về nghệ thuật viết truyện kinh dị, một kiệt tác chứa xung lực đưa nó lao vụt lên đỉnh cao không một khiếm khuyết",
         "longDescription": "Sự im lặng của bầy cừu hội tụ đầy đủ những yếu tố làm nên một cuốn tiểu thuyết trinh thám kinh dị xuất sắc nhất: không một dấu vết lúng túng trong những chi tiết thuộc lĩnh vực chuyên môn, với các tình tiết giật gân, cái chết luôn lơ lửng, với cuộc so găng của những bộ óc lớn mà không có chỗ cho kẻ ngu ngốc để cuộc chơi trí tuệ trở nên dễ dàng.",
-        "image": require("./images/SuImLangCuaBayCuu.jpg")
+        "image": "SuImLangCuaBayCuu.jpg"
     },
     {
         "id": 24,
@@ -334,7 +334,7 @@ export const BOOKS = [
         "numPages": 1816,
         "shortDescription": "Cái tên Sherlock Holmes đã quen thuộc khắp thế giới tới mức một người dù có thể chưa hề đọc truyện về nhà thám tử này nhưng chỉ cần nghe tên cũng biết anh ta là ai.",
         "longDescription": "Sherlock Holmes hiện lên qua lời kể của cộng sự thân thiết và người viết tiểu sử tận tụy - bác sĩ Watson như một chân dung độc đáo, là chuyên gia số một trong lĩnh vực điều tra hình sự và khoa học suy luận, chiến sĩ bảo vệ công lí lỗi lạc nhất của thời đại. Trong sự nghiệp truy lùng tội phạm, vị thám tử đại tài từng trải qua nhiều thử thách gay cấn, thậm chí đã một lần chết đi sống lại, nhưng cũng chính nhờ đó, Holmes trở thành một nhân vật bất tử, được độc giả khắp thế giới yêu mến vì tài trí và chất nghệ sĩ, vì cả những nhược điểm lẫn cá tính lập dị.",
-        "image": require("./images/SherlockHolmesToanTap.jpg")
+        "image": "SherlockHolmesToanTap.jpg"
     },
     {
         "id": 25,
@@ -348,7 +348,7 @@ export const BOOKS = [
         "numPages": 586,
         "shortDescription": "Osuke, chủ một tiệm cầm đồ bị sát hại tại một ngôi nhà chưa hoàn công, một triệu yên mang theo người cũng bị cướp mất.",
         "longDescription": "Sau đó một tháng, nghi can Fumiyo được cho rằng có quan hệ tình ái với nạn nhân và đã sát hại ông để cướp một triệu yên, cũng chết tại nhà riêng vì ngộ độc khí ga. Vụ án mạng ông chủ tiệm cầm đồ rơi vào bế tắc và bị bỏ xó. Nhưng với hai đứa trẻ mười một tuổi, con trai nạn nhân và con gái nghi can, vụ án mạng năm ấy chưa bao giờ kết thúc. Sinh tồn và trưởng thành dưới bóng đen cái chết của bố mẹ, cho đến cuối đời, Ryoji vẫn luôn khao khát được một lần đi dưới ánh mặt trời, còn Yukiho cứ ra sức vẫy vùng rồi mãi mãi chìm vào đêm trắng.",
-        "image": require("./images/BachDaHanh.jpg")
+        "image": "BachDaHanh.jpg"
     },
     {
         "id": 26,
@@ -362,7 +362,7 @@ export const BOOKS = [
         "numPages": 484,
         "shortDescription": "Franck Thilliez đã khéo léo đưa khoa học và thần kinh học vào những tình tiết trinh thám xuất sắc trong Hội chứng E, từ đó dẫn dắt người đọc vào mê cung lắt léo của bộ não con người cùng tất cả những lệch lạc mà bộ não đó có thể nảy sinh",
         "longDescription": "Năm xác chết bị cắt xẻ tàn bạo được tìm thấy trong tình trạng mất não, mất mắt, và phân hủy đến khó lòng nhận dạng... Chẳng cần gì hơn thế để mời gọi thanh tra trưởng Franck Sharko đang trong kỳ nghỉ cưỡng chế phải quay trở lại đội Hình sự. Hai hướng điều tra cho cùng một vụ án duy nhấ sẽ kết hợp Hennebelle và Sharko, đưa họ đi từ những khu ổ chuột nhơ nhớp ở Cairo đến các trại trẻ mồ côi ở Canada, để rồi đối mặt với một tội ác có một không hai, một thực tế tàn bạo, hé lộ sự thật rằng tất cả chúng ta ai cũng đều có thể phạm phải điều tồi tệ nhất.",
-        "image": require("./images/HoiChungE.jpg")
+        "image": "HoiChungE.jpg"
     },
     {
         "id": 27,
@@ -376,7 +376,7 @@ export const BOOKS = [
         "numPages": 396,
         "shortDescription": "Cuốn tiểu thuyết độc đáo ở chỗ ngay từ đầu nó đã vẽ ra toàn cảnh câu chuyện, bạn có thể dễ dàng biết ai là thủ phạm, nhưng cách thức phạm tội của thủ phạm mới là vấn đề. Liệu bạn có dám chắc mình không sa vào cái bẫy của tư duy logic?",
         "longDescription": "Việc nghĩ ra một bài toán vô cùng khó và việc giải bài toán đó, việc nào khó hơn?\nKhi nhấn chuông cửa nhà nghi can chính của một vụ án mới, điều tra viên Kusanagi không biết rằng anh sắp phải đương đầu với một thiên tài ẩn dật. Kusanagi càng không thể ngờ rằng, chỉ một câu nói vô thưởng vô phạt của anh đã kéo người bạn thân, Manabu Yukawa, một phó giáo sư vật lý tài năng, vào vụ án. Và điều làm sững sờ nhất, đó là vụ án kia chẳng qua cũng chỉ như một bài toán cấp ba đơn giản, tuy nhiên ấn số X khi được phơi bày ra lại không đem đến hạnh phúc cho bất cứ ai",
-        "image": require("./images/PhiaSauNghiCanX.jpg")
+        "image": "PhiaSauNghiCanX.jpg"
     },
     {
         "id": 28,
@@ -390,7 +390,7 @@ export const BOOKS = [
         "numPages": 340,
         "shortDescription": "Một tiểu thuyết trinh thám gây nghiện với vô số bất ngờ sẽ khiến bạn phân vân cho đến phút chót: Ai đã giết Simon?",
         "longDescription": "Năm học sinh có mặt trong phòng phạt buổi chiều thứ Hai. Nhưng chỉ có bốn người sống sót rời khỏi đó. Bronwyn, nữ sinh đứng đầu trường với tương lai xán lạn ở Yale trong tầm tay Addy, nữ hoàng dạ hội xinh đẹp, sang chảnh với một cuộc sống lung linh trong mắt mọi người Cooper, ngôi sao thể thao, vận động viên bóng chày được các trường đại học và các đội tuyển săn đón Nate, tay buôn thuốc trái phép đang trong thời gian quản chế Và cuối cùng là Simon, người nắm giữ những bí mật kinh khủng của bốn người bạn kia. Nhưng cậu đã chết trước khi công khai những bí mật đó trên ứng dụng tin đồn khét tiếng của mình.",
-        "image": require("./images/TrongChungToiCoKeNoiDoi.jpg")
+        "image": "TrongChungToiCoKeNoiDoi.jpg"
     },
     {
         "id": 29,
@@ -404,7 +404,7 @@ export const BOOKS = [
         "numPages": 310,
         "shortDescription": "Một gia tộc nổi tiếng và che mắt người đời bằng vỏ bọc hoàn hảo",
         "longDescription": "Imogen sống trong một khách sạn xa hoa ở Cabo San Lucas, Mexico. Cả ngày cô tập thể dục trong phòng gym của khách sạn và kể với những vị khách khác mình đã bị ép phải rời đại học Stanford. Nhưng cô không phải Imogen thật. Cô là Jule. Và cô đang chạy trốn một chuyện gì đó. Hay một ai đó. Jule và Imogen, hai người bạn thân thiết, cùng nhau trải qua một mùa hè trên đảo Martha's Vineyard, chia sẻ cho nhau những bí mật chưa bao giờ nói với ai khác... Nhưng đó đã là nhiều tháng trước, còn hiện giờ, Imogen thật đang ở đâu?",
-        "image": require("./images/KeLuaDaoChanThat.jpg")
+        "image": "KeLuaDaoChanThat.jpg"
     },
     {
         "id": 30,
@@ -418,7 +418,7 @@ export const BOOKS = [
         "numPages": 400,
         "shortDescription": "Lâu đài bay của pháp sư Howl xoay quanh nhân vật chính là Sophie - cô chị cả trong gia đình có 3 chị em.",
         "longDescription": "Sophie là cô chị cả trong nhà, công việc của cô là trang trí những chiếc mũ, thổi hồn vào những chiếc mũ ấy. Sophie có khiếu trang trí. Tuy nhiên công việc khiến cô luôn gò bó 1 chỗ, chỉ bầu bạn với những đồ vật ấy. Cuộc sống của Sophie thay đổi khi cô gặp phải mụ phủ thủy. Mụ ta đã dùng lời nguyền yểm bùa khiến Sophie già đi. Sophie phải rời khỏi nhà , cô quyết định tìm nơi khác sinh sống, đó chính là toà lâu đài bay mà mọi người đồn thổi bao lâu nay vì chủ nhân của nó là 1 gã đàn ông chuyên hút hồn các cô gái trẻ.",
-        "image": require("./images/LauDaiBayCuaPhapSuHowl.jpg")
+        "image": "LauDaiBayCuaPhapSuHowl.jpg"
     },
     {
         "id": 31,
@@ -432,7 +432,7 @@ export const BOOKS = [
         "numPages": 660,
         "shortDescription": "Không lạ gì mà Liêu Trai chí dị có thể làm say mê cả những người ít học",
         "longDescription": "Trong mọi xã hội và thời đại, các yếu tố văn hóa truyền thống luôn sống cuộc sống của chúng không chỉ trong những văn hiến thư tịch hay các công trình khảo cứu của giới trí thức, mà chủ yếu và quan trọng nhất là trong cuộc sống thường nhật với những mối bận tâm chung nhất của đông đảo nhân dân.",
-        "image": require("./images/LieuTraiChiDi.jpg")
+        "image": "LieuTraiChiDi.jpg"
     },
     {
         "id": 32,
@@ -446,7 +446,7 @@ export const BOOKS = [
         "numPages": 358,
         "shortDescription": "Tài kể chuyện hơn người đã giúp Keigo khéo léo thay đổi các mốc dấu thời gian và không gian, chắp nối những câu chuyện tưởng chừng hoàn toàn riêng rẽ thành một kết cấu chặt chẽ, gây bất ngờ từ đầu tới cuối.",
         "longDescription": "Một đêm vội vã lẩn trốn sau phi vụ khoắng đồ nhà người, Atsuya, Shota và Kouhei đã rẽ vào lánh tạm trong một căn nhà hoang bên con dốc vắng người qua lại. Căn nhà có vẻ khi xưa là một tiệm tạp hóa với biển hiệu cũ kỹ bám đầy bồ hóng, khiến người ta khó lòng đọc được trên đó viết gì. Định bụng nghỉ tạm một đêm rồi sáng hôm sau chuồn sớm, cả ba không ngờ chờ đợi cả bọn sẽ là một đêm không ngủ, với bao điều kỳ bí bắt đầu từ một phong thư bất ngờ gửi đến...",
-        "image": require("./images/DieuKyDieuCuaTiemTapHoaNamiya.jpg")
+        "image": "DieuKyDieuCuaTiemTapHoaNamiya.jpg"
     },
     {
         "id": 33,
@@ -460,7 +460,7 @@ export const BOOKS = [
         "numPages": 516,
         "shortDescription": "Những ngôi mộ cổ ở sâu dưới lòng đất luôn là nơi ẩn chứa nhiều bí mật, nhiều cổ vật và nhiều cạm bẫy.",
         "longDescription": "Những kẻ trộm mộ không những trên thông thiên văn dưới tường địa lý mà cần phải có kỹ năng sống vô cùng cao siêu và ảo diệu, đôi khi cũng cần phải dựa vào cả vận may của mình. Nếu thiếu một trong số những thứ đó, dù chỉ là chút sơ sảy, kết cục nhận lại sẽ thật thê thảm. Mỗi cánh cửa mở ra, sau nó lại có vô vàn cánh cửa khác khép kín. Càng vào sâu, càng kỳ quái. Càng kỳ quái, càng muốn khám phá.",
-        "image": require("./images/KeTromMo.jpg")
+        "image": "KeTromMo.jpg"
     },
     {
         "id": 34,
@@ -474,7 +474,7 @@ export const BOOKS = [
         "numPages": 270,
         "shortDescription": "Xuất bản năm 1969, cuốn sách phản chiến đầy sức mạnh này đã sớm trở thành sách gối đầu giường của những người Mỹ phản đối chiến tranh Việt Nam bấy giờ.",
         "longDescription": "Với Lò sát sinh số 5, Kurt Vonnegut đưa người đọc lần theo cuộc đời của Billy Pilgrim – một anh lính Mỹ đi qua Thế chiến thứ Hai rồi trở thành một bác sĩ đo thị lực vào thời bình. Những mảnh ghép cuộc đời anh ta lần lần hé lộ qua những cuộc du hành xuyên thời gian dường như đột ngột và ngẫu nhiên xảy đến với Billy Pilgrim, tạo thành bức tranh thân phận con người trong một cuộc chiến tranh lố bịch và điên rồ với những chấn thương chỉ có thể được nói đến bằng giọng điệu báng bổ và cười cợt.",
-        "image": require("./images/LoSatSinhSo5.jpg")
+        "image": "LoSatSinhSo5.jpg"
     },
     {
         "id": 35,
@@ -488,7 +488,7 @@ export const BOOKS = [
         "numPages": 464,
         "shortDescription": "Hàng chục triệu năm trước, loài người xuất hiện trên hành tinh này, trở thành sinh vật cao cấp bậc nhất. Đây rốt cuộc là kết quả của chọn lọc tự nhiên hay một kế hoạch đã được xếp đặt sẵn?",
         "longDescription": "Truyện kể về cô gái trẻ có cái tên lạ lùng là Uông Vượng Vượng. Năm sáu tuổi, cô được bố mẹ gửi đến sống cùng người cô là Uông Thư Nguyệt. Năm mười lăm tuổi, bố cô chết một cách kỳ lạ. Thế rồi, cô bỗng bị theo dõi và truy đuổi bởi một nhóm người bí ẩn. Thông qua Mê cung bảy lối do chính bố cô thiết kế và quyển nhật ký phủ bụi của ông, cô đã tiếp cận những truyền thuyết cổ xưa, biết được lịch sử của gia tộc mình - một gia tộc không đến từ bất cứ nơi nào trên trái đất!",
-        "image": require("./images/KeVoDanhMeCungBayLoi.jpg")
+        "image": "KeVoDanhMeCungBayLoi.jpg"
     },
     {
         "id": 36,
@@ -502,7 +502,7 @@ export const BOOKS = [
         "numPages": 725,
         "shortDescription": "Phản vật chất - công tình nghiên cứu của nhà vật lý học quá cố cùng cô con gái nuôi Vittoria Vetra bỗng chốc trở thành mối đe dọa cực kỳ nghiêm trọng đối với thành Rome cũng như giáo hội Vatican",
         "longDescription": "Robert Langdon, giáo sư biểu tượng học của Harvard, được bí mật mời tới Trung tâm nghiên cứu Hạt nhân châu Âu - cơ quan nghiên cứu khoa học lớn nhất thế giới để làm sáng tỏ cái chết của nhà vật lý học Leonardo Vetra. Biểu tượng bí ẩn được đóng dấu sắt nung trên ngực thi thể đưa đến một kết luận duy nhất: Hung thủ chính là Illuminati - một hội kín tưởng chừng đã tàn lụi từ 400 năm trước. Dường như hội kín vô cùng quyền lực này đã trở lại để tiếp tục cuộc báo thù nhằm vào Nhà thờ Công giáo, kẻ thù truyền kiếp của mình.",
-        "image": require("./images/ThienThanVaAcQuy.jpg")
+        "image": "ThienThanVaAcQuy.jpg"
     },
     {
         "id": 37,
@@ -516,7 +516,7 @@ export const BOOKS = [
         "numPages": 1200,
         "shortDescription": "Suối nguồn chất chứa những tâm tình của tuổi trẻ, những khát vọng cháy bỏng của những con người luôn có niềm tin mãnh liệt vào những gì mà mình tin và muốn thực hiện.",
         "longDescription": "Lý tưởng về tình yêu của Ayn Rand rất đặc biệt, nó rất mãnh liệt, nhưng cũng rất méo mó. Tình yêu giữa Dominique và Roark giống một cuộc đấu tranh tàn nhẫn. Cũng giống như quan điểm về thế giới: nó nên như nó phải-là của tác giả, đó không phải là tình yêu như tình-yêu-đang-là, mà là một tình-yêu-như-nó-phải-là, một sự đấu tranh không ngừng nghỉ để đạt được đến cái trọn vẹn nhất. Nó đề cập đến nhiều vấn đề, nhiều quan điểm, nhiều cách nhìn khác nhau của từng người trong cuộc sống nhưng tư tưởng chủ đạo, trên hết vẫn là niềm tin vào những cái tốt đẹp trong cuộc sống này.",
-        "image": require("./images/SuoiNguon.jpg")
+        "image": "SuoiNguon.jpg"
     },
     {
         "id": 38,
@@ -530,7 +530,7 @@ export const BOOKS = [
         "numPages": 419,
         "shortDescription": "Gần 50 năm từ ngày đầu ra mắt, Giết con chim nhại, tác phẩm đầu tay và cũng là cuối cùng của nữ nhà văn Mỹ Harper Lee vẫn đầy sức hút với độc giả ở nhiều lứa tuổi.",
         "longDescription": "Thông điệp yêu thương trải khắp các chương sách là một trong những lý do khiến Giết con chim nhại giữ sức sống lâu bền của mình trong trái tim độc giả ở nhiều quốc gia, nhiều thế hệ. Những độc giả nhí tìm cho mình các trò nghịch ngợm và cách nhìn dí dỏm về thế giới xung quanh. Người lớn lại tìm ra điều thú vị sâu xa trong tình cha con nhà Atticus, và đặc biệt là tình người trong cuộc sống, như bé Scout quả quyết nói “em nghĩ chỉ có một hạng người. Đó là người”.",
-        "image": require("./images/GietConChimNhai.jpg")
+        "image": "GietConChimNhai.jpg"
     },
     {
         "id": 39,
@@ -544,7 +544,7 @@ export const BOOKS = [
         "numPages": 489,
         "shortDescription": "Tựa như Emily Brontë có thể mở toang những gì thuộc về con người, và lấp đầy những khoảng trống không thể nhìn ra được bằng một luồng gió mạnh của cuộc đời.",
         "longDescription": "Đồi gió hú là tiểu thuyết duy nhất của Emily Brontë, người đã chết ngay sau khi tác phẩm được xuất bản, ở tuổi ba mươi. Một câu chuyện u sầu vùng Yorrkshire về một mối tình mạnh hơn cả cái chết, cũng là một cái nhìn dữ dội về dục vọng siêu hình mà theo đó, cả thiên đường, địa ngục, thiên nhiên và xã hội cùng gắn bó mãnh liệt. Độc nhất, huyền bí, với một văn phong phi thời, tiểu thuyết đã trở thành tác phẩm kinh điển của văn học Anh.",
-        "image": require("./images/DoiGioHu.jpg")
+        "image": "DoiGioHu.jpg"
     },
     {
         "id": 40,
@@ -558,7 +558,7 @@ export const BOOKS = [
         "numPages": 642,
         "shortDescription": "Một tác phẩm kinh điển về mafia... Tự bản thân nó đã tạo ra một thứ bùa mê hoặc độc giả.",
         "longDescription": "Từ một kẻ nhập cư tay trắng đến ông trùm tột đỉnh quyền uy, Don Vito Corleone là con rắn hổ mang thâm trầm, nguy hiểm khiến kẻ thù phải kiềng nể, e dè, nhưng cũng được bạn bè, thân quyến xem như một đấng toàn năng đầy nghĩa khí. Nhân vật trung tâm ấy đồng thời cũng là hiện thân của một pho triết lí rất “đời” được nhào nặn từ vốn sống của hàng chục năm lăn lộn giữa chốn giang hồ bao phen vào sinh ra tử, vì thế mà có ý kiến cho rằng “Bố già là sự tổng hòa của mọi hiểu biết. Bố già là đáp án cho mọi câu hỏi”.",
-        "image": require("./images/BoGia.jpg")
+        "image": "BoGia.jpg"
     },
     {
         "id": 41,
@@ -572,7 +572,7 @@ export const BOOKS = [
         "numPages": 124,
         "shortDescription": "Là một tiểu thuyết ngắn được Ernest Hemingway viết ở Cuba năm 1951 và xuất bản năm 1952.",
         "longDescription": "Trong tác phẩm này, ông đã triệt để dùng nguyên lý mà ông gọi là “tảng băng trôi”, chỉ mô tả một phần nổi còn lại bảy phần chìm, khi mô tả sức mạnh của con cá, sự chênh lệch về lực lượng, về cuộc chiến đấu không cân sức giữa con cá hung dữ với ông già. Tác phẩm ca ngợi niềm tin, sức lao động và khát vọng của con người.",
-        "image": require("./images/OngGiaVaBienCa.jpg")
+        "image": "OngGiaVaBienCa.jpg"
     },
     {
         "id": 42,
@@ -586,7 +586,7 @@ export const BOOKS = [
         "numPages": 644,
         "shortDescription": "Bàn về Không gia đình không cần bất cứ lời bình luận hoa mỹ nào khác, chỉ gói gọn trong hai từ: Kinh điển!",
         "longDescription": "Câu chuyện về cậu bé bất hạnh Rémi lang bạt trên dặm trường thiên lý, dấn thân giữa tất cả những bần cùng đói khổ và những xa hoa lộng lẫy. Cậu thiếu niên nhỏ tuổi đã đi qua biết bao miền quê, thấy biết bao cảnh đời, mỗi bước chân đều in dấu ấn của những câu chuyện kỳ lạ, có lúc hoan hỉ mừng vui, có khi thê lương đau đớn nhưng luôn lấp lánh tình người. Cuộc hành trình của Rémi với đoàn xiếc khỉ, chó, với những người thợ mỏ, với cậu bé hát rong người Ý đưa người đọc trải nghiệm mọi cung bậc cảm xúc: thích thú, bất ngờ, hồi hộp, thương tâm, thậm chí cả tuyệt vọng và dạy cho ta - những người chưa, đang, hay đã trưởng thành - những bài học thấm thía về ý chí, nghị lực và lao động chân chính...",
-        "image": require("./images/KhongGiaDinh.jpg")
+        "image": "KhongGiaDinh.jpg"
     },
     {
         "id": 43,
@@ -599,8 +599,8 @@ export const BOOKS = [
         "size": "13.5 x 20.5",
         "numPages": 768,
         "shortDescription": "Câu chuyện cuộc đời của hai con người đã bằng những tài năng của mình làm giàu cho quê hương.",
-        "longDescription": "Hai số phận (tên gốc tiếng Anh là Kane and Abel) là cuốn tiểu thuyết được ông viết dựa theo câu chuyện của anh em Cain và Abel trong Kinh Thánh Cựu Ước. Truyện kể về hai người đàn ông với xuất thân địa vị xã hội và hoàn cảnh sống hoàn toàn khác nhau nhưng có chung một đức tính là luôn chiến đấu hết mình để chinh phục những điều mà mình đã đặt ra. Họ là những người có hoài bão, lý tưởng sống và trên hết họ có một tâm hồn cao quý.",
-        "image": require("./images/HaiSoPhan.jpg")
+        "longDescription": "Hai số phận (tên gốc tiếng Anh là Kane and Abel là cuốn tiểu thuyết được ông viết dựa theo câu chuyện của anh em Cain và Abel trong Kinh Thánh Cựu Ước. Truyện kể về hai người đàn ông với xuất thân địa vị xã hội và hoàn cảnh sống hoàn toàn khác nhau nhưng có chung một đức tính là luôn chiến đấu hết mình để chinh phục những điều mà mình đã đặt ra. Họ là những người có hoài bão, lý tưởng sống và trên hết họ có một tâm hồn cao quý.",
+        "image": "HaiSoPhan.jpg"
     },
     {
         "id": 44,
@@ -614,7 +614,7 @@ export const BOOKS = [
         "numPages": 452,
         "shortDescription": "Một con thủy quái khổng lồ bỗng nhiên xuất hiện làm điêu đứng cả ngành hàng hải.",
         "longDescription": "Tất cả những bí mật sâu kín nhất của đại dương sâu thẳm, những phát minh chưa từng được biết đến, những mối nguy hiểm rình rập trong lòng biển cả… Tất cả đã quyện cùng với nhau để tạo nên một chuyến phiêu lưu li kì, hấp dẫn mà các bạn không thể bỏ qua, khi đã cầm trên tay cuốn sách “Hai vạn dặm dưới biển” của Jules Verne.",
-        "image": require("./images/HaiVanDamDuoiDayBien.jpg")
+        "image": "HaiVanDamDuoiDayBien.jpg"
     },
     {
         "id": 45,
@@ -627,8 +627,8 @@ export const BOOKS = [
         "size": "14.5 x 20.5",
         "numPages": "1964",
         "shortDescription": "Tam quốc diễn nghĩa được xếp là 1 trong Tứ đại danh tác của Trung Hoa.",
-        "longDescription": "Tác giả La Quán Trung đã nói rõ chủ đề ngay từ tên tác phẩm: ông dùng lịch sử của ba quốc gia thời Tam quốc để diễn giải về nghĩa (tư tưởng chính nghĩa) của con người, lấy đó làm chủ đề chính. Tam quốc diễn nghĩa bao hàm ý nghĩa cao siêu của tiêu chuẩn đạo đức, luân lý truyền thống Trung Hoa, ngoài ra còn có đạo lý Nhân quả báo ứng, Thuận theo tự nhiên, Người tính không bằng trời tính.",
-        "image": require("./images/TamQuocDienNghia.jpg")
+        "longDescription": "Tác giả La Quán Trung đã nói rõ chủ đề ngay từ tên tác phẩm: ông dùng lịch sử của ba quốc gia thời Tam quốc để diễn giải về nghĩa (tư tưởng chính nghĩa của con người, lấy đó làm chủ đề chính. Tam quốc diễn nghĩa bao hàm ý nghĩa cao siêu của tiêu chuẩn đạo đức, luân lý truyền thống Trung Hoa, ngoài ra còn có đạo lý Nhân quả báo ứng, Thuận theo tự nhiên, Người tính không bằng trời tính.",
+        "image": "TamQuocDienNghia.jpg"
     },
     {
         "id": 46,
@@ -642,7 +642,7 @@ export const BOOKS = [
         "numPages": 516,
         "shortDescription": "Chưa bao giờ có một nhà văn sáng tác trong những điều kiện gian khổ như vậy. Trong lòng người viết phải có một nhiệt độ cảm hứng nồng nàn không biết bao nhiêu mà kể.",
         "longDescription": "Cái quý nhất của con người ta là sự sống. Đời người chỉ sống có một lần. Phải sống sao cho khỏi xót xa, ân hận vì những năm tháng đã sống hoài, sống phí, cho khỏi hổ thẹn vì dĩ vãng ti tiện và hèn đớn của mình, để khi nhắm mắt xuôi tay có thể nói rằng: tất cả đời ta, tất cả sức ta, ta đã hiến dâng cho sự nghiệp cao đẹp nhất trên đời, sự nghiệp đấu tranh giải phóng loài người...",
-        "image": require("./images/ThepDaToiTheDay.jpg")
+        "image": "ThepDaToiTheDay.jpg"
     },
     {
         "id": 47,
@@ -656,7 +656,7 @@ export const BOOKS = [
         "numPages": 1012,
         "shortDescription": "Chỉ ba tuần sau khi được xuất bản Cuốn theo chiều gió đã thu hút ngay sự chú ý của hơn mười bảy vạn độc giả.",
         "longDescription": "Câu chuyện được đặt bối cảnh tại Georgia và Atlanta, miền Nam Hoa Kỳ trong suốt thời kì nội chiến và thời tái thiết. Tác phẩm xoay quanh Scarlett O'Hara, một cô gái miền Nam đầy sức mạnh, phải tìm mọi cách để sống sót qua chiến tranh và vượt lên cuộc sống khó khăn trong thời hậu chiến.",
-        "image": require("./images/CuonTheoChieuGio.jpg")
+        "image": "CuonTheoChieuGio.jpg"
     },
     {
         "id": 48,
@@ -670,7 +670,7 @@ export const BOOKS = [
         "numPages": 2384,
         "shortDescription": "Là một trong những tác phẩm kinh điển trong văn học Trung Hoa",
         "longDescription": "Tác phẩm giàu trí tưởng tượng, phép nhân hóa xuất thần, đã đạt tới đỉnh cao của sự sáng tạo, vì vậy trải qua hơn 400 năm mà sức sống không hề suy yếu; từ người già đến trẻ nhỏ, từ phụ nữ đến nam giới đều yêu thích, có ảnh hưởng đến nhiều thế hệ độc giả. Học giả của nhà Thanh, trương Thư Thân, đã từng bình luận: “Cuốn sách ‘Tây du ký’ từ khi bắt đầu đến khi kết thúc đều nói về những điều rất chân thành, những điều mới mẻ mà lương thiện.",
-        "image": require("./images/TayDuKy.jpg")
+        "image": "TayDuKy.jpg"
     },
     {
         "id": 49,
@@ -684,7 +684,7 @@ export const BOOKS = [
         "numPages": 711,
         "shortDescription": "Cuốn tiểu thuyết viết về Robert Jordan, một người Mỹ thuộc Lữ đoàn quốc tế, tham gia chống Phát xít trong cuộc nội chiến Tây Ban Nha",
         "longDescription": "Chuông nguyện hồn ai là một bản hùng ca về cuộc đấu tranh anh dũng của nhân dân Tây Ban Nha chống lại bọn phát xít Franco bảo vệ chế độ cộng hòa, một cuộc chiến kéo dài từ năm 1936 tới năm 1939. Nhân vật chính là Robert Jordan, một chiến sĩ người Mỹ chiến đấu trong Lữ đoàn quốc tế, tham gia cuộc chiến tranh vĩ đại chống lại sự bành trướng toàn cầu của chủ nghĩa phát xít.",
-        "image": require("./images/ChuongNguyenHonAi.jpg")
+        "image": "ChuongNguyenHonAi.jpg"
     },
     {
         "id": 50,
@@ -698,7 +698,7 @@ export const BOOKS = [
         "numPages": 507,
         "shortDescription": "Tác phẩm như là những bức tranh biếm họa thời đại của những người châu Phi bất hạnh cuối cùng cũng được công nhận giá trị",
         "longDescription": "Tác phẩm nhằm thức tỉnh lòng vị tha và tình cảm đối với người châu Phi da đen, vì họ tồn tại cùng với chúng ta; để chỉ ra những sai lầm buồn đau của họ trong một hệ thống cực kỳ tàn nhẫn và bất công vứt bỏ đi mọi ảnh hưởng tích cực mà đáng ra họ phải được hưởng, bởi những người bạn tốt nhất, trong cái hệ thống đó. Tác giả lên án mọi tình cảm coi thường đối với những người, thường không phải là do lỗi của bản thân, bị đưa ra tòa và chịu sự tủi nhục vủa các mối quan hệ pháp lý về nô lệ.",
-        "image": require("./images/TupLeuBacTom.jpg")
+        "image": "TupLeuBacTom.jpg"
     },
     {
         "id": 51,
@@ -712,7 +712,7 @@ export const BOOKS = [
         "numPages": 272,
         "shortDescription": "Qua Nanh trắng, Jack London giúp người đọc hiểu được cách nhìn của loài vật về thế giới của chúng cũng như cách mà chúng nhìn nhận thế giới con người.",
         "longDescription": "Sau lần mẹ Kiche bất ngờ gặp lại những chủ cũ, Nanh Trắng bước chân vào thế giới con người. Từ đấy, cuộc sống của Nanh Trắng gắn liền vào những cuộc rượt đuổi, cắn xé nhau giữa những kẻ cùng dòng giống, những cú đạnh chí mạng khi lỡ phạm sai lầm, nhưng cơn đói triền miên tưởng có thể lìa đời, sự tù đày giam cầm tàn bạo. Thế nhưng, khi sự sống tưởng như đã tuyệt vọng, Nanh Trắng lại gặp được Weedon Scott, một con người nhân hậu. Kể từ đó, Nanh Trắng mới biết về lòng tin và lòng yêu thương...",
-        "image": require("./images/NanhTrang.jpg")
+        "image": "NanhTrang.jpg"
     },
     {
         "id": 52,
@@ -726,7 +726,7 @@ export const BOOKS = [
         "numPages": 530,
         "shortDescription": "Câu chuyện về chàng trai Jay Gatsby muốn thoát khỏi thân phận nghèo hèn và đặt chân vào tầng lớp cao sang mà hiện thân là một cô gái nhà giàu anh đã yêu và được yêu khi còn khoác trên vai bộ quân phục.",
         "longDescription": "Mối tình mãnh liệt và mê muội của Gatsby được kể lại vối một lối văn cực kỳ súc tích, đa tầng. T. S. Eliot, nhà văn gốc Mỹ đương thời với Fitzgerald - Giải thưởng Nobel về văn học năm 1948, kể lại trong thư viết cho tác giả, ông đã phải đọc đi đọc lại tác phẩm ba lần trong năm 1925. Fitzgerald đã vẽ ra một trong bức tranh cô đọng nhất, sâu sắc và giàu biểu tượng nhất về xã hội Mỹ trong những năm 1920 với đủ các mặt tàn nhẫn, giả dối, bịp bợm và ích kỷ của nó.",
-        "image": require("./images/GastbyViDai.jpg")
+        "image": "GastbyViDai.jpg"
     },
     {
         "id": 53,
@@ -740,7 +740,7 @@ export const BOOKS = [
         "numPages": 284,
         "shortDescription": "Bến Xe",
         "longDescription": "Thứ tôi có thể cho em trong cuộc đời này\nchỉ là danh dự trong sạch\nvà một tương lai tươi đẹp mà thôi.\nThế nhưng, nếu chúng ta có kiếp sau,\nnếu kiếp sau tôi có đôi mắt sáng,\ntôi sẽ ở bến xe này... đợi em.",
-        "image": require("./images/BenXe.jpg")
+        "image": "BenXe.jpg"
     },
     {
         "id": 54,
@@ -754,7 +754,7 @@ export const BOOKS = [
         "numPages": 320,
         "shortDescription": "Từ nhỏ cô đã thầm yêu anh, như số kiếp không thể thay đổi tình yêu trong sáng ấy",
         "longDescription": "Tình yêu, giống như lần đầu được nếm thử quả khế mới chín.\nChua chua, chát chát, nhưng không kìm được, vẫn muốn nếm thêm lần nữa.\nTrong quả khế chát xanh xanh, nụ cười ngốc nghếch, ngọt ngào của anh, tình đầu thơ ngây, trong sáng của em lặng lẽ nảy mầm.",
-        "image": require("./images/ThatTichKhongMua.jpg")
+        "image": "ThatTichKhongMua.jpg"
     },
     {
         "id": 55,
@@ -768,7 +768,7 @@ export const BOOKS = [
         "numPages": 212,
         "shortDescription": "Nếu em là một cô gái trinh, tôi sẽ cưới em làm vợ. Nhưng xin lỗi, em chỉ là một con đĩ!",
         "longDescription": "Đây không phải tiểu thuyết dâm loạn, đây chỉ là một câu chuyện xúc động lòng người sâu sắc. Cuốn sách nói về cái đẹp, và bày tỏ về nỗi đau, của Hạ Âu - một cô gái mang tiếng là đĩ, và người bạn trai Hà Niệm Bân. Những trắc trở trong đời cô thuật lại một chuyện tình đau xót.",
-        "image": require("./images/XinLoiEmChiLaConDi.jpg")
+        "image": "XinLoiEmChiLaConDi.jpg"
     },
     {
         "id": 56,
@@ -782,7 +782,7 @@ export const BOOKS = [
         "numPages": 316,
         "shortDescription": "Ngoảnh Lại Đã Một Đời",
         "longDescription": "Đời người trăm năm, qua đi vội vã, bao nhiêu phong cảnh đợi bạn đến chiêm ngưỡng, bao nhiêu câu chuyện đợi bạn đến lấp đầy. Những gặp gỡ, truy cầu, được mất trong hành trình, đều là tu hành. Tuế nguyệt dần dần qua đi, lúc như vô tình, lúc lại như hữu ý, không cố chấp đối với mọi việc, thì sẽ không vui quá hóa nhàm, buồn quá thành tuyệt vọng. Đời người giống như là chèo thuyền trên sóng khơi, nên giữ vững nội tâm, mới có thể thong dong điềm tĩnh, từ gấp gáp đến chậm rãi, từ ồn ã đến yên ả.",
-        "image": require("./images/NgoanhLaiDaMotDoi.jpg"),
+        "image": "NgoanhLaiDaMotDoi.jpg"
     },
     {
         "id": 57,
@@ -796,7 +796,7 @@ export const BOOKS = [
         "numPages": 528,
         "shortDescription": "Em là vì sao trong mắt anh” là câu chuyện tình xoay quanh 2 nhân vật chính là Quan Cạnh Phong và Doãn Thần Tâm.",
         "longDescription": "Hai người gặp nhau từ khi Doãn Thần Tâm mới 12 tuổi, khi ấy cô vẫn còn là một cô bé ngây thơ, trong sáng, nhưng anh đã là chàng trai ngoài 20 tuổi. Anh xuất hiện trong cuộc đời cô với vai trò là người gia sư giúp cô học Toán, nhưng cả 2 không ngờ rằng từ đó hai người đã vô tình gắn bó thân thiết với nhau từ bao giờ. Để rồi anh luôn đi tìm hình bóng của cô gái 12 tuổi trong những người con gái xung quanh mình.",
-        "image": require("./images/EmLaViSaoTrongMatAnh.jpg")
+        "image": "EmLaViSaoTrongMatAnh.jpg"
     },
     {
         "id": 58,
@@ -810,7 +810,7 @@ export const BOOKS = [
         "numPages": 500,
         "shortDescription": "Trong bóng tối giọng nói như tiếng vọng của màn đêm bất giác làm cô nhớ đến một người. Cô vẫn thừơng tự hỏi: anh ta là ai, chủ nhân của giọng nói mơ hồ ấy, giọng nói cô chưa từng quên!",
         "longDescription": "Sau lần chia tay hai người còn không gặp lại nhau, cô thì sang nước Pháp xa xôi định cư cũng đã nhiều năm nhưng lúc nào cũng nhớ hình bóng của anh, nhớ vè những hồi ức vui buồn có nhau. Nhưng bây giờ cô đã trở thành một con người khác với vẻ bề ngoài cứng cáp tạo cho mình một vỏ bọc vững chắc.",
-        "image": require("./images/NoiNaoDongAmNoiNaoHaMat.jpg")
+        "image": "NoiNaoDongAmNoiNaoHaMat.jpg"
     },
     {
         "id": 59,
@@ -824,7 +824,7 @@ export const BOOKS = [
         "numPages": 428,
         "shortDescription": "Cả lớp A2 đều biết, lớp phó môn Toán Tiết Diệm và lớp phó môn Văn Thẩm Tịch là hai kẻ thù không đội trời chung, kỵ nhau như nước với lửa.",
         "longDescription": "Tưởng như chẳng có một điểm chung nào, bỗng dung một ngày, có người vô tình bắt gặp cặp đôi đến chết cũng không qua lại với nhau trong truyền thuyết ấy đang ngồi ôm nhau trong cánh rừng nhỏ, một người cười như kẻ ngốc, một người cười như kẻ khờ.",
-        "image": require("./images/NgayNaoDiHocCungBiCaKhia.jpg")
+        "image": "NgayNaoDiHocCungBiCaKhia.jpg"
     },
     {
         "id": 60,
@@ -838,7 +838,7 @@ export const BOOKS = [
         "numPages": 399,
         "shortDescription": "Trong quán cà phê Đợi Một Người, bên những tách cà phê hương vị khác nhau, chúng tôi đều đang đợi lời giải cho bài toán trái tim mình.",
         "longDescription": "Ở quán cà phê Đợi một người, bên những tách cà phê hương vị khác nhau, mỗi người đều đang đợi lời giải cho bài toán trái tim mình. Kết quả có lẽ vẫn cần bạn phải khám phá, nhưng đừng ngần ngại, bởi vì khi bạn gấp sách lại có thể câu chuyện mới bắt đầu, và bấy giờ bạn đã có thể bắt tay viết câu chuyện của chính mình.",
-        "image": require("./images/CaPheDoiMotNguoi.jpg")
+        "image": "CaPheDoiMotNguoi.jpg"
     },
     {
         "id": 61,
@@ -852,7 +852,7 @@ export const BOOKS = [
         "numPages": 287,
         "shortDescription": "Tại sao một số người lại đạt được những thành công vượt bậc, được số phận ban cho cuộc sống sung túc, giàu có, trong khi một số người khác phải chật vật, vất vả mới có một cuộc sống qua ngày.",
         "longDescription": "Trong cuốn sách, Eker liệt kê 17 cách thức mà các kế hoạch chi tiết tài chính của những người giàu khác với người nghèo và tầng lớp trung lưu. Một chủ đề được xác định trong sách này là loại bỏ các suy nghĩ đổ lỗi cho sự thất bại. Eker lập luận rằng: Người giàu tin Tôi tạo ra cuộc sống của tôi, còn những người nghèo cho rằng Cuộc sống sẽ tự nhiên đến với tôi; người giàu tập trung vào các cơ hội trong khi người nghèo tập trung vào những trở ngại",
-        "image": require("./images/BiMatTuDuyTrieuPhu.jpg")
+        "image": "BiMatTuDuyTrieuPhu.jpg"
     },
     {
         "id": 62,
@@ -866,7 +866,7 @@ export const BOOKS = [
         "numPages": 380,
         "shortDescription": "Quyển sách là tập hợp những kiến thức và kinh nghiệm uyên thâm của những nhà tư tưởng hàng đầu đến từ nhiều lĩnh vực khác nhau",
         "longDescription": "Độc giả sẽ cảm nhận được những dòng tư tưởng tuôn trào của những nhà lãnh đạo tương lai, là biểu hiện của trí tuệ, khả năng phán đoán, kỹ năng phân tích vấn đề và óc quan sát. Họ không hài lòng với những vết xe cũ mà luôn tiên phong tìm kiếm những lối đi mới để mở ra những chân trời mới với những cơ hội, những thử thách và những biến đổi – thông điệp cho một ngày mới bắt đầu. Cuốn sách là một “tiếng hô xông trận” nhằm kích thích, động viên tinh thần những nhà lãnh đạo tương lai cùng góp sức xây dựng nên những mô hình tổ chức theo đúng với nhu cầu xã hội đặt ra và phát triển bền vững cùng với thời đại.",
-        "image": require("./images/NhaLanhDaoTuongLai.jpg")
+        "image": "NhaLanhDaoTuongLai.jpg"
     },
     {
         "id": 63,
@@ -880,7 +880,7 @@ export const BOOKS = [
         "numPages": 272,
         "shortDescription": "Một công thức thành công trở thành một trong những nhà cố vấn lãnh đạo được theo đuổi nhiều nhất thế giới.",
         "longDescription": "Bất kể bạn làm gì trong tổ chức và cuộc sống hiện tại của bạn như thế nào, một thực tế quan trọng duy nhất là bạn có khả năng thể hiện năng lực lãnh đạo. Cho dù sự nghiệp hiện tại của bạn đang ở đâu, bạn vẫn luôn cần phải thể hiện những khả năng tột đỉnh của mình. Cuốn sách này sẽ hướng dẫn bạn làm thế nào để khai thác tối đa khả năng đó, cũng như thay đổi cuộc sống và thế giới xung quanh bạn.",
-        "image": require("./images/NhaLanhDaoKhongChucDanh.jpg")
+        "image": "NhaLanhDaoKhongChucDanh.jpg"
     },
     {
         "id": 64,
@@ -894,7 +894,7 @@ export const BOOKS = [
         "numPages": 495,
         "shortDescription": "Phần lớn Doanh nhân nhầm lẫn giữa quản lý và quản trị. Vậy nhà lãnh đạo quản trị Doanh nghiệp như thế nào, họ phải làm gì...",
         "longDescription": "Có rất nhiều doanh nhân vĩ đại, những người sáng lập, xây dựng, điều hành những công ty hàng đầu thế giới với doanh thu cả trăm tỷ đô-la Mỹ, những công ty sáng tạo công nghệ và sản phẩm làm thay đổi thế giới, nhưng họ không viết sách dù rằng có nhiều sách viết về họ. GS. Phan Văn Trường khác họ. Ông đã từng đứng đầu các tập đoàn khổng lồ với doanh thu 60-70 tỷ đô-la Mỹ, hoạt động trên cả trăm quốc gia, với hàng chục nghìn nhân viên đủ các quốc tịch. Và ông viết sách. Chính xác hơn là ông ghi lại những gì tinh túy nhất và lại giản dị nhất của một doanh nhân người Việt tầm cỡ Global.",
-        "image": require("./images/MotDoiQuanTri.jpg")
+        "image": "MotDoiQuanTri.jpg"
     },
     {
         "id": 65, 
@@ -908,7 +908,7 @@ export const BOOKS = [
         "numPages": 328,
         "shortDescription": "Quyển sách cho chúng ta thấy cách Trump làm việc mỗi ngày - cách ông điều hành công việc kinh doanh và cuộc sống",
         "longDescription": "Quyển sách đi sâu vào đầu óc của một doanh nhân xuất sắc và khám phá một cách khoa học chưa từng thấy về cách đàm phán một thương vụ thành công. Đây là một cuốn sách thú vị về đàm phán và kinh doanh – và là một cuốn sách nên đọc cho bất kỳ ai quan tâm đến đầu tư, bất động sản và thành công.",
-        "image": require("./images/NgheThuatDamPhan.jpg")
+        "image": "NgheThuatDamPhan.jpg"
     },
     {
         "id": 66,
@@ -922,7 +922,7 @@ export const BOOKS = [
         "numPages": 560,
         "shortDescription": "Ngay tại Mỹ và trên thế giới, Nghệ thuật tư duy chiến lược luôn được các doanh nhân hàng đầu, các giáo sư, chính trị gia và nhà chiến lược tâm đắc",
         "longDescription": "Thông qua Nghệ Thuật Tư Duy Chiến Lược, bạn sẽ thấy những người thành công trong mọi lĩnh vực từ giải trí đến chính trị, từ giáo dục đến thể thao, v.v... đạt thành công vang dội là nhờ luôn nắm vững lý thuyết trò chơi hay nghệ thuật tư duy chiến lược, với khả năng dự đoán những động thái tiếp theo của người dùng chơi, trong khi biết rõ rằng đối thủ đang cố gắng làm điều tương tự với mình.",
-        "image": require("./images/NgheThuatTuDuyChienLuoc.jpg")
+        "image": "NgheThuatTuDuyChienLuoc.jpg"
     },
     {
         "id": 67,
@@ -936,7 +936,7 @@ export const BOOKS = [
         "numPages": 515,
         "shortDescription": "Đây là cuốn sách viết về những người Mỹ làm tốt nhất việc thành lập và phát triển những doanh nghiệp mới.",
         "longDescription": "Bảy con người được khắc họa chân dung trong cuốn sách này là các cá nhân có động lực và sức cạnh tranh vô cùng lớn lao, họ đã sống trong một đất nước và nền văn hóa khuyến khích những đặc tính này và định hướng họ vào con đường kinh doanh. Mỗi người trong số họ theo cách riêng của mình, là một cá nhân xuất chúng, sống trong một quốc gia cho phép họ bộc lộ đầy đủ tài năng. Những con người ấy ở đất nước này đã được hưởng sự tự do như bất kì ai khác trên thế giới.",
-        "image": require("./images/NhungNguoiKhongLoTrongGioiKinhDoanh.jpg")
+        "image": "NhungNguoiKhongLoTrongGioiKinhDoanh.jpg"
     },
     {
         "id": 68,
@@ -950,7 +950,7 @@ export const BOOKS = [
         "numPages": 516,
         "shortDescription": "EHM là những chuyên gia được trả lương cao để đi thuyết phục các nước có thu nhập thấp chấp nhận các khoản vay khổng lồ để xây dựng các dự án cơ sở hạ tầng mang lại lợi nhuận cho các doanh nghiệp Mỹ.",
         "longDescription": "Một cuộc tấn công sâu rộng, táo bạo vào sự chuyên chế của toàn cầu hóa doanh nghiệp, một cuốn sách đầy kịch tính chứa đựng những chuyến phiêu lưu và câu chuyện tàn khốc về lòng tham. Perkins đã không nản lòng và đưa ra những ý tưởng giàu trí tưởng tượng cho một thế giới mới.",
-        "image": require("./images/LoiThuToiCuaMotSatThuKinhTe.jpg")
+        "image": "LoiThuToiCuaMotSatThuKinhTe.jpg"
     },
     {
         "id": 69,
@@ -964,7 +964,7 @@ export const BOOKS = [
         "numPages": 488,
         "shortDescription": "Tác giả đồng thời là người sáng lập của thương hiệu Starbucks, chia sẻ câu chuyện đầy cảm hứng về cuộc đời của ông từ khi còn đi học đến khi trở thành CEO của một thương hiệu nổi tiếng trên toàn thế giới.",
         "longDescription": "Độc giả sẽ tìm thấy nơi đây bài học về quản trị rất tuyệt vời, mà giá trị của nó vẫn còn vững vàng trong hiện tại. Những kinh nghiệm của tác giả về xây dựng một công ty có trách nhiệm xã hội đối với nhân viên, với cộng đồng và đối với môi trường sẽ cuốn hút lan truyền cảm hứng đến độc giả để họ áp dụng nó vào cuộc sống và công việc kinh doanh của mình.",
-        "image": require("./images/DocHetTraiTim.jpg")
+        "image": "DocHetTraiTim.jpg"
     },
     {
         "id": 70,
@@ -978,7 +978,7 @@ export const BOOKS = [
         "numPages": 208,
         "shortDescription": "Cuốn sách Người giàu có nhất thành Babylon sẽ mang đến cho độc giả những câu chuyện về bí mật của sự giàu có, được kể qua lời của những nô lệ, thương gia, thợ thuyền đến từ 4.000 năm trước",
         "longDescription": "Họ sẽ tiết lộ cho bạn những nguyên tắc quan trọng để sở hữu tiền - vàng và tăng sinh lợi nhuận từ số vốn ban đầu. Nếu bạn đang tìm kiếm sự giàu có, hãy nhớ rằng, tiền không được phép đứng yên, nó phải tham gia vào dòng chảy thị trường, tạo ra lợi ích cho chủ sở hữu. Những phương pháp này sẽ khiến bạn phải bất ngờ vì nó không khó khăn, vô cùng đơn giản nhưng lại dễ dàng bị bỏ qua hoặc vô tình lãng quên đi mất tính căn bản của việc làm giàu.",
-        "image": require("./images/NguoiGiauCoNhatThanhBabylon.jpg")
+        "image": "NguoiGiauCoNhatThanhBabylon.jpg"
     },
     {
         "id": 71, 
@@ -992,7 +992,7 @@ export const BOOKS = [
         "numPages": 296,
         "shortDescription": "Cuốn sách này được dịch ra 25 ngôn ngữ và đã bán hơn 50 triệu bản, trở thành cuốn sách gối đầu giường của nhiều doanh nhân và truyền lửa cho hàng triệu người.",
         "longDescription": "Người Bán Hàng Vĩ Đại Nhất Thế Giới kể về câu chuyện của Hafid, một cậu bé chăn lạc đà nghèo, ở Jerusalem thời cổ đại.  Xuất thân là một cậu nhóc trông lạc đà cho đoàn buôn của Pathros, nhưng với quyết tâm đổi đời, muốn cải thiện vị trí của mình trong cuộc sống, Hafid luôn nuôi ước mơ được trở thành người bán hàng. Cậu tin chỉ như thế mình mới có cơ hội trở nên giàu có và thành công.",
-        "image": require("./images/NguoiBanHangViDaiNhatTheGioi.jpg")
+        "image": "NguoiBanHangViDaiNhatTheGioi.jpg"
     },
     {
         "id": 72,
@@ -1005,8 +1005,8 @@ export const BOOKS = [
         "size": "13 x 20.5",
         "numPages": 258,
         "shortDescription": "Con đường viên mãn nhất, hiệu quả nhất để thành công chính là cho đi.",
-        "longDescription": "Hầu hết chúng ta nghĩ bán hàng là thuyết phục các khách hàng tiềm năng làm điều gì đó mà họ không thực sự muốn làm. Điều này về mặt tinh thần đã thiết lập nên một mối quan hệ đối địch và khiến quá trình bán trở nên khó khăn hơn nhiều. Như Burg và Mann chỉ ra, khi người bán hàng tư duy như Người dám cho đi thì việc bán sẽ hiệu quả hơn (và khoan khoái hơn). Các tác giả nói, hãy nuôi dưỡng một mối quan hệ đáng tin cậy và tập trung chuyên chú vào việc tạo ra giá trị cho người khác, thành quả tốt đẹp sẽ tự động đến theo.",
-        "image": require("./images/NguoiDamChoDiBanDuocNhieuHon.jpg")
+        "longDescription": "Hầu hết chúng ta nghĩ bán hàng là thuyết phục các khách hàng tiềm năng làm điều gì đó mà họ không thực sự muốn làm. Điều này về mặt tinh thần đã thiết lập nên một mối quan hệ đối địch và khiến quá trình bán trở nên khó khăn hơn nhiều. Như Burg và Mann chỉ ra, khi người bán hàng tư duy như Người dám cho đi thì việc bán sẽ hiệu quả hơn (và khoan khoái hơn. Các tác giả nói, hãy nuôi dưỡng một mối quan hệ đáng tin cậy và tập trung chuyên chú vào việc tạo ra giá trị cho người khác, thành quả tốt đẹp sẽ tự động đến theo.",
+        "image": "NguoiDamChoDiBanDuocNhieuHon.jpg"
     },
     {
         "id": 73,
@@ -1020,7 +1020,7 @@ export const BOOKS = [
         "numPages": 220,
         "shortDescription": "Cuốn sách là nguồn tài liệu vô giá đúc kết các kiến thức chuẩn quốc tế về nghiên cứu thị trường, cùng các case study ứng dụng cả thị trường trong và ngoài nước",
         "longDescription": "Thị trường Việt Nam trong những năm gần đây, đặc biệt sau sự xuất hiện của Covid-19, đã thay đổi nhanh chóng và liên tục. Người tiêu dùng đang ngày càng nắm quyền kiểm soát nhiều hơn, và họ cũng ngày càng nhận thức rõ hơn về quyền lực của mình. Để bảo đảm sự phát triển bền vững, các doanh nghiệp cần phải biết lập chiến lược kinh doanh xuất phát từ trọng tâm là sự thấu hiểu khách hàng.",
-        "image": require("./images/ThauHieuKhachHang.jpg")
+        "image": "ThauHieuKhachHang.jpg"
     },
     {
         "id": 74,
@@ -1034,7 +1034,7 @@ export const BOOKS = [
         "numPages": 344,
         "shortDescription": "Trải nghiệm khách hàng xuất sắc được viết từ hơn 22 năm kinh nghiệm, qua nhiều vị trí, môi trường khác nhau của ông Nguyễn Dương, một chuyên gia cấp quốc tế",
         "longDescription": "Sách nghiên cứu cả những lý do và rào cản khiến các chiến lược trải nghiệm khách hàng thất bại. Những nguyên lý và phương pháp đã phát huy hiệu quả và trường tồn theo thời gian, được đúc kết từ nhiều trải nghiệm, bối cảnh, quy mô và môi trường khác nhau, trong và ngoài nước. Hơn nữa, “Trải nghiệm khách hàng xuất sắc” còn được viết bởi một người giàu kinh nghiệm, ông Nguyễn Dương – người có hơn 22 năm kinh nghiệm, một chuyên gia cấp quốc tế và là người nhiệt huyết về trải nghiệm khách hàng.",
-        "image": require("./images/TraiNghiemKhachHangXuatSac.jpg")
+        "image": "TraiNghiemKhachHangXuatSac.jpg"
     },
     {
         "id": 75,
@@ -1048,7 +1048,7 @@ export const BOOKS = [
         "numPages": 207,
         "shortDescription": "Bán hàng là một nghệ thuật. Mà bán được hàng qua điện thoại có thể nói là trên cả nghệ thuật.",
         "longDescription": " Trong mọi cuộc điện thoại, bạn chỉ có 8 giây gây chú ý để khách hàng không cúp máy và 4 phút để chốt một cuộc hẹn. Bởi rõ ràng bạn đang gặp rất nhiều bất lợi như không được gặp trực tiếp khách hàng để trình bày chi tiết, khó biểu cảm sự chân thành bằng ngôn ngữ cơ thể để khách hàng tin, một số khách hàng có tâm lý “dị ứng” với những người tiếp thị qua điện thoại vì nhiều lý do.",
-        "image": require("./images/BiQuyetTroThanhSieuSaoBanHangQuaDienThoai.jpg")
+        "image": "BiQuyetTroThanhSieuSaoBanHangQuaDienThoai.jpg"
     },
     {
         "id": 76,
@@ -1062,7 +1062,7 @@ export const BOOKS = [
         "numPages": 234,
         "shortDescription": "Thanh niên khởi nghiệp của David Kidder là một cuốn sách về 34 doanh nhân khởi nghiệp thành công với vô vàn bài học khác nhau",
         "longDescription": "Với những con người đầy nhiệt huyết này, kinh doanh với họ không chỉ có một mục tiêu duy nhất là lợi nhuận mà họ còn quan tâm đến nhiều khía cạnh khác như sức khỏe của người tiêu dùng, xây dựng và phát triển cộng đồng tốt đẹp hơn. Như Scott Harrison, từ một người có hoàn cảnh gia đình bất hạnh làm việc cho các hộp đêm ở New York, nhưng sau đó qua nhiều biến cố trong cuộc sống, ông đã thay đổi rất nhiều và lập ra dự án cung cấp nước sạch, hiện tổ chức của ông đã cung cấp được nước sạch cho hàng triệu người tại nhiều quốc gia khác nhau trên thế giới",
-        "image": require("./images/ThanhNienKhoiNghiep.jpg")
+        "image": "ThanhNienKhoiNghiep.jpg"
     },
     {
         "id": 77,
@@ -1076,7 +1076,7 @@ export const BOOKS = [
         "numPages": 268,
         "shortDescription": "Napoleon Hill đã khám phá ra rằng: người đạt được những phần thưởng tài chính, dù lớn lao đến đâu đa phần đều là những người kém hạnh phúc và kém hài lòng nhất trên thế giới.",
         "longDescription": "Ban đầu là loạt bài thuyết trình dành cho khán thính giả Chicago vào mùa xuân năm 1954, Giàu có đâu có khó! sau đó được xuất bản thành sách dưới sự cho phép của Quỹ Napoleon Hill. Bằng cách truyền cảm hứng để bạn thực hiện các mục tiêu và ước mơ, cuốn sách này thực sự có thể giúp bạn vươn tới sự giàu có toàn diện – sự giàu có không bị giới hạn bởi những thước đo hạn hẹp như tài sản hay danh vọng.",
-        "image": require("./images/GiauDauCoKho.jpg")
+        "image": "GiauDauCoKho.jpg"
     },
     {
         "id": 78,
@@ -1090,7 +1090,7 @@ export const BOOKS = [
         "numPages": 220,
         "shortDescription": "Cuốn sách là sự tổng hợp đầy đủ và cô đọng nhất các học thuyết về kinh tế, tiền tệ cũng như các ví dụ sinh động về các cuộc khủng hoảng kinh tế trên thế giới",
         "longDescription": "Hằng ngày, qua phim ảnh và tin tức truyền thông, chúng ta thấy rất nhiều chuyện đau lòng do sự túng thiếu tiền bạc gây nên: Nhiều người đã phải vay nặng lãi, rồi lâm vào tình huống buộc chấp nhận làm những việc phi pháp, làm ảnh hưởng đến phẩm giá của bản thân, thậm chí có thể bị mất mạng. Hoặc, nhiều người nghĩ rằng mình cần nhanh chóng thoát khỏi cảnh nghèo bằng mọi giá nên họ càng dễ bị lừa gạt bởi những trò bịp bợm, giăng bẫy ngày càng tinh vi.",
-        "image": require("./images/TienTeVaChuyenLamGiauAnToan.jpg"),
+        "image": "TienTeVaChuyenLamGiauAnToan.jpg"
     },
     {
         "id": 79,
@@ -1104,7 +1104,7 @@ export const BOOKS = [
         "numPages": 316,
         "shortDescription": "Bỏ phố về quê đang là trào lưu mạnh mẽ với các bạn trẻ xa quê lên thành phố học tập và làm việc",
         "longDescription": "Sự kiên trì hơn 30 năm, từ một cậu bé 10 tuổi đã đu theo ba làm lơ xe trong Cậu bé lơ xe ngày ấy, mười mấy tuổi đã phải sống tự lập, biết làm nông, thợ sửa xe đạp cho nhà chủ ở trọ trong Cú đánh cược đầu đời, từ những câu chuyện thuở bé để hình thành nên tính cách mạnh mẽ, rắn rỏi trong Chuẩn bị cho chiến tranh, đến lòng tự trọng trong Bẫy “cúi đầu”,... Tất cả sẽ rất thật, rất gần gũi với bạn, và thậm chí bạn sẽ thấy được hình ảnh của mình trong đây.",
-        "image": require("./images/VeQueLapNghiep.jpg")
+        "image": "VeQueLapNghiep.jpg"
     },
     {
         "id": 80,
@@ -1117,8 +1117,8 @@ export const BOOKS = [
         "size": "14 x 20.5",
         "numPages": 408,
         "shortDescription": "Tựu chung, vẫn chỉ có 10 con đường hợp pháp duy nhất để dẫn vào thế giới siêu giàu. Vấn đề là, hiếm có cuốn sách nào chỉ cho bạn 10 con đường đó.",
-        "longDescription": "Những người am hiểu tường tận về 10 con đường đó thì đã là người siêu giàu và vì nhiều lý do, họ ít khi viết ra điều gì. Còn những tác giả muốn viết về 10 con đường ấy thì lại chẳng có mấy ai thực sự là người siêu giàu. Trừ Ken Fisher. Nhà sáng lập kiêm CEO của quỹ đầu tư khổng lồ Fisher Investments (quản lý 100 tỷ đô-la) là một cá mập siêu giàu nổi tiếng trên toàn thế giới. Và may mắn thay, ông lại thích viết lách. Nhờ thế chúng ta mới có được cơ hội để có được một góc nhìn của người trong cuộc về 10 con đường dẫn lối tới thế giới siêu giàu qua cuốn sách hiếm hoi này: The Ten Road To Riches - Những cách làm giàu không ai chỉ bạn. Nếu bạn không chỉ muốn làm giàu, mà còn muốn siêu giàu, đây chính là cơ hội tốt nhất để bạn bắt đầu tìm hiểu và học tập cách nghĩ và cách làm vô cùng khác biệt của những người đứng trên đỉnh thế giới ấy.",
-        "image": require("./images/NhungCachLamGiauKhongAiChiBan.jpg")
+        "longDescription": "Những người am hiểu tường tận về 10 con đường đó thì đã là người siêu giàu và vì nhiều lý do, họ ít khi viết ra điều gì. Còn những tác giả muốn viết về 10 con đường ấy thì lại chẳng có mấy ai thực sự là người siêu giàu. Trừ Ken Fisher. Nhà sáng lập kiêm CEO của quỹ đầu tư khổng lồ Fisher Investments (quản lý 100 tỷ đô-la là một cá mập siêu giàu nổi tiếng trên toàn thế giới. Và may mắn thay, ông lại thích viết lách. Nhờ thế chúng ta mới có được cơ hội để có được một góc nhìn của người trong cuộc về 10 con đường dẫn lối tới thế giới siêu giàu qua cuốn sách hiếm hoi này: The Ten Road To Riches - Những cách làm giàu không ai chỉ bạn. Nếu bạn không chỉ muốn làm giàu, mà còn muốn siêu giàu, đây chính là cơ hội tốt nhất để bạn bắt đầu tìm hiểu và học tập cách nghĩ và cách làm vô cùng khác biệt của những người đứng trên đỉnh thế giới ấy.",
+        "image": "NhungCachLamGiauKhongAiChiBan.jpg"
     },
     {
         "id": 81,
@@ -1130,13 +1130,13 @@ export const BOOKS = [
         "weight": 650,
         "size": "16 x 24",
         "numPages": 628,
-        "shortDescription": "Trước khi khám phá ra thiên nga đen tồn tại trên đời (ở Úc), người ta vẫn tin rằng tất cả chim thiên nga trên đời đều có màu trắng. Phát hiện bất ngờ này đã thay đổi toàn bộ thế giới quan của nhân loại (về thiên nga).",
+        "shortDescription": "Trước khi khám phá ra thiên nga đen tồn tại trên đời (ở Úc, người ta vẫn tin rằng tất cả chim thiên nga trên đời đều có màu trắng. Phát hiện bất ngờ này đã thay đổi toàn bộ thế giới quan của nhân loại (về thiên nga).",
         "longDescription": "Chúng ta không biết rất nhiều thứ nhưng lại hành động như thể mình có khả năng dự đoán được mọi điều. Và trong cuốn sách này, tác giả Nassim Nicholas Taleb đã đi sâu vào khai thác những sai lầm của tư tưởng cố hữu ấy. Theo ông, “thiên nga đen” là một biến cố tưởng chừng như không thể xảy ra với ba đặc điểm chính: không thể dự đoán, có tác động nặng nề và sau khi nó xảy ra, người ta lại dựng lên một lời giải thích để khiến nó trở nên ít ngẫu nhiên hơn, dễ dự đoán hơn so với bản chất thật của nó.",
-        "image": require("./images/ThienNgaDen.jpg")
+        "image": "ThienNgaDen.jpg"
     },
     {
         "id": 82,
-        "name": "Economix - Các Nền Kinh Tế Vận Hành (Và Không Vận Hành) Thế Nào Và Tại Sao?",
+        "name": "Economix - Các Nền Kinh Tế Vận Hành (Và Không Vận Hành Thế Nào Và Tại Sao?",
         "cost": 152000,
         "author": "Michael Goodwin",
         "genres": ["Kinh Tế", "Phân Tích Kinh Tế"],
@@ -1146,7 +1146,7 @@ export const BOOKS = [
         "numPages": 310,
         "shortDescription": "Có thể coi đây là một cuốn sử về lịch sử kinh tế thế giới kể từ khi nền kinh tế hàng hóa ra đời.",
         "longDescription": "Sách được trình bày dưới dạng truyện tranh khá thú vị. Cách viết cực kỳ sáng tạo và dễ hiểu. Tác giả kiêm người dẫn truyện sẽ đưa bạn đọc du hành ngược thời gian để gặp gỡ các nhà kinh tế học và tìm hiểu học thuyết của họ. các vấn đề kinh tế được tóm lược theo trình tự thời gian, đơn giản, dễ hiểu, tạo được sự lôi cuốn. Mặc dù kiến thức về kinh tế trong sách không đề cập sâu nhưng vừa đủ đối với những người muốn tìm hiểu kinh tế học cơ bản",
-        "image": require("./images/Economix.jpg")
+        "image": "Economix.jpg"
     },
     {
         "id": 83,
@@ -1160,7 +1160,7 @@ export const BOOKS = [
         "numPages": 520,
         "shortDescription": "Cuốn sách cung cấp lịch sử ngắn gọn về tài chính nước Mỹ, hình thức tập đoàn và tập trung vào các cuộc khủng hoảng ngày càng trầm trọng kể từ năm 1929",
         "longDescription": "Kể từ thời khai sinh chế độ Công hòa, người Mỹ đã phản bận tâm với các câu hỏi về ngân hàng , tiền và tín dụng, với quyền lực của chúng ta  với vấn đề kép - làm thế nào để tạo ra các tập đoàn khi trong ki đồng thời hạn chế sức phá hoại của của chúng. Từ giá trị của tiền tệ trong túi mọi người đến bản chất của tiền tệ và mối liên hệ của nó với tiền giấy và kim loại , các nhà kinh tế , nông dân và các nhà máy đã liên tục đưa ngành ngân hàng vào trung tâm chính trị của Mỹ.",
-        "image": require("./images/CuocChienPhoWall.jpg")
+        "image": "CuocChienPhoWall.jpg"
     },
     {
         "id": 84,
@@ -1174,7 +1174,7 @@ export const BOOKS = [
         "numPages": 290,
         "shortDescription": "Với đa số người dân, kinh tế học dường như vẫn là điều gì đó khó hiểu, trừu tượng, một lĩnh vực mà chỉ các “chuyên gia” mới biết và dám bàn đến mà thôi.",
         "longDescription": "Ai đó đã từng nói rằng không có gì dễ nghe và dễ nhớ hơn là một câu chuyện, bởi từ bé mỗi chúng ta đều đã quen và thích nghe những câu chuyện kể về đủ mọi thứ trên đời. Cuốn sách này chính là như vậy: đây là một câu chuyện, và hơn nữa, có thể khẳng định rằng đây là một câu chuyện hay, bởi nó khiến chúng ta suy ngẫm!",
-        "image": require("./images/NenKinhTeTangTruongVaSupDoNhuTheNao.jpg")
+        "image": "NenKinhTeTangTruongVaSupDoNhuTheNao.jpg"
     },
     {
         "id": 85,
@@ -1188,7 +1188,7 @@ export const BOOKS = [
         "numPages": 340,
         "shortDescription": "Cuộc chiến tranh tiền tệ được định nghĩa là cuộc chiến do một quốc gia khởi xướng bằng cách hạ thấp giá trị đồng tiền của chính quốc gia đó.",
         "longDescription": "Trong quyển sách này, tác giả cung cấp sơ lược nhưng đầy đủ về hai cuộc chiến tranh tiền tệ trong lịch sử, cùng với lý thuyết hữu ích về tài chính và tiền tệ, từ đó tác giả liên hệ với tình hình hiện tại của sự giằng co giữa các đồng tiền mạnh trên thế giới. Mặc dù hệ quả của cuộc chiến tranh tiền tệ mới chưa chắc chắn, nhưng theo tác giả sẽ có những kịch bản xấu nhất thì hầu như không tránh khỏi nếu Mỹ và các nhà lãnh đạo trên thế giới không chịu học sai lầm từ những người đi trước.",
-        "image": require("./images/CacCuocChienTranhTienTe.jpg")
+        "image": "CacCuocChienTranhTienTe.jpg"
     },
     {
         "id": 86,
@@ -1200,9 +1200,9 @@ export const BOOKS = [
         "weight": 380,
         "size": "16 x 24",
         "numPages": 368,
-        "shortDescription": "Giấy không thể biến thành vàng, và thuật giả kim thời trung cổ đã bị chứng minh đa phần chỉ là trò lừa đảo không hơn không kém. Ấy thế mà suốt một thời gian dài, hệ thống tiền tệ và tài chính của con người đã lấy đó làm nền tảng: biến giấy (tiền) thành vàng.",
+        "shortDescription": "Giấy không thể biến thành vàng, và thuật giả kim thời trung cổ đã bị chứng minh đa phần chỉ là trò lừa đảo không hơn không kém. Ấy thế mà suốt một thời gian dài, hệ thống tiền tệ và tài chính của con người đã lấy đó làm nền tảng: biến giấy (tiền thành vàng.",
         "longDescription": "Những tờ giấy có in chữ bình thường bỗng trở nên quý giá chẳng kém gì vàng, và những khoản vay dài hạn đầy rủi ro được chuyển thành các khoản tiền gửi ngắn hạn an toàn.  Như tác giả gọi, đây chính là “thuật giả kim tài chính” – sự tạo ra những sức mạnh tài chính khổng lồ có thể phớt lờ thực tế và lý lẽ tự nhiên. Niềm tin vào sức mạnh này mang lại những lợi ích to lớn; tính thanh khoản mà nó tạo ra đã giúp thúc đẩy sự tăng trưởng kinh tế trong suốt hai thế kỷ đã qua. Tuy nhiên, nó cũng tạo ra một chuỗi thảm họa kinh tế không có hồi kết, từ siêu lạm phát cho đến sự sụp đổ của ngành ngân hàng, từ những cuộc suy thoái toàn cầu cho đến tình trạng trì trệ hiện tại.",
-        "image": require("./images/SuKetThucCuaThoiDaiGiaKim.jpg")
+        "image": "SuKetThucCuaThoiDaiGiaKim.jpg"
     },
     {
         "id": 87,
@@ -1216,7 +1216,7 @@ export const BOOKS = [
         "numPages": 164,
         "shortDescription": "Tác phẩm đã lật mặt nạ của Morgan cùng đồng bọn—những tài phiệt ngân hàng thao túng toàn bộ nền kinh tế Mỹ những năm đầu Thế kỉ XX.",
         "longDescription": "Vào năm 1913, GDP danh nghĩa của Mỹ đạt 39,1 tỉ USD; vào năm 2016 con số này là 18.624 tỉ USD. Như vậy tổng GDP đã tăng gấp 476 lần. Khoản tài sản 22 tỉ USD của Liên minh Morgan tương đương 57% GDP nước Mỹ thời đó. Vào năm 2016, 57% GDP tương đương 10,6 nghìn tỉ USD. Như vậy, với những con số cho thấy độ lớn tài sản, độc giả nên nhân lên khoảng 476 lần để hiểu được quy mô và sức ảnh hưởng thực tế của những con số này.",
-        "image": require("./images/TienChua.jpg")
+        "image": "TienChua.jpg"
     },
     {
         "id": 88,
@@ -1228,9 +1228,9 @@ export const BOOKS = [
         "weight": 439,
         "size": "13 x 19",
         "numPages": 370,
-        "shortDescription": "Cuốn sách này thực sự được coi là một cuốn cẩm nang về đầu tư chứng khoán nói chung và đầu tư giá trị (value investing) nói riêng.",
+        "shortDescription": "Cuốn sách này thực sự được coi là một cuốn cẩm nang về đầu tư chứng khoán nói chung và đầu tư giá trị (value investing nói riêng.",
         "longDescription": "Những người nhận các bản ghi nhớ đầu tư thường xuyên của Howard Mark háo hức chờ đợi sự xuất hiện của chúng với những sự thật cốt lõi và hiểu biết độc đáo. Và giờ đây sự khôn ngoan và kinh nghiệm của nhà đầu tư tuyệt vời này đã có mặt cho tất cả mọi người. Điều Quan Trọng Nhất là triết lý đầu tư được kiểm chứng qua thời gian của Mark và cũng là cuốn sách phải đọc dành cho tất cả các nhà đầu tư.",
-        "image": require("./images/DieuQuanTrongNhat.jpg")
+        "image": "DieuQuanTrongNhat.jpg"
     },
     {
         "id": 89,
@@ -1244,7 +1244,7 @@ export const BOOKS = [
         "numPages": 344,
         "shortDescription": "Ma thuật của tiền sẽ giúp thay đổi tư duy tài chính của bạn, không chỉ giải thích những gì cần làm mà còn giải thích tại sao phải làm điều đó.",
         "longDescription": "Cuốn sách Ma thuật của tiền cung cấp cho bạn một con đường rõ ràng khi đưa ra các quyết định về giáo dục, nghề nghiệp, hôn nhân, lối sống, nhà ở, đầu tư, nghỉ hưu hay An sinh Xã hội phù hợp với mọi lứa tuổi khác nhau, giúp bạn có một cuộc sống tài chính giàu có hơn, hạnh phúc hơn và an toàn hơn. Trong cuốn sách này, tác giả Kotlikoff đã sử dụng trái tim mềm mại, chiếc mũi nhạy bén, sự hóm hỉnh và cây đũa phép chớp nhoáng của mình để thi triển một câu thần chú mạnh mẽ, khiến bạn háo hức hoàn thành điều mà trước đây bạn sợ hãi, đó là: lập kế hoạch tài chính.",
-        "image": require("./images/MaThuatCuaTien.jpg")
+        "image": "MaThuatCuaTien.jpg"
     },
     {
         "id": 90,
@@ -1258,7 +1258,7 @@ export const BOOKS = [
         "numPages": 552,
         "shortDescription": "Đồng tiền lên ngôi là cuốn sách không thể nào bỏ qua cho những ai mong muốn tìm hiểu về lịch sử tài chính thế giới.",
         "longDescription": "Ferguson đã xem xét quá trình hình thành những cột mốc đóng góp vào thế giới tài chính hiện đại: tiền tệ, ngân hàng, tín dụng, trái phiếu, cổ phiếu, bảo hiểm, bất động sản và sự ảnh hưởng của nó đến thị trường tài chính; phân tích sự không bằng phẳng trong lịch sử tiền tệ và hệ thống tài chính với nhiều giai đoạn bùng-vỡ cũng như nguyên nhân sâu xa của hiện tượng này.",
-        "image": require("./images/DongTienLenNgoi.jpg")
+        "image": "DongTienLenNgoi.jpg"
     },
     {
         "id": 91, 
@@ -1272,7 +1272,7 @@ export const BOOKS = [
         "numPages": 224,
         "shortDescription": "Sức mạnh của sự độc lập của tác giả tập trung vào các vấn đề nóng hiện nay như quyền và bình đẳng giới.",
         "longDescription": "Thông qua ba chủ đề chính về nguồn gốc gia đình, sự phát triển bản thân và quan hệ tình dục, tác giả thảo luận và đưa ra những lời khuyên về việc làm thế nào để phụ nữ có thể thoát khỏi những ràng buộc của môi trường và quan niệm truyền thống cố hữu, đồng thời có thái độ đúng đắn với tình yêu và hôn nhân, trở thành một người phụ nữ độc lập về cả tinh thần lẫn vật chất.",
-        "image": require("./images/SucManhCuaSuDocLap.jpg")
+        "image": "SucManhCuaSuDocLap.jpg"
     },
     {
         "id": 92,
@@ -1286,7 +1286,7 @@ export const BOOKS = [
         "numPages": 104,
         "shortDescription": "Cẩm nang về tư duy khoa học được biên soạn chặt chẽ, chắt lọc, ngắn gọn và thiết thực, đúc kết nhiều thành tựu về phương pháp trên “mẫu số chung” là khuyến khích tư duy phân tích và phản biện",
         "longDescription": "Bộ sách Cẩm Nang Tư Duy dành cho mọi độc giả, từ học sinh, sinh viên đến các giảng viên, các nhà nghiên cứu, doanh nhân, người đã đi làm cũng như quý phụ muốn nâng cao năng lực tư duy của mình. Học sinh, sinh viên có thể đọc cẩm nang như tài liệu tham khảo để học tốt các bộ môn; quý phụ huynh có thể sử dụng cẩm nang để vừa nâng cao năng lực tư duy của mình vừa giúp con em mình phát triển các kỹ năng tư duy cần thiết để học tốt; các giảng viên, nhà nghiên cứu có thể sử dụng cẩm nang để xây dựng tốt các chủ đề của mình; ngươi đã đi làm, doanh nhâ có thể áp dụng các kỹ năng, ý tưởng của cẩm nang vào công việc và cuộc",
-        "image": require("./images/CamNangTuDuyNguyBien.jpg")
+        "image": "CamNangTuDuyNguyBien.jpg"
     },
     {
         "id": 93,
@@ -1300,7 +1300,7 @@ export const BOOKS = [
         "numPages": 344,
         "shortDescription": "Con người ngày nay khao khát sự đơn giản. Khi ta sống trong thời đại nhiễu loạn của quá nhiều thông tin, tính năng và sự lựa chọn",
         "longDescription": "Cuốn sách Từ đơn giản đến trường tồn là cuốn cẩm nang dành cho những con người muốn đổi mới, doanh nghiệp muốn đổi mới để dẫn dắt công ty của mình bước lên tầm cao mới. Cuốn sách giới thiệu năm bước chuyển đổi chiến lược phát triển, sẽ giúp bạn nhìn nhận lại doanh nghiệp của mình từ nghiên cứu khách hàng đến phát triển sản phẩm dịch vụ. Trong mỗi sự thay đổi chiến lược, bạn sẽ tìm ra những công cụ thiết thực đã được áp dụng và thử nghiệm.",
-        "image": require("./images/TuDonGianDenTruongTon.jpg")
+        "image": "TuDonGianDenTruongTon.jpg"
     },
     {
         "id": 94,
@@ -1314,7 +1314,7 @@ export const BOOKS = [
         "numPages": 304,
         "shortDescription": "Điều gì khiến bạn hạnh phúc? Phải chăng là một công việc như ý, một ngôi nhà như mơ ước hay những chuyến du lịch đắt đỏ?",
         "longDescription": "Theo Michael A. Singer, toàn bộ cuộc sống của chúng ta là sự trải nghiệm có ý thức ba loại khách thể của tâm thức, gồm thế giới bên ngoài, suy nghĩ và cảm xúc. Đây cũng chính là những yếu tố có thể khiến bạn xao lãng và xa rời bản ngã của chính mình. Vì thế, trong hành trình khám phá này, Michael A. Singer giúp bạn thấu hiểu nguồn gốc và bản chất của các loại trải nghiệm - tức ba loại khách thể nói trên, từ đó có thể vô hiệu hóa được phần nào sức ảnh hưởng của chúng.",
-        "image": require("./images/SongDoiTuDo.jpg")
+        "image": "SongDoiTuDo.jpg"
     },
     {
         "id": 95,
@@ -1328,7 +1328,7 @@ export const BOOKS = [
         "numPages": 540,
         "shortDescription": "Tại sao bạn không thể thoát ra được những rắc rối và ưu phiền của chính mình?",
         "longDescription": "Cuộc đời là một cán cân thăng bằng, bạn không thể sống mà không màng trách nhiệm, bỏ bê các hệ nan cấu tạo nên hệ sinh thái con người, như là công việc, gia đình, tài chính, nhu cầu sinh hoạt, bạn bè, tình yêu,... Nhưng bạn cũng không thể sống trong cái hộp khổ đau và chật vật vì không tìm thấy giải pháp cân đối bánh xe cuộc đời mình mãi được. Quẳng gánh lo đi và vui sống sẽ mở cửa cho bạn, chỉ dẫn bạn cách đón nhận ánh sáng mặt trời bằng một tinh thần tự tại, thoải mái.",
-        "image": require("./images/QuangGanhLoDiVaVuiSong.jpg")
+        "image": "QuangGanhLoDiVaVuiSong.jpg"
     },
     {
         "id": 96,
@@ -1342,7 +1342,7 @@ export const BOOKS = [
         "numPages": 232,
         "shortDescription": "Ai cũng có những ngày phải trải qua điều tồi tệ, và bạn sẽ không thể làm nó biến mất một cách kỳ diệu được.",
         "longDescription": "Mỗi chương sách là một câu chuyện, mỗi trang sách là một cuộc đời, nơi để ta lắng nghe hoàn cảnh phía sau của từng nhân vật để hiểu, để cảm thông rằng “ta sẽ làm gì nếu ta là nhân vật trong câu chuyện ấy”. Khi đồng cảm, bạn thấy mình bớt cô đơn đi một chút. Cuốn sách này dành những ai đang cảm thấy chênh vênh vì sự ảnh hưởng to lớn từ căn bệnh trầm cảm và những hiện tượng tâm thần học khác. Và 232 trang sách của “Câu chuyện đằng sau một bác sĩ tâm thần” sẽ cùng bạn bước chân vào và lý giải thế giới tâm lý đa màu sắc của con người.",
-        "image": require("./images/CauChuyenDangSauMotBacSiTamThan.jpg")
+        "image": "CauChuyenDangSauMotBacSiTamThan.jpg"
     },
     {
         "id": 97,
@@ -1356,7 +1356,7 @@ export const BOOKS = [
         "numPages": 348,
         "shortDescription": "Cuốn sách sẽ khiến bạn nhận ra một số điều về bản chất con người mà bạn luôn biết nhưng chưa bao giờ thực sự nghĩ đến.",
         "longDescription": " Trong cuốn sách này, bác sĩ tâm lý Eric Berne sẽ tiết lộ tâm lý đằng sau những tương tác của chúng ta với những người xung quanh đồng thời vạch trần những thủ đoạn vô thức quen thuộc mà mỗi người chúng ta làm để đạt được điều mình muốn từ người khác. Bất kể loại trò chơi nào chúng ta đang chơi, nó thường mang tính thao túng và chúng ta thậm chí không nhận ra mình đang chơi.",
-        "image": require("./images/TroChoiTamLy.jpg")
+        "image": "TroChoiTamLy.jpg"
     },
     {
         "id": 98,
@@ -1370,7 +1370,7 @@ export const BOOKS = [
         "numPages": 248,
         "shortDescription": "Suy nghĩ quyết định hành động và hành động định hình nên thế giới.",
         "longDescription": "Chúng ta không thể kiểm soát người khác, chúng ta không thể kiểm soát phần lớn thế giới bên ngoài, nhưng chúng ta có thể kiểm soát suy nghĩ của mình, và điều đó đủ để thay đổi cuộc sống của chúng ta. Thông thường, những hiểu biết sâu sắc nhất trong cuộc sống, những thay đổi mạnh mẽ nhất và những cải thiện lâu dài nhất xuất hiện khi chúng ta có đủ can đảm để hành động có chủ đích cũng như cân nhắc, chủ động hướng cuộc sống của mình đến với vị trí bản thân mong muốn.",
-        "image": require("./images/AmThiTamLy.jpg")
+        "image": "AmThiTamLy.jpg"
     },
     {
         "id": 99,
@@ -1384,7 +1384,7 @@ export const BOOKS = [
         "numPages": 392,
         "shortDescription": "Thao túng cảm xúc - Khi kẻ thao túng lợi dụng nỗi sợ hãi, trách nhiệm và cảm giác tội lỗi để điều khiển cuộc đời bạn",
         "longDescription": "Những kẻ thao túng tựa như những con sói, chúng bắt giam những cảm xúc chính đáng của chúng ta làm con tin, buộc ta phải làm theo ý chúng. Kẻ thao túng thường là những người thân yêu quanh ta, hiểu con người của nạn nhân một cách sâu sắc. Chúng biết đâu là những điểm nhạy cảm về cảm xúc của nạn nhân, để có thể cắm ngập răng vào. Nhân danh tình thương yêu, kẻ thao túng gieo rắc nỗi sợ hãi cho nạn nhân. Chúng luôn nhắc nhở ta về những trách nhiệm ta tự buộc vào mình, và khiến ta có cảm giác tội lỗi không đáng có. Lạc trong làn sương mù mà kẻ thao túng tạo nên, nạn nhân mất phương hướng, và cuối cùng lại chiều theo ý chúng, hết lần này đến lần khác.",
-        "image": require("./images/ThaoTungCamXuc.jpg")
+        "image": "ThaoTungCamXuc.jpg"
     },
     {
         "id": 100,
@@ -1398,7 +1398,7 @@ export const BOOKS = [
         "numPages": 252,
         "shortDescription": "Trong kiệt tác sáng rõ và sinh động này, Gustave Le Bon soi sáng những hoạt động vô thức – phi lý trí của các suy nghĩ tập thể cùng cảm xúc đám đông",
         "longDescription": "Những đám đông luôn bị vô thức tác động, họ xử sự như người nguyên thuỷ, người dã man, không có khả năng suy nghĩ, suy luận, mà chỉ cảm nhận bằng hình ảnh, bằng sự liên kết các ý tưởng, họ không kiên định, thất thường, và đi từ trạng thái nhiệt tình cuồng loạn nhất đến ngây dại ngớ ngẩn nhất. Vả lại, do thể trạng của mình, những đám đông ấy cần có một thủ lĩnh, một người cầm đầu, kẻ có thể dẫn dắt họ và cho bản năng của họ một ý nghĩa.",
-        "image": require("./images/TamLyHocDamDong.jpg")
+        "image": "TamLyHocDamDong.jpg"
     },
     {
         "id": 101,
@@ -1412,7 +1412,7 @@ export const BOOKS = [
         "numPages": 368,
         "shortDescription": "Đắc nhân tâm của Dale Carnegie là quyển sách của mọi thời đại và một hiện tượng đáng kinh ngạc trong ngành xuất bản Hoa Kỳ.",
         "longDescription": "Nhờ có tầm hiểu biết rộng rãi và khả năng ứng xử một cách nghệ thuật trong giao tiếp - Dale Carnegie đã viết ra một quyển sách với góc nhìn độc đáo và mới mẻ trong giao tiếp hàng ngày một cách vô cùng thú vị - Thông qua những mẫu truyện rời rạc nhưng lại đầy lý lẽ thuyết phục. Từ đó tìm ra những kinh nghiệm để đúc kết ra những nguyên tắc vô cùng ‘ngược ngạo’, nhưng cũng rất logic dưới cái nhìn vừa sâu sắc, vừa thực tế.",
-        "image": require("./images/DacNhanTam.jpg")
+        "image": "DacNhanTam.jpg"
     },
     {
         "id": 102,
@@ -1426,7 +1426,7 @@ export const BOOKS = [
         "numPages": 218,
         "shortDescription": "Làm điều nhân do mình, chứ đâu phải do người khác.",
         "longDescription": "Soi chiếu dưới góc nhìn nhân sinh của Khổng Tử, cuốn sáchdạy ta cách khám phá sợi dây kết nối tốt hơn với gia đình, xã hội; cách lên tiếng và giảng hòa với mọi cảm xúc tiêu cực; cách lắng nghe cả cơ thể lẫn tâm trí và cho phép chúng ta tử tế với chính mình. Những minh triết xa xưa của bậc cổ nhân lại là kim chỉ nam cho lối sống hiện đại để ta biết kiên nhẫn với bản thân và ân cần hơn với thế giới.",
-        "image": require("./images/Nhan.jpg")
+        "image": "Nhan.jpg"
     },
     {
         "id": 103,
@@ -1440,7 +1440,7 @@ export const BOOKS = [
         "numPages": 208,
         "shortDescription": "Thư ngỏ tuổi đôi mươi gồm 17 chương sẽ là những câu trả lời cho những thắc mắc mà các bạn trẻ thường gặp phải trong độ tuổi này",
         "longDescription": "Tuổi đôi mươi là độ tuổi đẹp nhất của cuộc đời. Khi đó chúng ta có sự sôi sục của tuổi trẻ, khi đó chúng ta có sức khỏe, khi đó còn là lúc chúng ta có những ước mơ đẹp, những kỷ niệm đẹp. Và đó là quãng thời gian trôi đi không bao giờ trở lại. Bạn đang đôi mươi, hãy sống để đừng bao giờ luyến tiếc về khoảng thời gian tươi đẹp đó. Bạn – trẻ, bạn mới chỉ đi qua một phần của cuộc đời. Bạn ít trải nghiệm, thiếu kinh nghiệm sống. Bạn luôn có những thắc mắc về mọi vấn đề, từ quan niệm về nhân sinh, nhận định về thời đại, tới cách tu dưỡng, làm việc, chỉ huy, tiêu tiền, tiêu khiển, viết văn,… lại bàn cả về ái tình, hôn nhân, tín ngưỡng,... Những vấn đề của bạn cần có câu trả lời. Đừng để một vấn đề tồn tại quá lâu, nó dễ làm bạn bức bối và mệt mỏi, nó cũng dễ làm bạn mất đi tình yêu và sự lạc quan với cuộc đời.",
-        "image": require("./images/ThuNgoGuiTuoiDoiMuoi.jpg")
+        "image": "ThuNgoGuiTuoiDoiMuoi.jpg"
     },
     {
         "id": 104,
@@ -1454,7 +1454,7 @@ export const BOOKS = [
         "numPages": 230,
         "shortDescription": "Cuộc sống - cho đến suy nghĩ cuối cùng và cái nhìn sau chót - là quá trình tự biến đổi.",
         "longDescription": "Chúng ta bắt đầu bằng cách thay đổi thế giới quan: thay vì chỉ nhìn thấy bức tường trước mặt, ta sẽ thấy một phần của quan cảnh. Ta nhận thấy rằng mình có thể hành động khác hơn. Sự trưởng thành cho ta cái nhìn mới, từ một khoảng cách an toàn hơn xưa, cho phép ta hiểu ra nhiều nhân tố, nơi bản thân ta hay nơi người khác, mà trước đây ta chưa thể hiểu. Rồi có đôi khi, ta lấy được đủ nghị lực để tha thứ, để thay đổi nếp đời.",
-        "image": require("./images/LeDuocMat.jpg")
+        "image": "LeDuocMat.jpg"
     },
     {
         "id": 105,
@@ -1468,7 +1468,7 @@ export const BOOKS = [
         "numPages": 224,
         "shortDescription": "Cuốn sách của Frankl giúp người đọc nhìn thấy 3 nguồn ý nghĩa cơ bản của đời người: thành tựu trong công việc, sự quan tâm chăm sóc đối với những người thân yêu và lòng can đảm khi đối mặt với những thời khắc gay go của cuộc sống.",
         "longDescription": "Frankl đã viết rằng một người “có thể giữ vững lòng quả cảm, phẩm giá và sự bao dung, hoặc người ấy có thể quên mất phẩm giá của con người và tự đặt mình ngang hàng loài cầm thú trong cuộc đấu tranh khắc nghiệt để sinh tồn”. Ông thừa nhận rằng chỉ có một số ít tù nhân của Đức quốc xã là có thể giữ được những phẩm chất ấy, nhưng “chỉ cần một ví dụ như thế cũng đủ chứng minh rằng sức mạnh bên trong của con người có thể đưa người ấy vượt lên số phận nghiệt ngã của mình”",
-        "image": require("./images/DiTimLeSong.jpg")
+        "image": "DiTimLeSong.jpg"
     },
     {
         "id": 106,
@@ -1482,7 +1482,7 @@ export const BOOKS = [
         "numPages": 236,
         "shortDescription": "Khi hơi thở hóa thinh không là tự truyện của một bác sĩ bị mắc bệnh ung thư phổi.",
         "longDescription": "Kalanithi rất yêu thích văn chương nên câu chuyện của anh đã được thuật lại theo một phong cách mượt mà, dung dị và đầy cảm xúc. Độc giả cũng được hiểu thêm về triết lý sống, triết lý nghề y của Kalanithi, thông qua ký ức về những ngày anh còn là sinh viên, rồi thực tập, cho đến khi chính thức hành nghề phẫu thuật thần kinh. “Đối với bệnh nhân và gia đình, phẫu thuật não là sự kiện bi thảm nhất mà họ từng phải đối mặt và nó có tác động như bất kỳ một biến cố lớn lao trong đời. Trong những thời điểm nguy cấp đó, câu hỏi không chỉ đơn thuần là sống hay chết mà còn là cuộc sống nào đáng sống.”",
-        "image": require("./images/KhiHoiThoHoaThinhKhong.jpg")
+        "image": "KhiHoiThoHoaThinhKhong.jpg"
     },
     {
         "id": 107,
@@ -1496,7 +1496,7 @@ export const BOOKS = [
         "numPages": 176,
         "shortDescription": "Cuốn sách truyền lửa “Tôi Đi Học” của chàng trai viết bằng chân Nguyễn Ngọc Ký gần nửa thế kỷ ra mắt lại bạn đọc Việt Nam",
         "longDescription": "Cuộc sống luôn có những biến cố, những đổi thay mà chúng ta không bao giờ biết trước. Cũng có những biến cố khiến chúng ta rơi vào ngõ cụt, không lối thoát. Nhưng với Nguyễn Ngọc Ký, biến cố vào năm 4 tuổi, khi phải trải qua một cơn sốt bại liệt, từ đó khiến đôi tay “như hai cục thịt lủng lẳng đeo vào hai bên mình” lại là một sự khởi đầu cho một cuộc đời mới. Và đó cũng là lý do để có tự truyện Tôi đi học, được xem là cuốn sách để đời của Nguyễn Ngọc Ký.",
-        "image": require("./images/ToiDiHoc.jpg")
+        "image": "ToiDiHoc.jpg"
     },
     {
         "id": 108,
@@ -1510,7 +1510,7 @@ export const BOOKS = [
         "numPages": 360,
         "shortDescription": "Danh tướng đưa ra cái nhìn mới về giới lãnh đạo quân sự",
         "longDescription": " Cuốn sách bao gồm thông tin tiểu sử và hình ảnh tướng lãnh, bản đồ trận đánh và chi tiết sống động về các cuộc hành quân. Đây là cẩm nang bằng hình giúp bạn tìm hiểu về các thiên tài quân sự trên thế giới. Những người đã làm nên lịch sử bằng những trận chiến trên bộ, trên biển, cũng như trên không, từ Alexander Đại Đế, nhà chinh phạt lẫy lừng của thế kỉ 4 TCN, tới chư tướng dẫn dắt các chiến dịch ở Afghanistan và Iraq ngày nay.",
-        "image": require("./images/DanhTuong.jpg")
+        "image": "DanhTuong.jpg"
     },
     {
         "id": 109,
@@ -1524,7 +1524,7 @@ export const BOOKS = [
         "numPages": 364,
         "shortDescription": "Tàn khốc và dữ dội, những câu chuyện phát triển qua từng trang như các nuclit cư trú trong cơ thể những người sống sót.",
         "longDescription": "Bà là nhà văn có những tác phẩm có góc nhìn đặc biệt về chiến tranh cũng như thảm họa hạt nhân. Suốt 3 năm ròng, bà đã đi khắp Chernobyl, phỏng vấn mọi người: những công nhân làm việc ở nhà máy điện, các nhà khoa học, các quan chức của đảng cũ, các bác sỹ, những người lính, các phi công lái trực thăng, thợ mỏ, những người tị nạn, những người dân tái định cư. Và trong Lời nguyện cầu từ Chernobyl, một khung cảnh của vùng đất chết chóc với những nỗi bi thương cùng cực của người dân nơi đây được bà truyền tải qua những câu chuyện về số phận con người, về tình yêu về sự cảm thông, của lòng vị tha và đức hi sinh cao cả.",
-        "image": require("./images/LoiNguyenCauChernobyl.jpg")
+        "image": "LoiNguyenCauChernobyl.jpg"
     },
     {
         "id": 110,
@@ -1538,7 +1538,7 @@ export const BOOKS = [
         "numPages": 102,
         "shortDescription": "Những bức ảnh gây xúc động chụp khoảnh khắc người mẹ thực hiện thiên chức thiêng liêng",
         "longDescription": "Tôi đã được xem những bức ảnh vượt cạn của những bà mẹ. Nguyễn Vũ Phước muốn thể hiện quá trình mang nặng đẻ đau của những người phụ nữ, họ đang thực hiện thiên chức cao cả của người đàn bà: Làm mẹ. Ở đó có sự hi sinh, có sự nặng nhọc khi mang thai, có nụ cười khi chuẩn bị đón đứa con chào đời, có nỗi đau đớn khi sinh nở.",
-        "image": require("./images/NhatKyVuotCan.jpg")
+        "image": "NhatKyVuotCan.jpg"
     },
     {
         "id": 111,
@@ -1552,7 +1552,7 @@ export const BOOKS = [
         "numPages": 284,
         "shortDescription": "Bộ sưu tập những câu chuyện cảm động về người cha, qua góc nhìn của những người con",
         "longDescription": "Một số người cha nổi tiếng trong đây chúng ta có thể biết và có cả những người khác mà chúng ta chưa từng nghe nói đến, nhưng dù thế nào, các câu chuyện phần lớn đều rất hay và xúc động đến nỗi không quan trọng khi đó là câu chuyện kể về một người lạ. Điều quan trọng là câu chuyện kể về những người đàn ông nổi tiếng khi làm cha cũng chỉ bình thường như bao người cha khác, với những mục tiêu và cả những rắc rối họ phải đương đầu trong vai trò người cha, cách hành xử và tình yêu thương dành cho con cái, tất cả đều giống như mọi người cha bình thường khác.",
-        "image": require("./images/VoiToiChaChiLaCha.jpg")
+        "image": "VoiToiChaChiLaCha.jpg"
     },
     {
         "id": 112,
@@ -1566,7 +1566,7 @@ export const BOOKS = [
         "numPages": 566,
         "shortDescription": "Sapiens là một câu chuyện lịch sử lớn về nền văn minh nhân loại – cách chúng ta phát triển từ xã hội săn bắt hái lượm thuở sơ khai đến cách chúng ta tổ chức xã hội và nền kinh tế ngày nay.",
         "longDescription": "Sapiens, đưa chúng ta vào một chuyến đi kinh ngạc qua toàn bộ lịch sử loài người, từ những gốc rễ tiến hóa của nó đến thời đại của chủ nghĩa tư bản và kỹ thuật di truyền, để khám phá tại sao chúng ta đang trong những điều kiện sinh sống hiện tại.",
-        "image": require("./images/SapiensLuocSuLoaiNguoi.jpg")
+        "image": "SapiensLuocSuLoaiNguoi.jpg"
     },
     {
         "id": 113,
@@ -1578,9 +1578,9 @@ export const BOOKS = [
         "weight": 635,
         "size": "16 x 24",
         "numPages": 488,
-        "shortDescription": "Hiệp ước đình chiến kết thúc Chiến tranh Thế giới lần thứ I (Armistice de Compiegne, 1918) lại là mần mống của một cuộc chiến tranh mới - Đệ nhị Thế chiến.",
+        "shortDescription": "Hiệp ước đình chiến kết thúc Chiến tranh Thế giới lần thứ I (Armistice de Compiegne, 1918 lại là mần mống của một cuộc chiến tranh mới - Đệ nhị Thế chiến.",
         "longDescription": "Đây là một cuộc chiến khốc liệt mà ở đó tham vọng con người đã trở thành một thứ cuồng vọng không còn nhân tính. Thật vậy, làm sao hình dung được cái chết của 17 triệu binh sĩ và 18 triệu dân thường hay 35 triệu con người bị loại trừ chỉ trong 5 năm rưỡi. Làm sao hiểu được nạn diệt chủng 6 triệu người Do Thái, 6 triệu người Ba Lan và 6 triệu người Nga, chưa kể hàng trăm ngàn nạn nhân khác bị ám sát, bị chặt đầu, bị đánh đập, bị bỏ đói, bị làm nhục bởi Quốc xã Đức và phát xít Nhật.",
-        "image": require("./images/DeNhiTheChien.jpg")
+        "image": "DeNhiTheChien.jpg"
     },
     {
         "id": 114,
@@ -1594,7 +1594,7 @@ export const BOOKS = [
         "numPages": 1284,
         "shortDescription": "Đại Việt sử ký toàn thư là bộ sách lịch sử quý báu trong tủ sách sử cũ của nước Việt Nam",
         "longDescription": "Đại Việt sử ký toàn thư là bộ chính sử Việt Nam xưa nhất còn tồn tại nguyên vẹn đến ngày nay, là di sản vô giá của văn hóa dân tộc Việt Nam, là kho tư liệu phong phú không những cần thiết cho ngành sử học mà còn giúp ích cho nhiều ngành khoa học xã hội khác và cũng là một bộ sử có giá trị văn học",
-        "image": require("./images/DaiVietSuKyToanThu.jpg")
+        "image": "DaiVietSuKyToanThu.jpg"
     },
     {
         "id": 115,
@@ -1608,7 +1608,7 @@ export const BOOKS = [
         "numPages": "832",
         "shortDescription": "Các đế chế ngôn từ, một trong số rất ít công trình bàn về lịch sử bao quát của các ngôn ngữ trên thế giới, giúp độc giả hình dung về lịch sử loài người dưới góc nhìn của ngôn ngữ.",
         "longDescription": "Không thể hình dung được suy nghĩ của con người nếu không có năng lực ngôn ngữ, nhưng một ngôn ngữ thuần khiết đồng nhất toàn cầu chỉ là ý nghĩ kỳ quặc của các triết gia. Ngôn ngữ trong thực tế xuất hiện dưới dạng nhiều thứ tiếng của nhiều địa phương khác nhau như tiếng Anh, tiếng Navajo, tiếng Hán, tiếng Swahili, Burushaski cùng hàng nghìn thứ tiếng khác, và mỗi thứ tiếng này lại liên kết những người nói của nó với một truyền thống đã tồn tại ngàn năm. Khi được con người tiếp nhận, nó sẽ mang lại khả năng tiếp cận với một kho tàng niềm tin và kiến thức khổng lồ: những tài sản này trao sức mạnh cho chúng ta mỗi lúc tư duy, nghe, nói, đọc, viết, nhờ đó chúng ta mới có thể có suy nghĩ và cảm nhận khác xa tổ tiên mình.",
-        "image": require("./images/CacDeCheNgonTu.jpg")
+        "image": "CacDeCheNgonTu.jpg"
     },
     {
         "id": 116,
@@ -1622,7 +1622,7 @@ export const BOOKS = [
         "numPages": 426,
         "shortDescription": "Từ khi được viết ra bằng tiếng Đức năm 1935, Lược sử thế giới đã trở thành cuốn sách lịch sử bán chạy ở ba mươi ngôn ngữ",
         "longDescription": "Như một bài thơ về lịch sử thế giới, E. H. Gombrich lịch lãm dẫn người đọc đi từ thời kỳ Đồ đá đến thời kỳ của năng lượng nguyên tử, với những biến cố lịch sử phức tạp nhất, các trào lưu tư tưởng khó hiểu nhất, những nhân vật lịch sử đa chiều nhất, các thành tựu lớn lao nhất của trí tuệ con người… tất cả đều được tác giả mô tả và diễn giải dễ hiểu đến bất ngờ. Với cuốn sách này trong tay, bạn sẽ thấy niềm vui to lớn trong việc tìm hiểu lịch sử, cùng vô số khoảnh khắc quên hết tất cả để say mê đắm mình trong quá vãng của dòng chảy lịch sử.",
-        "image": require("./images/LuocSuTheGioi.jpg")
+        "image": "LuocSuTheGioi.jpg"
     },
     {
         "id": 117,
@@ -1636,7 +1636,7 @@ export const BOOKS = [
         "numPages": 350,
         "shortDescription": "Cuộc Thập tự chinh thứ nhất là một trong những sự kiện được biết tới, đề cập nhiều nhất trong lịch sử.",
         "longDescription": "Câu chuyện những hiệp sĩ cầm vũ khí và xẻ ngang châu Âu để giải phóng Jerusalem làm say đắm các tác giả thời bấy giờ. Một chủ đề đầy tính khơi gợi đối với các sử gia và độc giả. Những câu chuyện về chủ nghĩa anh hùng tuyệt luân, về những lần đụng độ đầu tiên với người Thổ Hồi giáo, khó khăn mà những người hành hương mang vũ khí phải chịu đựng trên hành trình về phương Đông - kết thúc bằng cuộc tàn sát đẫm máu dân chúng Jerusalem vào năm 1099… tất cả đã vang dội trong văn hóa phương Tây gần một nghìn năm.",
-        "image": require("./images/CuocThapTuChinhThuNhat.jpg")
+        "image": "CuocThapTuChinhThuNhat.jpg"
     },
     {
         "id": 118,
@@ -1650,7 +1650,7 @@ export const BOOKS = [
         "numPages": 1520,
         "shortDescription": "Câu chuyện khủng khiếp nhất về nước Đức của Hitler được kể lại với nhiều cảm xúc trong nghiên cứu bậc thầy.",
         "longDescription": "William L.Shirer đã có cơ hội được quan sát, tường thuật cuộc sống của Đức Quốc xã từ năm 1925 khi làm một phóng viên tác nghiệp ở đây, cùng với đó ông còn được tiếp cận các nhà lãng đạo Đức Quốc xã hàng đầu. Sau chiến tranh, ông tham dự các phiên tòa xử tội phạm chiến tranh. Ông đã bỏ ra 5 năm rưỡi để rà soát từng đống tài liệu. Từ những nguồn này và cũng từ thông tin tự thu thập ở Đức và Châu Âu trong hơn 4 thập kỷ, ông đã tổng hợp nên một thiên niên sử nhân loại.",
-        "image": require("./images/SuTroiDayVaSuyTanCuaDeCheThuBa.jpg")
+        "image": "SuTroiDayVaSuyTanCuaDeCheThuBa.jpg"
     },
     {
         "id": 119,
@@ -1664,7 +1664,7 @@ export const BOOKS = [
         "numPages": 256,
         "shortDescription": "Hành Trình Về Phương Đông, một trong những tác phẩm đương đại hay và độc đáo nhất về văn hóa phương Đông",
         "longDescription": "Hành Trình Về Phương Đông kể về những trải nghiệm của một đoàn khoa học gồm các chuyên gia hàng đầu của Hội Khoa Học Hoàng Gia Anh được cử sang Ấn Độ nghiên cứu về huyền học và những khả năng siêu nhiên của con người. Suốt hai năm trời rong ruổi khắp các đền chùa Ấn Độ, diện kiến nhiều pháp thuật, nhiều cảnh mê tín dị đoan, thậm chí lừa đào… của nhiều pháp sư, đạo sĩ… họ được tiếp xúc với những vị chân tu thông thái sống ẩn dật ở thị trấn hay trên rặng Tuyết Sơn. Nhờ thế, họ được chứng kiến, trải nghiệm, hiểu biết sâu sắc về các khoa học cổ xức và bí truyền của văn hóa Ấn Độ như yoga, thiền định, thuật chiêm tinh, các phép dưỡng sinh và chữa bệnh, những kiến thức về nhân duyên, nghiệp báo, luật nhân quả, cõi sống và cõi chết...",
-        "image": require("./images/HanhTrinhVePhuongDong.jpg")
+        "image": "HanhTrinhVePhuongDong.jpg"
     },
     {
         "id": 120,
@@ -1678,7 +1678,7 @@ export const BOOKS = [
         "numPages": 715,
         "shortDescription": "Đường Xưa Mây Trắng là một câu chuyện vô cùng lý thú về cuộc đời của Bụt được kể lại dưới ngòi bút hùng hồn đầy chất thơ của tác giả.",
         "longDescription": " Với văn phong nhẹ nhàng giản dị, với lối kể chuyện sinh động lôi cuốn, tác giả đã đưa chúng ta trở về tắm mình trong dòng sông Nguyên thỉ cách đây gần 2.600 năm, để được hiểu và gần gũi với một bậc giác ngộ mà cuộc đời của Ngài tỏa rạng nếp sống đầy tuệ giác và từ bi. Đọc Đường Xưa Mây Trắng cho chúng ta cảm tưởng như đang đọc một thiên tình sử, nhẹ nhàng, gần gũi mà sâu lắng.",
-        "image": require("./images/DuongXuaMayTrang.jpg")
+        "image": "DuongXuaMayTrang.jpg"
     },
     {
         "id": 121,
@@ -1692,6 +1692,6 @@ export const BOOKS = [
         "numPages": 648,
         "shortDescription": "Hành trình 4.000 năm Do Thái giáo, Ki-tô giáo và Hồi giáo",
         "longDescription": "Karen Armstrong dẫn dắt độc giả qua một hành trình lịch sử tôn giáo tại nhiều nền văn hóa khác nhau. Bà cho rằng, từ rất xưa và dưới dạng tinh khôi nhất, các nền văn hóa đều khá tương đồng nhau, đều sử dụng lễ nghi, nghi thức bí truyền, kịch, múa, trầm tư mặc tưởng để giúp con người vượt qua bể trầm luân. Tôn giáo, do đó, rõ ràng là vấn đề về thực hành, và có thể được so sánh với hội họa hay âm nhạc. Hai thứ đều khó sáng tác, và khó cảm thụ. Nhưng khi đã dấn thân, không một ai nghi ngờ về việc hạnh ngộ được những điều quý báu xảy ra trong hành trình ấy. Ta bước ra khỏi một phòng tranh hay một thính phòng, tâm hồn được tưới tắm, tươi mới, thăng hoa và thư thái, và như mình là một con người tốt đẹp hơn, dù người chung quanh có hay không nhận ra sự thay đổi này.",
-        "image": require("./images/LichSuThuongDe.jpg")
+        "image": "LichSuThuongDe.jpg"
     }
-];
+]

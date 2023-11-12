@@ -7,7 +7,8 @@ import {
 } from 'react-native';
 
 import { UseBooksContext } from './BooksProvider';
-import { BOOKS } from '../assets/BOOKS';
+//import { BOOKS } from '../assets/BOOKS';
+const BOOKS = require("../assets/BOOKS.json")
 
 function SplashScreen({route}) {
     const {books, setBooks} = UseBooksContext();
