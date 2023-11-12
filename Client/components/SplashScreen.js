@@ -5,23 +5,34 @@ import {
     StyleSheet,
 
 } from 'react-native';
+import axios from 'axios';
 
 import { UseBooksContext } from './BooksProvider';
-//import { BOOKS } from '../assets/BOOKS';
-const BOOKS = require("../assets/BOOKS.json")
+//const BOOKS = require("../assets/BOOKS.json")
 
 function SplashScreen({route}) {
     const {books, setBooks} = UseBooksContext();
-    setBooks(BOOKS);
+    const getAllBooks = async () => {
+        try {
+            const respone = await axios.get('http://139.180.134.207:3000/book/all');
+            const fetchedBooks = respone.data;
+            setBooks( fetchedBooks);
+        }
+        catch (error) {
+            console.error("Error fetching books: ", error.message);
+        }
+    }
+    //setBooks(BOOKS);
 
     const {setInitialized} = route.params;
 
     React.useEffect(() => {
-        const timeout = setTimeout(() => {
-            setInitialized(true);
-        }, 3000);
-        return () => clearTimeout(timeout);
-    }, [setInitialized]);
+        getAllBooks()
+        .then(() => setInitialized(true))
+        .catch((error) => {
+            console.error("Error fetching book: ", error);
+        });
+    }, []);
 
     return (
         <SafeAreaView style={{flex: 1, justifyContent:"center", alignItems:"center",}}>

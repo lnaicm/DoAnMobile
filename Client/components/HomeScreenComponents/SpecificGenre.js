@@ -19,7 +19,7 @@ function SpecificGenre({route}) {
         <SafeAreaView style={{flex: 1, justifyContent: "center", alignItems:"center", }}>
             <FlatList
                 data={data}
-                keyExtractor={(item) => item.id.toString()}
+                keyExtractor={(item) => item._id.toString()}
                 renderItem={({item}) => <BookRenderItem item={item} itemWidth={itemWidth} />}
                 numColumns={2}
             />

@@ -17,6 +17,8 @@ const BookRenderItem = ({item, itemWidth}) => {
     const navigation = useNavigation();
     const [modalVisible, setModalVisible] = React.useState(false);
     //const { setHeaderShown } = UseHomeScreenContext();
+    const baseURL = "http://139.180.134.207/DoAnMobile/Client/assets/images/";
+    const imageURL = baseURL + item.image;
 
     return (
         <View style={{width: itemWidth, margin: 10, alignItems:"center", }}>
@@ -34,7 +36,7 @@ const BookRenderItem = ({item, itemWidth}) => {
                     //contentContainerStyle={{justifyContent: "center", alignItems: "center"}}
                 >
                     <View style = {styles.modalItem}>
-                        <Image source={item.image} style={{width: itemWidth*1.5, height: itemWidth*2.25,}} />
+                        <Image source={{uri: imageURL}} style={{width: itemWidth*1.5, height: itemWidth*2.25,}} />
                         <Text style={{fontSize: 20, textAlign: "center",}}> {item.name} </Text>
                         {/* <View
                             style={{marginVertical: "5%", display: "flex", flexDirection:"row", justifyContent: "flex-end", width:"80%",}}
@@ -68,7 +70,7 @@ const BookRenderItem = ({item, itemWidth}) => {
             <TouchableOpacity
             onPress={() => setModalVisible(true)}
             >
-                <Image source={item.image} style={{width:itemWidth, height: itemWidth*1.5}}/>
+                <Image source={{uri: imageURL}} style={{width:itemWidth, height: itemWidth*1.5}}/>
             </TouchableOpacity>
             <Text style={{fontSize: 16, width: "80%", textAlign: "center", }}> {item.name} </Text>
         </View>

@@ -1,12 +1,17 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
+// "cart": {
+//     "item": [book],
+//     "quantity": Number
+// }
+
 const Cart = {
     addToCart: async (book) => {
         try {
             const existingCart = await AsyncStorage.getItem('cart');
             const cart = existingCart ? JSON.parse(existingCart) : { items: [] };
 
-            const existingItem = cart.items.find((item) => item.book.id === book.id);
+            const existingItem = cart.items.find((item) => item.book._id === book._id);
 
             if (existingItem) {
                 existingItem.quantity += 1;
@@ -18,7 +23,7 @@ const Cart = {
             //console.log("Successfully added to cart!");
             return true;
         } catch (error) {
-            //console.error('Error adding to cart:', error);
+            console.error('Error adding to cart:', error);
             return false;
         }
     },
@@ -36,7 +41,7 @@ const Cart = {
             const existingCart = await AsyncStorage.getItem('cart');
             const cart = existingCart ? JSON.parse(existingCart) : { items: [] };
         
-            const itemIndex = cart.items.findIndex((item) => item.book.id === bookId);
+            const itemIndex = cart.items.findIndex((item) => item.book._id === bookId);
         
             if (itemIndex >= 0) {
                 cart.items.splice(itemIndex, 1);
@@ -52,7 +57,7 @@ const Cart = {
             const existingCart = await AsyncStorage.getItem('cart');
             const cart = existingCart ? JSON.parse(existingCart) : { items: [] };
 
-            const existingItem = cart.items.find((item) => item.book.id === bookId);
+            const existingItem = cart.items.find((item) => item.book._id === bookId);
 
             if (existingItem && existingItem.quantity > 1) {
                 existingItem.quantity -= 1;
@@ -68,7 +73,7 @@ const Cart = {
             const existingCart = await AsyncStorage.getItem('cart');
             const cart = existingCart ? JSON.parse(existingCart) : { items: [] };
 
-            const existingItem = cart.items.find((item) => item.book.id === bookId);
+            const existingItem = cart.items.find((item) => item.book._id === bookId);
 
             if (existingItem) {
                 existingItem.quantity += 1;

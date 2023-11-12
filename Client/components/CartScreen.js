@@ -54,7 +54,7 @@ function CartScreen() {
         <SafeAreaView style={{flex: 1, justifyContent: "flex-start", alignItems: "center" }}>
             <FlatList
                 data={cartData.items}
-                keyExtractor={(item) => item.book.id}
+                keyExtractor={(item) => item.book._id}
                 renderItem={({item}) => <CartRenderItem item={item} screenWidth={screenWidth} handlers={handlers}/>}
             />
             <View style={{flex: 0, flexDirection: "row", width: screenWidth, height: screenWidth*0.15}}>

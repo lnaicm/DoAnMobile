@@ -18,6 +18,8 @@ function BookDetail({route}) {
     const {width: screenWidth, height: sreenHeight} = Dimensions.get("window");
     const itemWidth = screenWidth * 0.5;
     const { book } = route.params;
+    const baseURL = "http://139.180.134.207/DoAnMobile/Client/assets/images/";
+    const imageURL = baseURL + book.image;
     return (
         <SafeAreaView>
             <ScrollView
@@ -25,7 +27,7 @@ function BookDetail({route}) {
                 contentContainerStyle={{justifyContent: "flex-start", alignItems: "center"}}
             >
                 <Text style={{fontSize: 30, textAlign: "center", marginVertical: 15, width: "80%"}}> {book.name.toUpperCase()} </Text>
-                <Image source={book.image} style={{width: screenWidth*0.75, height: screenWidth*1.125}}/>
+                <Image source={{uri: imageURL}} style={{width: screenWidth*0.75, height: screenWidth*1.125}}/>
                 <View
                     style={{flex: 1, flexDirection: "row", width: "80%", justifyContent: "space-between", marginVertical: 15,}}
                 >

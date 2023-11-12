@@ -14,3 +14,5 @@ Install component:
     npm install express mongoose body-parser cors dotenv
     npm install bcrypt validator jsonwebtoken rand-token
 
+Install pm2 on server (to keep node process alive):
+	sudo npm install -g pm2

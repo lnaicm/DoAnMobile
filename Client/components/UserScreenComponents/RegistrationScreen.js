@@ -18,7 +18,7 @@ function RegistrationScreen() {
             <TouchableOpacity
                 onPress={() => navigation.navigate("Login Screen")}
             >
-                <Text>
+                <Text style={{color: 'blue'}}>
                     Đăng Nhập
                 </Text>
             </TouchableOpacity>
