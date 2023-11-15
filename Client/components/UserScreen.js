@@ -10,6 +10,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import UserInfoScreen from './UserScreenComponents/UserInfoScreen';
 import LoginScreen from './UserScreenComponents/LoginScreen';
 import RegistrationScreen from './UserScreenComponents/RegistrationScreen';
+import PasswordChangeScreen from './UserScreenComponents/PasswordChangeScreen';
 import UserController from './UserScreenComponents/UserController';
 
 const Stack = createStackNavigator();
@@ -18,7 +19,7 @@ const UserScreen = () => {
     const [isLoggedIn, setIsLoggedIn] = React.useState(false);
     const checkLoggedIn = async () => {
         try {
-            const user = await UserController.getUserInfo();
+            const user = await UserController.getUser();
             setIsLoggedIn(user !== null);
         }
         catch (error) {
@@ -31,12 +32,12 @@ const UserScreen = () => {
 
     const handlers = {
         onLogin: async (user) => {
-            await UserController.storeUserInfo(user);
+            await UserController.storeUser(user);
             setIsLoggedIn(true);
         },
 
-        onLogOut: async () => {
-            await UserController.removeUserInfo();
+        onLogout: async () => {
+            await UserController.removeUser();
             setIsLoggedIn(false);
         }
     }
@@ -44,14 +45,26 @@ const UserScreen = () => {
     return (
         <Stack.Navigator>
             { isLoggedIn ? (
+                <>
                 <Stack.Screen
-                    name="User Info"
+                    name="User Info Screen"
                     component={UserInfoScreen}
                     options={{
                         title: "Thông Tin Tài Khoản",
                         headerShown: false
                     }}
+                    initialParams={{handlers: handlers}}
                 />
+                <Stack.Screen
+                    name="Password Change Screen"
+                    component={PasswordChangeScreen}
+                    options={{
+                        title: "Đổi mật khẩu",
+                        headerShown: false
+                    }}
+                    initialParams={{handlers: handlers}}
+                />
+                </>
             ) : (
                 <>
                 <Stack.Screen
@@ -61,6 +74,7 @@ const UserScreen = () => {
                         title: "Đăng Nhập",
                         headerShown: false
                     }}
+                    initialParams={{handlers: handlers}}
                 />
                 <Stack.Screen
                     name="Registration Screen"

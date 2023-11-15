@@ -29,15 +29,17 @@ const UserController = {
     },
 
     login: async (req, res) => {
-        const email = req.body.email.toLowerCase() || 'test';
-        const password = req.body.password || '12345';
+        const email = req.body.email.toLowerCase();
+        const password = req.body.password;
 
         const user = await userModelMethods.getUser(email);
         if (!user) {
-            return res.status(401).send("Email không chính xác!");
+            console.log("Tai khoan khong ton tai!");
+            return res.status(401).send("Tài khoản không tồn tại!");
         }
         const isPasswordValid = bcrypt.compareSync(password, user.password);
         if (!isPasswordValid) {
+            console.log("Mat khau khong chinh xac!");
             return res.status(401).send("Mật khẩu không chính xác!");
         }
 
@@ -52,6 +54,7 @@ const UserController = {
             accessTokenLife,
         );
         if (!accessToken) {
+            console.log("Dang nhap khong thanh cong!")
             return res.status(401).send("Đăng nhập không thành công!");
         }
 
@@ -64,7 +67,7 @@ const UserController = {
         }
 
         return res.json({
-            msg: "Đăng nhập thành công",
+            //msg: "Đăng nhập thành công",
             accessToken,
             refreshToken,
             user
@@ -73,7 +76,7 @@ const UserController = {
 
     logout: async(req, res) => {
         try {
-            const userEmail = req.user.email;
+            const userEmail = req.body.email;
             const updateResult = await UserModelMethods.updateRefreshToken(userEmail, null);
             if (updateResult) {
                 res.status(200).json({message: "Đã đăng xuất"})
@@ -82,7 +85,7 @@ const UserController = {
                 throw new Error("Không thể vô hiệu refresh token!");
             }
         } catch (error) {
-            res.status(500).json({message: "Lỗi đăng xuất!", error: error.toString() })
+            res.status(500).send("Lỗi đăng xuất!")
         }
     },
 
@@ -138,8 +141,13 @@ const UserController = {
 
     purChase: async (req, res) => {
         try {
-            const userEmail = req.user.email; //usually is req.body.email. But after middleware process. req have a new property: user, which is user's infomation get from DB
+            const userEmail = req.body.email; 
             const purchaseAmount = req.body.amount;
+
+            if (!userEmail) {
+                res.status(200).json({message: "Giao dịch ẩn danh thành công", purchaseAmount});
+                return;
+            }
 
             const user = await UserModelMethods.getUser(userEmail);
             if (user) {
@@ -154,12 +162,52 @@ const UserController = {
                 }
             }
             else {
-                res.status(404).json({message: "Không tìm thấy thông tin người dùng"});
+                res.status(404).send("Không tìm thấy thông tin người dùng");
             }
         } catch (error) {
-            res.status(500).json({message: "Giao dịch thất bại!"});
+            res.status(500).send("Giao dịch thất bại!");
         }
-    }
+    },
+
+    changePassword: async (req, res) => {
+        try {
+            const userEmail = req.body.email.toLowerCase();
+            const oldPassword = req.body.oldPassword;
+            const newPassword = req.body.newPassword;
+
+            const user = await userModelMethods.getUser(userEmail);
+            if (!user) {
+                return res.status(404).send("Không tìm thấy người dùng");
+            }
+
+            const isPasswordValid = bcrypt.compareSync(oldPassword, user.password);
+            if (!isPasswordValid) {
+                return res.status(401).send("Mật khẩu cũ không chính xác");
+            }
+
+            const hashedNewPassword = bcrypt.hashSync(newPassword, parseInt(process.env.SALT_ROUNDS, 10));
+            const updateResult = await userModelMethods.updateUser(userEmail, { password: hashedNewPassword });
+
+            if (updateResult) {
+                // If you want to force the user to re-login after a password change, you can invalidate the current access token.
+                // Invalidate access token by removing it from the client-side (e.g., logging out on the client side).
+                
+                // Alternatively, you can generate a new access token and send it back to the client.
+                // const accessTokenSecret = process.env.ACCESS_TOKEN_SECRET;
+                // const accessTokenLife = process.env.ACCESS_TOKEN_LIFE;
+                // const dataForAccessToken = { email: user.email };
+                // const newAccessToken = await authMethods.generateToken(dataForAccessToken, accessTokenSecret, accessTokenLife);
+
+                //return res.status(200).json({ message: "Đổi mật khẩu thành công", newAccessToken });
+                return res.status(200).send("Đổi mật khẩu thành công");
+            } else {
+                throw new Error("Lỗi cập nhật mật khẩu");
+            }
+        } catch (error) {
+            console.error(error);
+            return res.status(500).send("Đổi mật khẩu thất bại");
+        }
+    },
 };
 
 module.exports = UserController;

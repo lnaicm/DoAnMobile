@@ -14,7 +14,7 @@ function SplashScreen({route}) {
     const {books, setBooks} = UseBooksContext();
     const getAllBooks = async () => {
         try {
-            const respone = await axios.get('http://139.180.134.207:3000/book/all');
+            const respone = await axios.get('http://192.168.1.145:3000/book/all');
             const fetchedBooks = respone.data;
             setBooks( fetchedBooks);
         }

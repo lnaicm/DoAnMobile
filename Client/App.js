@@ -9,6 +9,7 @@ import { AntDesign, Ionicons } from '@expo/vector-icons';
 
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import axios from 'axios';
 
 import SplashScreen from './components/SplashScreen';
 import HomeScreen from './components/HomeScreen';
@@ -16,11 +17,55 @@ import CartScreen from './components/CartScreen';
 import NotificationScreen from './components/NotifycationScreen';
 import UserScreen from './components/UserScreen';
 import BooksProvider from './components/BooksProvider';
+import UserController from './components/UserScreenComponents/UserController';
 
 const Tab = createBottomTabNavigator();
 
 function App() {
   const [isInitialized, setInitialized] = React.useState(false);
+  
+  React.useEffect(() => {
+    const checkAndRefreshToken = async () => {
+      console.log("checkAndRefreshToken");
+      try {
+        const user = await UserController.getUser();
+        console.log(user);
+        if (user) {
+          const response = await axios.post('http://192.168.1.145:3000/user/refreshAccessToken', {
+            refreshToken: user.refreshToken,
+          }, {
+            headers: {
+              accept: 'application/json',
+              x_authorization: user.accessToken
+            }
+          });
+
+          if (response.status === 200) {
+            const newAccessToken = response.data.accessToken;
+            // Assume you have a method in UserController to update the access token
+            //await UserController.updateAccessToken(newAccessToken);
+            console.log(newAccessToken);
+            if (newAccessToken){
+              user.accessToken = newAccessToken;
+              await UserController.storeUser(user);
+            }
+          } else {
+            console.error('Token refresh failed');
+          }
+        }
+      } catch (error) {
+        console.error('Error checkAndRefreshToken: ', error.response.data);
+      }
+    };
+
+    checkAndRefreshToken();
+    const refreshTokenInterval = setInterval(() => {
+      checkAndRefreshToken();
+    }, 9 * 60 * 1000); // 9 minutes interval
+
+    // Clean up the interval on component unmount
+    return () => clearInterval(refreshTokenInterval);
+  }, []); // Empty dependency array ensures the effect runs only once on mount
 
   return (
     <BooksProvider>

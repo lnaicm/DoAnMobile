@@ -29,7 +29,7 @@ app.use("/user", userRouter);
 app.use("/book", bookRouter);
 
 app.use((req, res, next) => {
-    next.createError(404);
+    next(createError(404));
 });
 app.use((err, req, res) => {
     console.log(err.stack);
