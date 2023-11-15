@@ -37,7 +37,7 @@ function PasswordChangeScreen ({route}) {
 
             // Make a request to change the password on the server
             const response = await axios.post(
-                'http://192.168.1.145:3000/user/changePassword',
+                'http://139.180.134.207:3000/user/changePassword',
                 {
                     email: user.user.email,
                     oldPassword: oldPassword,
@@ -57,7 +57,7 @@ function PasswordChangeScreen ({route}) {
                         text: 'OK',
                         onPress: async () => {
                             try {
-                                const response = await axios.post('http://192.168.1.145:3000/user/logout', {
+                                const response = await axios.post('http://139.180.134.207:3000/user/logout', {
                                     email: user.user.email
                                 });
                                 handlers.onLogout();
@@ -70,7 +70,7 @@ function PasswordChangeScreen ({route}) {
                 ]);
                 
             } else {
-                Alert.alert("Error", response.data.message || "Failed to change password");
+                Alert.alert("Error", response.data || "Failed to change password");
             }
         } catch (error) {
             Alert.alert("Error", error.response.data);

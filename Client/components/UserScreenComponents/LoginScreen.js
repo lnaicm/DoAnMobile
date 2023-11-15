@@ -33,7 +33,7 @@ function LoginScreen({route}) {
                 return;
             }
 
-            const response = await axios.post('http://192.168.1.145:3000/user/login', {
+            const response = await axios.post('http://139.180.134.207:3000/user/login', {
                 email: email,
                 password: password,
             });

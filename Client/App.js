@@ -31,7 +31,7 @@ function App() {
         const user = await UserController.getUser();
         console.log(user);
         if (user) {
-          const response = await axios.post('http://192.168.1.145:3000/user/refreshAccessToken', {
+          const response = await axios.post('http://139.180.134.207:3000/user/refreshAccessToken', {
             refreshToken: user.refreshToken,
           }, {
             headers: {

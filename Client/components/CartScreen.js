@@ -70,7 +70,7 @@ function CartScreen() {
                 const userEmail = user ? user.user.email : null;
                 const purchaseAmount = totalCost;
 
-                const response = await axios.post('http://192.168.1.145:3000/user/purchase', {
+                const response = await axios.post('http://139.180.134.207:3000/user/purchase', {
                     email: userEmail,
                     amount: purchaseAmount,
                 });

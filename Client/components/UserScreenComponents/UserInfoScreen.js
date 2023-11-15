@@ -37,7 +37,7 @@ function UserInfoScreen({route}) {
 
     const logout = async (user) => {
         try {
-            const response = await axios.post('http://192.168.1.145:3000/user/logout', {
+            const response = await axios.post('http://139.180.134.207:3000/user/logout', {
                 email: user.user.email
             });
             handlers.onLogout();
