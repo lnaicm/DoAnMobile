@@ -39,7 +39,6 @@ function PasswordChangeScreen ({route}) {
             const response = await axios.post(
                 'http://139.180.134.207:3000/user/changePassword',
                 {
-                    email: user.user.email,
                     oldPassword: oldPassword,
                     newPassword: newPassword
                 },

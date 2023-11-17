@@ -171,7 +171,7 @@ const UserController = {
 
     changePassword: async (req, res) => {
         try {
-            const userEmail = req.body.email.toLowerCase();
+            const userEmail = req.user.email.toLowerCase();
             const oldPassword = req.body.oldPassword;
             const newPassword = req.body.newPassword;
 
